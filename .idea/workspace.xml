@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87fbf1ca-b56f-4fba-ac50-4408cbcf3e88" name="Default Changelist" comment="INDEX 20191011">
+    <list default="true" id="87fbf1ca-b56f-4fba-ac50-4408cbcf3e88" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -144,7 +145,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MaxwellFinancialServices-github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
@@ -195,7 +196,9 @@
       <workItem from="1570439460734" duration="19547000" />
       <workItem from="1570700051427" duration="33000" />
       <workItem from="1570703001700" duration="15324000" />
-      <workItem from="1570778570704" duration="3114000" />
+      <workItem from="1570778570704" duration="3731000" />
+      <workItem from="1571021660488" duration="466000" />
+      <workItem from="1571022986951" duration="6107000" />
     </task>
     <task id="LOCAL-00001" summary="commit 20191006">
       <created>1570361017506</created>
@@ -232,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570377826625</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="INDEX 20191012- login.blade.php">
+      <created>1570868371369</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570868371369</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +288,7 @@
     <MESSAGE value="commit 20191006" />
     <MESSAGE value="INDEX 2019106" />
     <MESSAGE value="INDEX 20191011" />
-    <option name="LAST_COMMIT_MESSAGE" value="INDEX 20191011" />
+    <MESSAGE value="INDEX 20191012- login.blade.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="INDEX 20191012- login.blade.php" />
   </component>
 </project>

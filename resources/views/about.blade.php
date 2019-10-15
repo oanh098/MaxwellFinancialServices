@@ -23,55 +23,8 @@
                     </div>
                     <div class=" visible-lg-block visible-sm-block visible-md-block visible-xs-block" style="clear: both;"></div>
                 </div>
-                <div class="ttr_about_html_row1 row">
-                    <div class="post_column col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="ttr_about_html_column10">
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div class="html_content"><p style="text-align:Center;"><span style="font-weight:700;font-size:1.75em;color:rgba(52,52,52,1);">Team Members</span></p></div>
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div style="clear:both;"></div>
-                        </div>
-                    </div>
-                    <div class=" visible-lg-block visible-sm-block visible-md-block visible-xs-block" style="clear: both;"></div>
-                </div>
-                <div class="ttr_about_html_row2 row">
-                    <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="ttr_about_html_column20">
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0.62em 0em;"><span><img class="ttr_uniform" style="max-height:300px;max-width:300px;" src="{{asset('FrontEnd')}}/images/645.jpg" /></span></span><span style="font-weight:700;font-size:1.125em;color:rgba(52,52,52,1);">James white</span><br style="font-size:1em;color:rgba(52,52,52,1);" /></p><p style="text-align:Center;"><span style="font-size:1em;color:rgba(52,52,52,1);">Nullam dignissim convallis</span><span style="font-size:1em;color:rgba(52,52,52,1);"> </span><span style="font-size:1em;color:rgba(52,52,52,1);">est.</span><span style="font-size:1em;color:rgba(52,52,52,1);"> </span><span style="font-size:1em;color:rgba(52,52,52,1);">Donec faucibus. Nunc iaculis suscipit ui.</span><span style="font-size:1em;color:rgba(52,52,52,1);"> </span><span style="font-size:1em;color:rgba(52,52,52,1);">Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, </span></p></div>
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div style="clear:both;"></div>
-                        </div>
-                    </div>
-                    <div class=" visible-xs-block" style="clear: both;"></div>
-                    <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="ttr_about_html_column21">
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0.62em 0em;"><span><img class="ttr_uniform" style="max-height:300px;max-width:300px;" src="{{asset('FrontEnd')}}/images/655.jpg" /></span></span><span style="font-weight:700;font-size:1.125em;color:rgba(52,52,52,1);">Medona Nill</span></p><p style="text-align:Center;"><span style="font-size:1em;color:rgba(52,52,52,1);">Donec faucibus. Nunc iaculis suscipit dui.Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</span></p></div>
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div style="clear:both;"></div>
-                        </div>
-                    </div>
-                    <div class=" visible-sm-block visible-md-block visible-xs-block" style="clear: both;"></div>
-                    <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="ttr_about_html_column22">
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0.62em 0em;"><span><img class="ttr_uniform" style="max-height:300px;max-width:300px;" src="{{asset('FrontEnd')}}/images/665.jpg" /></span></span><span style="font-weight:700;font-size:1.125em;color:rgba(52,52,52,1);">Jesmine Nolles</span><br style="font-size:1em;color:rgba(52,52,52,1);" /></p><p style="text-align:Center;"><span style="font-size:1em;color:rgba(52,52,52,1);">Donec faucibus. Nunc iaculis suscipit dui.Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</span></p></div>
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div style="clear:both;"></div>
-                        </div>
-                    </div>
-                    <div class=" visible-xs-block" style="clear: both;"></div>
-                    <div class="post_column col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="ttr_about_html_column23">
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div class="html_content"><p style="text-align:Center;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0.62em 0em;"><span><img class="ttr_uniform" style="max-height:300px;max-width:300px;" src="{{asset('FrontEnd')}}/images/675.jpg" /></span></span><span style="font-weight:700;font-size:1.125em;color:rgba(52,52,52,1);">Maria Jonson</span></p><p style="margin:0.31em 0em 0.31em 0em;text-align:Center;"><span style="font-size:1em;color:rgba(52,52,52,1);">Nullam dignissim convallis</span><span style="font-size:1em;color:rgba(52,52,52,1);"> </span><span style="font-size:1em;color:rgba(52,52,52,1);">est.</span><span style="font-size:1em;color:rgba(52,52,52,1);"> </span><span style="font-size:1em;color:rgba(52,52,52,1);">Donec faucibus. Nunc iaculis suscipit ui.</span><span style="font-size:1em;color:rgba(52,52,52,1);"> </span><span style="font-size:1em;color:rgba(52,52,52,1);">Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec</span><span style="font-size:1em;color:rgba(52,52,52,1);">.</span></p></div>
-                            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                            <div style="clear:both;"></div>
-                        </div>
-                    </div>
-                    <div class=" visible-lg-block visible-sm-block visible-md-block visible-xs-block" style="clear: both;"></div>
-                </div>
+                
+
                 <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
 @endsection
 
