@@ -17,7 +17,72 @@
     <div class="post_column col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="ttr_index_html_column10">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">Maxwell Stienberg Trade Holdings has over 40 years of professional financial services. excellence. With our strong tenure in the financial services. industry, our clients are secure and confident that their everyday operations are top notch and compliant in every way possible. We specialize in providing customized execution, clearing, and custody solutions to full service firms and independent broker dealers, advisors, and businesses in the financial services. sector.</span></p><p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">We offer direct accounts and prime brokerage services to professional and institutional clients as well as high-profile individual investors. We offer clearing services to broker dealers that </span><span style="font-weight:300;font-size:1em;color:rgba(52,52,52,1);">service </span><span style="font-size:1em;color:rgba(52,52,52,1);">both institutional and retail accounts. Fully disclosed clearing arrangements are available to all of our clients woddwide.</span></p><p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">We believe that an advisors strength is his belief in innovation and his ability to turn a loss into an opportunity, and his capability to forecast success. We are a firm than 100% dedicated to serve you. Our focus is to ensure that the settlement process is time-saving, smooth running, and efficient reducing risk and giving you more time on your hands to spend on that matters most growing your client accounts.</span></p><p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">Simpliry your business operations by relying on all the services we will be providing you Maxwell Stienberg Trade Holdings understand that your success depends on the advisor client relationship.</span></p><p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">Small and medium businesses are what runs the economy. We understand that SMEs are as important if not more important than large scale firms. You are guaranteed to get professional services whether you are just starting to grow Or are growing too fast and need a helping hand. Over the years, our client base has grown to nearly 400 firms making you a part of a solid community worldwide.</span></p><p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">We understand that different firms have different needs. With Maxwell Stienberg Trade Holdings, we make sure that our clients receive professional support and personalized services to that their business can easily adapt and migrate to a new and better process. Our goal is to enhance, modernize, and simplify all our clients. day to day business operations.</span></p><p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">Our team is your team. We provide you with all the services you need to deliver the best experience for you and your clients. We believe that by strengthening a company's process and operations with reliable and modern technology and resources empowers our clients to run their business smoothly, gearing them towards increased client satisfaction.</span></p><p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">As our client, you are assured that we will always be on your side of the trade. We have but one goal: To provide you with the best clearing firm solutions. Again, giving you all the support and services you need to grow your business.</span></p><br /></div>
+            <div class="html_content">
+                <p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">
+                 Maxwell Financial Services believes that our client’s success is our success.
+Maxwell Stienberg Trade Holdings has over 23 years of professional financial services. Excellence. With our strong tenure in the financial services industry, focusing on the Australasian European markets our clients are secure and confident . We specialize in providing customized execution, clearing, and custody solutions to full-service firms and independent broker dealers.
+                    </span></p>
+                <p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">
+We offer direct accounts and prime brokerage services to professional and institutional clients as well as high-profile individual investors. We offer clearing services to broker dealers that service both institutional and retail accounts. Fully disclosed clearing arrangements are available to all of our clients worldwide.
+                    </span></p>
+                <p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">
+We believe that an advisor’s strength is his belief in innovation and his ability to turn a loss into an opportunity, and his capability to forecast success. Our focus is to ensure that the settlement process is time-saving, smooth running, and efficient reducing risk and giving you more time on your hands to spend on that matters most growing your client accounts.
+                    </span></p>
+                <p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">
+Simplify your business operations by relying on all the services we will be providing you Maxwell Financial services understand that your success depends on the advisor client relationship.
+                    </span></p>
+                <p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">
+                        Small and medium businesses are what runs the economy.</span></p>
+                <p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">
+                        Our team is your team.</span></p>
+                <p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">
+As our client, you are assured that we will always be on your side of the trade. We have but one goal, to prosper.
+                    </span></p>
+                <p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">
+Maxwell Financial services office is comprised of a team of stockbrokers and financial planning professionals offering a comprehensive range of financial advice, incorporating stockbroking, financial planning, fixed interest, superannuation, insurance, estate planning, margin lending and SMSF Self-Managed Superannuation Fund advice.
+                    </span></p>
+                <p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">
+We pride ourselves on offering clients professional and objective financial advice, as well as access to new IPO's and other opportunities.
+                    </span></p>
+                <p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">
+Our advisers are supported by the firm's award-winning research team, as well as the corporate finance team, which has members based in the Melbourne, Sydney and London offices.
+                    </span></p>
+                <p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">
+No matter what your investment requirements are, we can match you to an adviser who is best suited to your style of investment.
+                    </span></p>
+                <p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">
+
+The Australian share market accounts for a mere 3% of global equities by market capitalisation. Investing in international shares though Maxwell Financial service allows you to access those opportunities which are unavailable at home and thereby diversify your portfolio. Maximising your profits in emerging markets.
+                    </span></p>
+
+                <p><span style="font-size: 2.25em;">Discover Global Investing</span></p>
+                <p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">
+Access global share markets – OMIS clients can access shares listed on major markets in North America, Europe, Asia, South America, and various emerging markets across the globe. Your MFS Adviser has direct access to listed shares across all major international exchanges including:
+                         </span></p>
+                <ul>
+                <li>US – New York Stock Exchange, NASDAQ</li>
+                <li>United Kingdom – London Stock Exchange</li>
+                <li>Japan – Tokyo Stock Exchange</li>
+                <li>Canada – Toronto Stock Exchange</li>
+                </ul>
+
+                <p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);"> 
+Foreign exchange – MFS will settle your foreign exchange obligations using your existing Australian bank account.  Our affiliation with XE gives you the capital needed at the spot market price if requested all keeping your working capital in AUD.  At the best possible exchange rate. You can also keep foreign currencies in your trading account for use at a later date. Hedging them against fluctuating markets
+                    </span></p>
+                <p><span style="font-size: 2.25em;">What We Offer Institutional and Retail Clients</span></p>
+                <p style="margin:0.12em 0em 0em 0.5em;line-height:1.875;"><span style="font-size:1em;color:rgba(52,52,52,1);">
+Funds management clients dealing with MFS Broking team can expect:
+                    </span></p>
+                <ul>
+                <li>Access to some of the best analysts in the Australian small and mid-cap market</li>
+                <li>Exclusive access to company roadshows, meetings and events</li>
+                <li>Sought after invitations to site trips and company tours</li>
+                <li>Best trade execution and settlement</li>
+                <li>Weekly market reports</li>
+                <li>Priority access to Maxwell Financial Services arranged IPOs, placements and raisings</li>
+                </ul>
+                <br />
+            </div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div style="clear:both;"></div>
         </div>
