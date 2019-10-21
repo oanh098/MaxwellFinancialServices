@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87fbf1ca-b56f-4fba-ac50-4408cbcf3e88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Mail/NewUserWelcomeMail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/emails/welcome-mail.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HoldingsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HoldingsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mail/ContactFormMail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/ContactFormMail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/FrontEnd/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/FrontEnd/navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/FrontEnd/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/FrontEnd/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/holdings/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/holdings/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/holdings/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/holdings/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/holdings/editUserHoldings.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/holdings/editUserHoldings.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/holdings/holding.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/holdings/holding.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/holdings/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/holdings/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/inc/ourCustomer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/ourCustomer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/incPages/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/incPages/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -209,7 +193,7 @@
       <workItem from="1570778570704" duration="3731000" />
       <workItem from="1571021660488" duration="466000" />
       <workItem from="1571022986951" duration="8838000" />
-      <workItem from="1571130438927" duration="23619000" />
+      <workItem from="1571130438927" duration="23701000" />
     </task>
     <task id="LOCAL-00001" summary="commit 20191006">
       <created>1570361017506</created>

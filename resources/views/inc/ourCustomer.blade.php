@@ -55,8 +55,7 @@
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
-</div>
-<div class="ttr_index_html_row7 row">
+
 
     <div class="post_column col-lg-2 col-md-3 col-sm-3 col-xs-3">
         <div class="ttr_index_html_column70">
