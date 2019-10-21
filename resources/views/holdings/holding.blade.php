@@ -15,10 +15,7 @@
                         <div>Account Number: {{$user->account_number ?? 'N/A'}} </div>
                         <div>Holdings:</div>
                         <div>{{$user->holding}}</div>
-
                         <div><a href="/profiles/shows/{{auth()->user()->id}}">View Details</a></div>
-
-
                     </div>
                 </div>
             </div>
@@ -36,22 +33,22 @@
 
 
             <div class="row justify-content-center">
-                <div class="col-xs-1 col-sm-1 col-lg-1 border" >No</div>
-                <div class="col-xs-1 col-sm-1 col-lg-1 border" >Date</div>
-                <div class="col-xs-2 col-sm-2 col-lg-2 border" >Name</div>
-                <div class="col-xs-1 col-sm-1 col-lg-1 border" >Code Units</div>
-                <div class="col-xs-1 col-sm-1 col-lg-1 border" >Registered Units</div>
-                <div class="col-xs-1 col-sm-1 col-lg-1 border" >Available Units</div>
-                <div class="col-xs-1 col-sm-1 col-lg-1 border" >Reversed Units</div>
-                <div class="col-xs-2 col-sm-2 col-lg-1 border" >Purchase Price</div>
-                <div class="col-xs-2 col-sm-2 col-lg-1 border" >Total Value</div>
+                <div class="col-xs-1 col-sm-1 col-lg-1 border font-weight-bold" >No</div>
+                <div class="col-xs-2 col-sm-2 col-lg-2 border font-weight-bold" >Date</div>
+                <div class="col-xs-2 col-sm-2 col-lg-2 border font-weight-bold" >Name</div>
+                <div class="col-xs-1 col-sm-1 col-lg-1 border font-weight-bold" >Code Units</div>
+                <div class="col-xs-1 col-sm-1 col-lg-1 border font-weight-bold" >Registered Units</div>
+                <div class="col-xs-1 col-sm-1 col-lg-1 border font-weight-bold" >Available Units</div>
+                <div class="col-xs-1 col-sm-1 col-lg-1 border font-weight-bold" >Reversed Units</div>
+                <div class="col-xs-2 col-sm-2 col-lg-1 border font-weight-bold" >Purchase Price</div>
+                <div class="col-xs-2 col-sm-2 col-lg-1 border font-weight-bold" >Total Value</div>
             </div>
 
                 @foreach($holdings as $holding1)
 
                     <div class="row justify-content-center">
                         <div class="col-xs-1 col-sm-1 col-lg-1 border" >{{$holding1->id}}</div>
-                        <div class="col-xs-1 col-sm-1 col-lg-1 border" >{{$holding1->Date}}</div>
+                        <div class="col-xs-2 col-sm-2 col-lg-2 border" >{{$holding1->Date}}</div>
 
                         <div class="col-xs-2 col-sm-2 col-lg-2 border" >
                             <a href="/holdings/shows/{{$holding1->id}}">{{$holding1->Holding_Name}}</a></div>
@@ -69,15 +66,15 @@
             @can('create', App\Holding::class)
             <div class="row justify-content-center pt-4"><h1>CLIENTS DATA</h1></div>
                 <div class="row justify-content-center">
-                    <div class="col-xs-1 col-sm-1 col-lg-1 border" >No</div>
-                    <div class="col-xs-1 col-sm-1 col-lg-1 border" >Name</div>
-                    <div class="col-xs-2 col-sm-2 col-lg-2 border" >Email</div>
+                    <div class="col-xs-1 col-sm-1 col-lg-1 border font-weight-bold" >No</div>
+                    <div class="col-xs-2 col-sm-2 col-lg-2 border font-weight-bold" >Name</div>
+                    <div class="col-xs-3 col-sm-3 col-lg-3 border font-weight-bold" >Email</div>
                 </div>
                 @foreach($users as $user1)
                     <div class="row justify-content-center">
                         <div class="col-xs-1 col-sm-1 col-lg-1 border" >{{$user1->id}}</div>
-                        <div class="col-xs-1 col-sm-1 col-lg-1 border" ><a href="/holdings/user/{{$user1->id}}/edit">{{$user1->name}}</a></div>
-                        <div class="col-xs-2 col-sm-2 col-lg-2 border" >{{$user1->email}}</div>
+                        <div class="col-xs-2 col-sm-2 col-lg-2 border" ><a href="/holdings/user/{{$user1->id}}/edit">{{$user1->name}}</a></div>
+                        <div class="col-xs-3 col-sm-3 col-lg-3 border" >{{$user1->email}}</div>
                     </div>
                 @endforeach
             @endcan
@@ -88,23 +85,22 @@
             <div class="row justify-content-center pt-4"><h1>Holdings Details</h1></div>
 
             <div class="row justify-content-center">
-                <div class="col-xs-1 col-sm-1 col-lg-1 border" >No</div>
-                <div class="col-xs-1 col-sm-1 col-lg-1 border" >Date</div>
-                <div class="col-xs-2 col-sm-2 col-lg-2 border" >Name</div>
-                <div class="col-xs-1 col-sm-1 col-lg-1 border" >Code Units</div>
-                <div class="col-xs-1 col-sm-1 col-lg-1 border" >Registered Units</div>
-                <div class="col-xs-1 col-sm-1 col-lg-1 border" >Available Units</div>
-                <div class="col-xs-1 col-sm-1 col-lg-1 border" >Reversed Units</div>
-                <div class="col-xs-1 col-sm-1 col-lg-1 border" >Purchase Price</div>
-                <div class="col-xs-1 col-sm-1 col-lg-1 border" >Total Value</div>
-
+                <div class="col-xs-1 col-sm-1 col-lg-1 border font-weight-bold" >No</div>
+                <div class="col-xs-2 col-sm-2 col-lg-2 border font-weight-bold" >Date</div>
+                <div class="col-xs-2 col-sm-2 col-lg-2 border font-weight-bold" >Name</div>
+                <div class="col-xs-1 col-sm-1 col-lg-1 border font-weight-bold" >Code Units</div>
+                <div class="col-xs-1 col-sm-1 col-lg-1 border font-weight-bold" >Registered Units</div>
+                <div class="col-xs-1 col-sm-1 col-lg-1 border font-weight-bold" >Available Units</div>
+                <div class="col-xs-1 col-sm-1 col-lg-1 border font-weight-bold" >Reversed Units</div>
+                <div class="col-xs-2 col-sm-2 col-lg-1 border font-weight-bold" >Purchase Price</div>
+                <div class="col-xs-2 col-sm-2 col-lg-1 border font-weight-bold" >Total Value</div>
             </div>
 
             @foreach($user->Holdings as $holding)
 
                 <div class="row justify-content-center">
                     <div class="col-xs-1 col-sm-1 col-lg-1 border" >{{$holding->id}}</div>
-                    <div class="col-xs-1 col-sm-1 col-lg-1 border" >{{$holding->Date}}</div>
+                    <div class="col-xs-2 col-sm-2 col-lg-2 border" >{{$holding->Date}}</div>
                     <div class="col-xs-2 col-sm-2 col-lg-2 border" >{{$holding->Holding_Name}}</div>
                     <div class="col-xs-1 col-sm-1 col-lg-1 border" >{{$holding->Code_Units}}</div>
                     <div class="col-xs-1 col-sm-1 col-lg-1 border" >{{$holding->Registered_Units}}</div>

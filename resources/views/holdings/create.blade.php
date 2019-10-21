@@ -11,8 +11,9 @@
                         <label for="date" class="col-md-4 col-form-label text-md-right">Date Input</label>
                         <div class="col-md-6">
                         <input id="date"
-                               type="text"
-                               class="form-control @error('date') is-invalid @enderror" name="date" value="{{ old('date') }}"
+                               type="date"
+                               class="form-control @error('date') is-invalid @enderror" name="date"
+                               value="{{ old('date') }}"
                                autocomplete="date" autofocus>
 
                         @error('date')

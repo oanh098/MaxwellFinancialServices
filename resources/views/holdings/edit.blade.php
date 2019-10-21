@@ -13,7 +13,7 @@
                         <label for="date" class="col-md-4 col-form-label text-md-right">Date Input</label>
                         <div class="col-md-6">
                             <input id="date"
-                                   type="text"
+                                   type="date"
                                    class="form-control @error('date') is-invalid @enderror" name="date" value="{{ $holding->Date }}"
                                    autocomplete="date" autofocus>
 

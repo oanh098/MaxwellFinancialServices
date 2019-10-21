@@ -25,7 +25,7 @@ class HoldingsController extends Controller
         $this->authorize('create',Holding::class);
 
         $data= \request()->validate([
-            'date'=>'required',
+            'date'=>['required','date'],
             'Holding_Name'=>'required',
             'Code_Units' => 'required',
             'Registered_Units' => ['required','numeric'],

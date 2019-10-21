@@ -14,6 +14,7 @@
 
 use App\Http\Controllers\ContactFormController;
 use App\Http\Controllers\indexController;
+use App\Mail\NewUserWelcomeMail;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -21,7 +22,11 @@ Route::get('/', function () {
     return view('index',compact(['bodyClass']));
 
 });
+
 Route::get('/index', 'indexController@index');
+Route::get('/mail', function(){
+    return new NewUserWelcomeMail();
+});
 
 
 Route::get('/about','PagesController@about');

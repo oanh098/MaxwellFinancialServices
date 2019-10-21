@@ -3,9 +3,11 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Mail\NewUserWelcomeMail;
 use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 
 class RegisterController extends Controller
@@ -50,8 +52,8 @@ class RegisterController extends Controller
     {
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:profiles'],
-            'account_number' =>  ['string', 'max:255','nullable','unique:profiles'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'account_number' =>  ['string', 'max:255','nullable','unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ]);
     }
@@ -64,13 +66,14 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-         return User::create([
+         $user= User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'account_number' => $data['account_number'],
             'password' => Hash::make($data['password']),
         ]);
-
+        Mail::to($data['email'])->send(new NewUserWelcomeMail($user));
+        return $user;
 //        $id = auth()->user()->id;
 //        return '/holdings/'.$id;
     }

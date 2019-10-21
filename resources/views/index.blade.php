@@ -171,7 +171,8 @@ Funds management clients dealing with MFS Broking team can expect:
     <div class="post_column col-lg-4 col-md-12 col-sm-12 col-xs-12">
         <div class="ttr_index_html_column52">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p><span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 3.12em 0em;"><span><img class="ttr_uniform" style="max-height:37px;max-width:40px;" src="{{asset('frontEnd')}}/images/5517.png" /></span></span><a href="clearing-and-execution.html" class="tt_link" target="_self"><span style="font-weight:700;font-size:1em;color:rgba(0,0,255,1);">Clearing and Execution</span></a></p><p style="margin:0.31em 0em 0.31em 0em;"><span style="font-size:1em;color:rgba(52,52,52,1);">We specialize in providing customized execution, clearing, and custody solutions to full service firms and independent broker dealers, advisors, and firms on the financial services sector.</span></p></div>
+            <div class="html_content"><p><span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 3.12em 0em;"><span>
+                            <img class="ttr_uniform" style="max-height:37px;max-width:40px;" src="{{asset('frontEnd')}}/images/5517.png" /></span></span><a href="clearing-and-execution.html" class="tt_link" target="_self"><span style="font-weight:700;font-size:1em;color:rgba(0,0,255,1);">Clearing and Execution</span></a></p><p style="margin:0.31em 0em 0.31em 0em;"><span style="font-size:1em;color:rgba(52,52,52,1);">We specialize in providing customized execution, clearing, and custody solutions to full service firms and independent broker dealers, advisors, and firms on the financial services sector.</span></p></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div style="clear:both;"></div>
         </div>
