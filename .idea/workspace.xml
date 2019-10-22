@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="87fbf1ca-b56f-4fba-ac50-4408cbcf3e88" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/ourCustomer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/ourCustomer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Mail/NewUserWelcomeMail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/NewUserWelcomeMail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +194,8 @@
       <workItem from="1570778570704" duration="3731000" />
       <workItem from="1571021660488" duration="466000" />
       <workItem from="1571022986951" duration="8838000" />
-      <workItem from="1571130438927" duration="23701000" />
+      <workItem from="1571130438927" duration="23985000" />
+      <workItem from="1571641567737" duration="1627000" />
     </task>
     <task id="LOCAL-00001" summary="commit 20191006">
       <created>1570361017506</created>
