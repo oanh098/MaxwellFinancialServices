@@ -13,61 +13,74 @@
 
 
 <div class="ttr_index_html_row7 row">
-    <div class="post_column col-lg-2 col-md-3 col-sm-3 col-xs-3">
+    <div class="post_column col-lg-2 col-md-2 col-sm-3 col-xs-3">
         <div class="ttr_index_html_column70">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/westpac-vector-logo17.png" alt="wespac" /></span></span></p></div>
+            <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span>
+                        <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/westpac-logo.png" alt="wespac" /></span></span></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
-    <div class="post_column col-lg-2 col-md-3 col-sm-3 col-xs-3">
+    <div class="post_column col-lg-2 col-md-2 col-sm-3 col-xs-3">
         <div class="ttr_index_html_column70">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/5717.png" /></span></span></p></div>
+            <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span>
+                            <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/citibank.png" /></span></span></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
-    <div class="post_column col-lg-2 col-md-3 col-sm-3 col-xs-3">
+    <div class="post_column col-lg-2 col-md-2 col-sm-3 col-xs-3">
         <div class="ttr_index_html_column70">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:394px;max-width:700px;" src="{{asset('frontEnd')}}/images/5817.jpeg" alt="commonwealthbank" /></span></span></p></div>
+            <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span>
+                        <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/commonwealth-bank.png" alt="commonwealthbank" /></span></span></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
-    <div class="post_column col-lg-2 col-md-3 col-sm-3 col-xs-3">
+    <div class="post_column col-lg-2 col-md-2 col-sm-3 col-xs-3">
         <div class="ttr_index_html_column70">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:415px;max-width:738px;" src="{{asset('frontEnd')}}/images/5917.png" alt="hsbc" /></span></span></p></div>
+            <div class="html_content">
+                <span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span>
+                        <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/nab.png" alt="nab" /></span></span></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
-    <div class="post_column col-lg-2 col-md-3 col-sm-3 col-xs-3">
+    <div class="post_column col-lg-2 col-md-2 col-sm-3 col-xs-3">
         <div class="ttr_index_html_column70">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:239px;" src="{{asset('frontEnd')}}/images/6117.png" alt="anz" /></span></span></p></div>
+            <div class="html_content">
+                <span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span>
+                            <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/hsbc.png" alt="hsbc" /></span></span></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
-    <div class="post_column col-lg-2 col-md-3 col-sm-3 col-xs-3">
+    <div class="post_column col-lg-2 col-md-2 col-sm-3 col-xs-3">
         <div class="ttr_index_html_column70">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/61171.png" /></span></span></p></div>
+            <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/anz.png" alt="anz" /></span></span></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
 
-
-    <div class="post_column col-lg-2 col-md-3 col-sm-3 col-xs-3">
+    <div class="post_column col-lg-2 col-md-2 col-sm-3 col-xs-3">
         <div class="ttr_index_html_column70">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/eBay-Logo2.png" alt="ebay" /></span></span></div>
+            <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/61171.png" /></span></span></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
-    <div class="post_column col-lg-2 col-md-3 col-sm-3 col-xs-3">
+    <div class="post_column col-lg-2 col-md-2 col-sm-3 col-xs-3">
         <div class="ttr_index_html_column70">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/xe.png" alt="xe" /></span></span>.</p></div>
+            <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/eBay-Logo2.png" alt="ebay" /></span></span></div>
+            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
+        </div>
+    </div>
+    <div class="post_column col-lg-2 col-md-2 col-sm-3 col-xs-3">
+        <div class="ttr_index_html_column70">
+            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
+            <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/xe.png" alt="xe" /></span></span>.</div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
