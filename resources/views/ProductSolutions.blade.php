@@ -5,7 +5,23 @@
         <div class="post_column col-lg-12 col-md-10 col-sm-10 col-xs-9">
             <div class="ttr_product-solutions_html_column00">
                 <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                <div class="html_content"><p style="margin:0.12em 0em 0em 0em;"><span style="font-family:'Open Sans','Tahoma';">Our firm offers yours an extensive range of financial clearing solutions.</span></p><p style="margin:0.12em 0em 0em 0em;"><span></span></p><p style="margin:0.12em 0em 0em 0em;"><span style="font-family:'Open Sans','Tahoma';">Advisor Solutions to assist in delivering top-notch advice. Through Maxwell Stienberg Trade Holdings, financial advisors have a smart and efficient product platform and team support accessible 24 hours a day.</span></p><p style="margin:0.12em 0em 0em 0em;"><span></span></p><p style="margin:0.12em 0em 0em 0em;"><span style="font-family:'Open Sans','Tahoma';">Advisor Solutions - Our advisor solutions offers your advisors a product line-up that allows them to offer diversified investment portfolio solutions to their clients.</span></p><p style="margin:0.12em 0em 0em 0em;"><span></span></p><p style="margin:0.12em 0em 0em 0em;"><span style="font-family:'Open Sans','Tahoma';">His increases our clients progress by giving them focus and awareness on the products available. Together, we will watch how the client's investment progresses. We will help your advisors with proposals and forecasts that will ensure client understanding of the investment process.</span></p><br /></div>
+                <div class="html_content">
+                    <p style="margin:0.12em 0em 0em 0em;">
+                        <span style="font-family:'Open Sans','Tahoma';">
+                            An effective estate plan includes tax effective Wills to protect your esatate and the interests of your beneficiaries in the event of your death. Drawing up or even revising a will is not on most peoples to do Lists, however it is an important part of life no matter what your age, especially if you have a variety of investments. I n Australia will and Estates fall undertow areas of law known as succession law and probate, and in almost all cases, they are designed to ensure that the death of a person that their final wishes are fulfilled wherever possible. Without a will, this can be an expensive, time consuming and often distressing process for loved one.
+                        </span>
+                    </p>
+                    <p style="margin:0.12em 0em 0em 0em;">
+                        <span></span>
+                    </p>
+                    <p style="margin:0.12em 0em 0em 0em;">
+                        <span style="font-family:'Open Sans','Tahoma';">
+                            If your estate is fairly straightforward, it is possible to write your own will. Will packs can be bought at Australian Post Offices and many newsagents or download online. Please contact Maxwell Financial Services for any information regarding your Will.
+                        </span>
+                    </p>
+
+
+                    <br /></div>
                 <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
                 <div style="clear:both;"></div>
             </div>

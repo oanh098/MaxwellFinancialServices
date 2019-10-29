@@ -67,19 +67,19 @@ Menu
                     <li class="ttr_menu_items_parent dropdown"><a href="services" class="ttr_menu_items_parent_link_arrow dropdown-toggle" data-toggle="dropdown"><span class="menuchildicon"></span>Services</a>
                         <hr class ="horiz_separator"/>
                         <ul class="child dropdown-menu" role="menu">
-                            <li><a href="business-growth"><span class="menuchildicon"></span>Business Growth</a>
+                            <li><a href="business-growth"><span class="menuchildicon"></span>Superannuation SMSF</a>
                                 <hr class ="separator"/>
                             </li> <!-- 1st level child list closing -->
-                            <li><a href="research-and-strategy"><span class="menuchildicon"></span>Research and Strategy</a>
+                            <li><a href="research-and-strategy"><span class="menuchildicon"></span>International Investing</a>
                                 <hr class ="separator"/>
                             </li> <!-- 1st level child list closing -->
-                            <li><a href="liabilities-management"><span class="menuchildicon"></span>Liabilities Management</a>
+                            <li><a href="liabilities-management"><span class="menuchildicon"></span>Fixed Term Deposits Annuties</a>
                                 <hr class ="separator"/>
                             </li> <!-- 1st level child list closing -->
-                            <li><a href="clearing-and-execution"><span class="menuchildicon"></span>Clearing and Execution</a>
+                            <li><a href="clearing-and-execution"><span class="menuchildicon"></span>Refinancing Advice</a>
                                 <hr class ="separator"/>
                             </li> <!-- 1st level child list closing -->
-                            <li><a href="product-solutions"><span class="menuchildicon"></span>Product Solutions</a>
+                            <li><a href="product-solutions"><span class="menuchildicon"></span>Wills & Power of Attorneys Estate Planning</a>
                                 <hr class ="separator"/>
                             </li> <!-- 1st level child list closing -->
                             <li><a href="transition-services"><span class="menuchildicon"></span>Transition Services</a>

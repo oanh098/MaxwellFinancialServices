@@ -15,31 +15,31 @@ class pagesController extends Controller
 
     public function BusinessGrowth(){
         $bodyClass='business-growth';
-        $headerTitle = 'Business Growth';
+        $headerTitle = 'Superannuation SMSF';
         return view('BusinessGrowth', compact(['bodyClass','headerTitle']));
     }
 
     public function ResearchAndStrategy(){
         $bodyClass='research-and-strategy';
-        $headerTitle = 'Research and Strategy';
+        $headerTitle = 'International Investing';
         return view('ResearchAndStrategy', compact(['bodyClass','headerTitle']));
     }
 
     public function LiabilitiesManagement(){
         $bodyClass='liabilities-management';
-        $headerTitle = 'Liabilities Management';
+        $headerTitle = 'Fixed Term Deposits Annuties';
         return view('LiabilitiesManagement', compact(['bodyClass','headerTitle']));
     }
 
     public function ClearingAndExecution(){
         $bodyClass='clearing-and-execution';
-        $headerTitle = 'Clearing and Execution';
+        $headerTitle = 'Refinancing Advice';
         return view('ClearingAndExecution', compact(['bodyClass','headerTitle']));
     }
 
     public function ProductSolution(){
         $bodyClass='product-solutions';
-        $headerTitle = 'Product Solution';
+        $headerTitle = 'Wills & Power of Attorneys Estate Planning';
         return view('ProductSolutions', compact(['bodyClass','headerTitle']));
     }
     public function TransitionServices(){
