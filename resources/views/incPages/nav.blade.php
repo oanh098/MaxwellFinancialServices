@@ -7,19 +7,19 @@
             </div>
             <div class="navbar-header">
                 <button id="nav-expander" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
-<span class="ttr_menu_toggle_button">
-<span class="sr-only">
-</span>
-<span class="icon-bar">
-</span>
-<span class="icon-bar">
-</span>
-<span class="icon-bar">
-</span>
-</span>
+                    <span class="ttr_menu_toggle_button">
+                    <span class="sr-only">
+                    </span>
+                    <span class="icon-bar">
+                    </span>
+                    <span class="icon-bar">
+                    </span>
+                    <span class="icon-bar">
+                    </span>
+                    </span>
                     <span class="ttr_menu_button_text">
-Menu
-</span>
+                        Menu
+                    </span>
                 </button>
             </div>
             <div class="menu-center collapse navbar-collapse">
