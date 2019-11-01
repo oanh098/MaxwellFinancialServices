@@ -2,10 +2,9 @@
 # Welcome to MaxwellFinancialServices
 
 
-{{--<h2>Welcome to the site:  {{$user['name']}}</h2>--}}
-<h2>Welcome to the site:  </h2>
+<h2>Welcome to the site:  {{$user['name']}}</h2>
 <br/>
-{{--Your registered email-id is {{$user['email']}}--}}
+Your registered email-id is {{$user['email']}}
 
 Thanks,<br>
 MaxwellStienberg
