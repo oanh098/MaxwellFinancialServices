@@ -15,7 +15,7 @@
     <title>
         about us
     </title>
-    <link rel="stylesheet"  href="{{asset('FrontEnd')}}/bootstrap.css" type="text/css" media="screen"/>
+        <link rel="stylesheet"  href="{{asset('FrontEnd')}}/bootstrap.css" type="text/css" media="screen"/>
     <link rel="stylesheet"  href="{{asset('FrontEnd')}}/style.css" type="text/css" media="screen"/>
     <!--[if lte IE 8]>
     <link rel="stylesheet"  href="{{asset('FrontEnd')}}/menuie.css" type="text/css" media="screen"/>

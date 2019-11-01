@@ -29,6 +29,8 @@ Route::get('/mail', function(){
 });
 
 
+
+
 Route::get('/about','PagesController@about');
 Route::get('/business-growth','PagesController@BusinessGrowth');
 Route::get('/research-and-strategy','PagesController@ResearchAndStrategy');
