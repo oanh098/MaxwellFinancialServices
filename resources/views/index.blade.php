@@ -6,7 +6,10 @@
     <div class="post_column col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="ttr_index_html_column00">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p style="margin:0.12em 0em 0em 0em;text-align:Center;"><span style="font-weight:700;font-size:2.25em;color:rgba(53,72,110,1);">Rely on a trusted financial services custodian </span><span style="font-weight:700;font-size:2.25em;color:rgba(53,72,110,1);">who is dedicated to your success.</span><br style="font-size:1em;color:rgba(68,99,163,1);" /></p><p style="margin:0.12em 0em 1.88em 0em;text-align:Center;"><span style="font-size:1em;color:rgba(68,99,163,1);">Fisher Stanley Trade Holdings believes that our clients success is our success</span><span style="font-size:1em;color:rgba(51,78,113,1);">.</span></p></div>
+            <div class="html_content"><p style="margin:0.12em 0em 0em 0em;text-align:Center;"><span style="font-weight:700;font-size:2.25em;color:rgba(53,72,110,1);">Rely on a trusted financial services custodian </span>
+                    <span style="font-weight:700;font-size:2.25em;color:rgba(53,72,110,1);">who is dedicated to your success.</span><br style="font-size:1em;color:rgba(68,99,163,1);" /></p>
+                <br />
+           </div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div style="clear:both;"></div>
         </div>
