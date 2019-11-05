@@ -31,10 +31,16 @@ var x = button.currentStyle['display'];
 }
 if (x == 'none')
 {
+    alert("start Loop");
 var menu = document.getElementsByClassName('ttr_menu_items');
 for (var j=0; j < menu.length; j++)
 {
 var liChild = menu[j].getElementsByTagName('li');
+// start Loop through the menu and add the active class to the current/clicked li
+
+// end Loop through the menu and add the active class to the current/clicked li
+
+
 for(var k=0; k < liChild.length; k++)
 {
 var childNode = $(liChild[k]).find('ul');
@@ -63,10 +69,10 @@ toggleClass[i].className = toggleClass[i].className.replace( ' toggled-on', '' )
 if ( -1 != this.className.indexOf( ' toggled-on' ) )
 {
 var cssClass = document.getElementsByClassName('toggled-on');
-for(var i=0; i<cssClass.length; i++)
-{
-cssClass[i].className = cssClass[i].className.replace( ' toggled-on', '' );
-}
+    for(var i=0; i<cssClass.length; i++)
+    {
+        cssClass[i].className = cssClass[i].className.replace( ' toggled-on', '' );
+    }
 }
 else
 {

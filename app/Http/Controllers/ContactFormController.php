@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Mail;
 class ContactFormController extends Controller
 {
     public function create(){
-        $bodyClass='contact';
+        $bodyClass='liabilities-management';
         $headerTitle = 'Contact';
         return view('contact.create', compact(['bodyClass','headerTitle']));
     }

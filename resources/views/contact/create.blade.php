@@ -1,9 +1,9 @@
 @extends('layouts.appMaxwell')
 @section('content')
     <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-    <div class="ttr_contact_html_row0 row">
+    <div class="ttr_liabilities-management_html_row0 row">
         <div class="post_column col-lg-12 col-md-10 col-sm-10 col-xs-12">
-            <div class="ttr_contact_html_column00">
+            <div class="ttr_liabilities-management_html_column00">
                 <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
                 <div class="html_content"><br style="line-height:1.375;" /><p style="margin:0.12em 0em 0em 0.5em;line-height:1.375;">
                     <div class="contactformdiv" style="margin:10px 10px 10px 10px;">

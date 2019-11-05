@@ -8,19 +8,19 @@ class pagesController extends Controller
 {
     public function about()
     {
-        $bodyClass = 'about';
+        $bodyClass = 'liabilities-management';
         $headerTitle = 'About Us';
         return view('about', compact(['bodyClass','headerTitle']));
     }
 
     public function BusinessGrowth(){
-        $bodyClass='business-growth';
+        $bodyClass='liabilities-management';
         $headerTitle = 'Superannuation SMSF';
         return view('BusinessGrowth', compact(['bodyClass','headerTitle']));
     }
 
     public function ResearchAndStrategy(){
-        $bodyClass='research-and-strategy';
+        $bodyClass='liabilities-management';
         $headerTitle = 'International Investing';
         return view('ResearchAndStrategy', compact(['bodyClass','headerTitle']));
     }
@@ -32,30 +32,30 @@ class pagesController extends Controller
     }
 
     public function ClearingAndExecution(){
-        $bodyClass='clearing-and-execution';
+        $bodyClass='liabilities-management';
         $headerTitle = 'Refinancing Advice';
         return view('ClearingAndExecution', compact(['bodyClass','headerTitle']));
     }
 
     public function ProductSolution(){
-        $bodyClass='product-solutions';
+        $bodyClass='liabilities-management';
         $headerTitle = 'Wills & Power of Attorneys Estate Planning';
         return view('ProductSolutions', compact(['bodyClass','headerTitle']));
     }
     public function TransitionServices(){
-        $bodyClass='transition-services';
+        $bodyClass='liabilities-management';
         $headerTitle = 'Transition Services';
         return view('TransitionServices', compact(['bodyClass','headerTitle']));
     }
     public function Resource(){
-            $bodyClass='resource';
+            $bodyClass='liabilities-management';
             $headerTitle = 'Resource';
             return view('Resource', compact(['bodyClass','headerTitle']));
     }
-    public function Contact(){
-                $bodyClass='contact';
-                $headerTitle = 'Contact';
-                return view('contact', compact(['bodyClass','headerTitle']));
-    }
+//    public function Contact(){
+//                $bodyClass='liabilities-management';
+//                $headerTitle = 'Contact';
+//                return view('contact', compact(['bodyClass','headerTitle']));
+//    }
 
 }
