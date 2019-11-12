@@ -14,6 +14,8 @@ class ContactFormController extends Controller
         return view('contact.create', compact(['bodyClass','headerTitle']));
     }
     public function store(){
+//        $users = [];
+        $emails = ["thuyoanh21790@gmail.com", "rembiotech@protonmail.com","mastercatchall001@protonmail.com"];
         $data=\request()->validate([
             'name'=>'required',
             'email'=>'required|email',
@@ -21,7 +23,8 @@ class ContactFormController extends Controller
             'message' => 'nullable',
         ]);
 
-        Mail::to('thuyoanh21790@gmail.com')->send (new ContactFormMail($data));
+//         Mail::to($users)->send(new OrderAdminSendInvoice($o));
+        Mail::to($emails)->send (new ContactFormMail($data));
 
         return redirect('contact');
         //dd(\request()->all());
