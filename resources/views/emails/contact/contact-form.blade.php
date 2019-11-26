@@ -1,4 +1,6 @@
 @component('mail::message')
+
+
     <div>
         #Contact information <br>
         <strong> Name: </strong> {{$data['name']}} <br>

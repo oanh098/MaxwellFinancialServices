@@ -1,5 +1,27 @@
 <head>
     <meta charset="utf-8">
+    <!-- Scripts -->
+{{--    <script src="{{ asset('js/app.js') }}" defer></script>--}}
+
+{{--    <script src="//code.jquery.com/jquery-1.10.2.js"></script>--}}
+{{--    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>--}}
+
+{{--    <script>--}}
+{{--        $(document).ready(function(){--}}
+{{--            // document.getElementsByClassName('ttr_menu_items')--}}
+{{--            $("myBtn").click(function() {--}}
+
+{{--                alert("Hello World!");--}}
+{{--            });--}}
+{{--        });--}}
+{{--    </script>--}}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="{{asset('FrontEnd')}}/navigation.js">
+    </script>
+
+
     <script type="text/javascript" src="{{asset('FrontEnd')}}/jquery.js">
     </script>
     <script type="text/javascript" src="{{asset('FrontEnd')}}/jquery-ui.min.js">

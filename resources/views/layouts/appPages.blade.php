@@ -9,7 +9,8 @@
 </div><!-- totopshow -->
 <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
 <div id="ttr_page" class="container">
-   @include('incPages/nav')
+   @include('inc/nav')
+{{--   @include('incPages/nav')--}}
     @include('incPages/header')
     <div id="ttr_content_and_sidebar_container">
         <div id="ttr_content">
@@ -26,5 +27,6 @@
     @include('incPages.footer')
     <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-bottom-collapse: separate;"></div>
 </div><!--page-->
+
 </body>
 </html>

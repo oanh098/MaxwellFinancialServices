@@ -1,6 +1,37 @@
 <head>
     <meta charset="utf-8">
-    <script  src="{{asset('js')}}/app.js">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+{{--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">--}}
+{{--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>--}}
+{{--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>--}}
+{{--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>--}}
+
+    <script>
+    // $(document).ready(function(){
+    // document.getElementsByClassName('ttr_menu_items')
+
+    // $("button").click(function() {
+    // //     document.getElementById("myBtn").click(function(){
+    //
+    //     alert("Hello World!");
+    // });
+    //     navigationmenu();
+    // });
+    </script>
+{{--    <script  src="{{asset('js')}}/app.js">--}}
+{{--        --}}
+{{--        --}}
+{{--    </script>--}}
+
+<!-- Scripts -->
+{{--     <script src="{{ asset('js/app.js') }}" defer></script>--}}
+
+{{--    <script src="//code.jquery.com/jquery-1.10.2.js"></script>--}}
+{{--    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>--}}
+
+    <script type="text/javascript" src="{{asset('FrontEnd')}}/navigation.js">
     </script>
     <script type="text/javascript" src="{{asset('FrontEnd')}}/jquery.js">
     </script>

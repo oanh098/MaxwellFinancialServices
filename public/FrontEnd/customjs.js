@@ -60,6 +60,7 @@ $('body').toggleClass('nav-expanded');
 
 /*************** Menu click script ***************/
 $('ul.ttr_menu_items.nav li [data-toggle=dropdown]').on('click', function() {
+    // alert("Hello World there!");
 if($(this).parent().hasClass('open')){
 location.assign($(this).attr('href'));
 }
@@ -79,7 +80,7 @@ location.assign($(this).attr('href'));
 });
 
 /*************** Tab menu click script ***************/
-$('.ttr_menu_items ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+$('.ttr_menu_items ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {alert("Hello World there!");
 var window_width =  Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 event.preventDefault();
 event.stopPropagation();

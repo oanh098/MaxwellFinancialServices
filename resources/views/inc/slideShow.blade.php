@@ -11,13 +11,13 @@
                     </div>
                 </div>
             </li>
-            <li id="Slide1" class="ttr_slide" data-slideEffect="None">
+            <li id="Slide1" class="ttr_slide" data-slideEffect="Fade">
                 <div class="ttr_slideshow_last">
                     <div class="ttr_slideshow_element_alignment container" data-begintime="0" data-effect="None" data-easing="linear" data-slide="None" data-duration="0">
                     </div>
                 </div>
             </li>
-            <li id="Slide2" class="ttr_slide" data-slideEffect="Blind">
+            <li id="Slide2" class="ttr_slide" data-slideEffect="Fade">
                 <div class="ttr_slideshow_last">
                     <div class="ttr_slideshow_element_alignment container" data-begintime="0" data-effect="None" data-easing="linear" data-slide="None" data-duration="0">
                     </div>
