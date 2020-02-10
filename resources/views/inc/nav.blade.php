@@ -75,13 +75,6 @@
                 <ul class="ttr_menu_items nav navbar-nav navbar-right">
 {{--                <ul class="ttr_menu_items nav navbar-nav navbar-right">--}}
 
-                    <li class="ttr_menu_items_parent nav-item dropdown">
-                        <a href="index" class="ttr_menu_items_parent_link nav-link">
-{{--                            <span class="menuchildicon"></span>--}}
-                            <button id="myBtn">Try it</button>
-                        </a>
-{{--                        <hr class ="horiz_separator"/>--}}
-                    </li> <!-- main menu list closing -->
 
                     <li class="ttr_menu_items_parent nav-item  active">
                         <a href="index" class="ttr_menu_items_parent_link_active nav-link">

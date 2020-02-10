@@ -5,7 +5,6 @@ if (document.getElementById( 'navigationmenu' ) != null)
     // alert(document.getElementById( 'navigationmenu' ).getElementsByTagName( 'h3' )[0]);
     var button = document.getElementById( 'navigationmenu' ).getElementsByTagName( 'h3' )[0],
         menuitems   = document.getElementById( 'navigationmenu' ).getElementsByTagName( 'ul' )[0];
-
 if ( undefined === button )
 return false;
 
@@ -40,6 +39,7 @@ var menu = document.getElementsByClassName('ttr_menu_items');
 for (var j=0; j < menu.length; j++)
 {
 var liChild = menu[j].getElementsByTagName('li');
+
 // start Loop through the menu and add the active class to the current/clicked li
 
 // end Loop through the menu and add the active class to the current/clicked li
@@ -52,6 +52,7 @@ if (childNode.length > 0)
 {
 liChild[k].onclick = function(e)
 {
+
     if (window.getComputedStyle)
     {
         var z = window.getComputedStyle(menu[0], null).getPropertyValue('z-index');

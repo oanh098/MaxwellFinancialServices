@@ -6200,7 +6200,7 @@ transform:rotate(0deg);
 -webkit-transform:rotate(0deg);
 -o-transform:rotate(0deg);
 -ms-transform:rotate(0deg);
-width:581.999999999999px;
+width:auto;
 min-height:70px;
 transform:rotate(0deg);
 -moz-transform:rotate(0deg);
@@ -6209,7 +6209,6 @@ transform:rotate(0deg);
 -ms-transform:rotate(0deg);
 box-sizing:border-box;
 word-wrap:break-word;
-display:block;
 
 }
 .liabilities-management .ttr_headershape01 ,.liabilities-management .ttr_headershape01 p,.liabilities-management .ttr_headershape01 .tt_link
@@ -21393,6 +21392,7 @@ height: 100.333333333333px;
  .stickyslideshowforeground2
 {
 background: url(images/stickyslideshowforeground02.png)  ;
+     opacity: 0.7;
 }
  .stickyslideshowforeground2
 {
@@ -21400,7 +21400,7 @@ background-size: 100% 100%;
 visibility:visible;
 background-repeat: no-repeat;
 background-position: center;
-top:401.33px;
+top:400px;
 position:absolute;
 left: 5.49%;
 right:auto;
