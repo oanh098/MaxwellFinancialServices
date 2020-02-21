@@ -2,7 +2,17 @@
 @section('content')
 
 <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
+
+ <div class="row" >
+            <div class="col-md-4"></div>
+
+             <div class="col-auto mr-auto ml-auto" id="xecurrencywidget" ></div>
+             <script>var xeCurrencyWidget = {"domain":"www.maxwellfinancialservices.com","language":"en","size":"normal"};</script>
+             <script src="https://www.xe.com/syndication/currencyconverterwidget.js"></script>
+            <div class="col-md-4"></div>
+ </div>
 <div class="ttr_index_html_row0 row">
+
     <div class="post_column col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="ttr_index_html_column00">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
