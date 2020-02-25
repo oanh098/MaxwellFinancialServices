@@ -27678,7 +27678,6 @@ and (max-width : 767px)
     -ms-transform:rotate(0deg);
     top:18%;
     position:absolute;
-    /*z-index:500;*/
     left:1%;
     right:auto;
     display:block;
