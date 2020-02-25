@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="87fbf1ca-b56f-4fba-ac50-4408cbcf3e88" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/FrontEnd/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/FrontEnd/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -214,7 +212,7 @@
       <workItem from="1579255282466" duration="111000" />
       <workItem from="1580792619466" duration="5034000" />
       <workItem from="1581311427470" duration="13510000" />
-      <workItem from="1581955931897" duration="12584000" />
+      <workItem from="1581955931897" duration="17781000" />
     </task>
     <task id="LOCAL-00001" summary="commit 20191006">
       <created>1570361017506</created>

@@ -27692,7 +27692,7 @@ and (max-width : 767px)
     position:absolute;
     border:0 none;
     box-sizing:border-box;
-    /*z-index:498;*/
+    z-index:498;
 }
 
     .ttr_slideshow_logo img
