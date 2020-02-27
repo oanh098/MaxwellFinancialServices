@@ -4,11 +4,15 @@
     @include('inc.head')
 
 <body class="{{$bodyClass ?? ''}}">
+
+
 <div class="totopshow">
     <a href="#" class="back-to-top"><img alt="Back to Top" src="{{asset('frontEnd')}}/images/gototop0.png"/></a>
 </div><!-- totopshow -->
+
 <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-<div id="ttr_page" class="container">
+<div id="ttr_page" class="container">@include('cookieConsent::index')
+
     @if($bodyClass =='index')
         @include('inc.slideShow')
     @else

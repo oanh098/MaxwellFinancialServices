@@ -9,4 +9,6 @@
             <div class="html_content"><p><span style="font-weight:300;font-size:3.25em;color:rgba(243,243,243,1);">{{$headerTitle ?? ''}}</span></p></div>
         </div>
     </div>
+
+
 </header>

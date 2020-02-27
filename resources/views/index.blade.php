@@ -1,7 +1,9 @@
 @extends('layouts.appMaxwell')
-@section('content')
 
+@section('content')
+{{--    <h2>{{ $test }}</h2>--}}
 <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
+
 
  <div class="row" >
             <div class="col-md-4"></div>

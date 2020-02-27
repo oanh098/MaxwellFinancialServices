@@ -41,8 +41,11 @@
                 <ul class="ttr_menu_items nav navbar-nav navbar-left "  style="padding-left: 30px; padding-top: 50px; ">
                     <!-- Authentication Links -->
                     @guest
+
                         <li class="nav-item" style="padding-right: 20px">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+
+                            <a class="nav-link" href="{{ route('login') }}">
+                                {{ __('Login') }}</a>
                         </li>
                         @if (Route::has('register'))
                             <li class="nav-item">
@@ -92,6 +95,7 @@
 
                     <li class="ttr_menu_items_parent dropdown" >
                         <a href="#" class="ttr_menu_items_parent_link_arrow dropdown-toggle" data-toggle="dropdown">
+
 {{--                            <span class="menuchildicon"></span>--}}
                             Services</a>
 {{--                        <hr class ="horiz_separator"/>--}}
