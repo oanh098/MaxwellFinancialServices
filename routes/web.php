@@ -73,7 +73,7 @@ Route::get('/profiles/shows/{user}','UserController@show')->name('user.show');
 Route::get('/profiles/shows/{user}/edit','UserController@edit')->name('user.edit');
 Route::patch('/profiles/shows/{user}','UserController@update')->name('user.update');
 
-Route::post('/contact', 'ContactFormController@store');
+Route::post('/contactus', 'ContactFormController@store');
 
 //Route::post('/h', 'HoldingsController@store');
 
