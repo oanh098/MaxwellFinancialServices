@@ -47,9 +47,9 @@ Route::get('/clearing-and-execution','PagesController@ClearingAndExecution');
 Route::get('/product-solutions','PagesController@ProductSolution');
 Route::get('/transition-services','PagesController@TransitionServices');
 //Route::get('/resource','PagesController@Resource_Name');
-Route::get('/resource', function()
+Route::get('/testrsc', function()
 {
-    return 'Resource Hello World';
+    return 'testrsc Hello World';
 });
 
 //Route::get('/contact','PagesController@Contact');

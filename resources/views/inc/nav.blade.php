@@ -139,7 +139,7 @@
                     </li> <!-- main menu list closing -->
 
                     <li class="ttr_menu_items_parent nav-item">
-                        <a href="resource" class="ttr_menu_items_parent_link nav-link">
+                        <a href="testrsc" class="ttr_menu_items_parent_link nav-link">
 {{--                            <span class="menuchildicon"></span>--}}
                             Resource</a>
 {{--                        <hr class ="horiz_separator"/>--}}
