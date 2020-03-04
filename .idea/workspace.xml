@@ -141,7 +141,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Blade" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../remediumpharmacy" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
@@ -222,7 +222,7 @@
       <workItem from="1580792619466" duration="5034000" />
       <workItem from="1581311427470" duration="13510000" />
       <workItem from="1581955931897" duration="80239000" />
-      <workItem from="1583215491087" duration="16202000" />
+      <workItem from="1583215491087" duration="17845000" />
     </task>
     <task id="LOCAL-00001" summary="commit 20191006">
       <created>1570361017506</created>

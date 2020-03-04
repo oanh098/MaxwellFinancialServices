@@ -34,7 +34,7 @@ class ContactFormController extends Controller
 //         Mail::to($users)->send(new OrderAdminSendInvoice($o));
         Mail::to($emails)->send (new ContactFormMail($data));
 
-        return redirect('contact');
+        return redirect('contactus');
         //dd(\request()->all());
     }
 }
