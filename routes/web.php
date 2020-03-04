@@ -46,7 +46,7 @@ Route::get('/liabilities-management','PagesController@LiabilitiesManagement');
 Route::get('/clearing-and-execution','PagesController@ClearingAndExecution');
 Route::get('/product-solutions','PagesController@ProductSolution');
 Route::get('/transition-services','PagesController@TransitionServices');
-Route::get('/testrsc','PagesController@Resource_Name');
+Route::get('/resource','PagesController@Resource_Name');
 //Route::get('/testrsc', function()
 //{
 //    return 'testrsc Hello World';
@@ -55,7 +55,7 @@ Route::get('/testrsc','PagesController@Resource_Name');
 //Route::get('/contact','PagesController@Contact');
 //Route::get('/contact', 'ContactFormController@create');
 //Route::get('/contact', 'ContactFormController@index');
-Route::get('/contact', function()
+Route::get('/testcontact', function()
 {
     return 'Hello World';
 });
