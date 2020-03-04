@@ -139,14 +139,14 @@
                     </li> <!-- main menu list closing -->
 
                     <li class="ttr_menu_items_parent nav-item">
-                        <a href="resource" class="ttr_menu_items_parent_link nav-link">
+                        <a href="resort" class="ttr_menu_items_parent_link nav-link">
 {{--                            <span class="menuchildicon"></span>--}}
                             Resource</a>
 {{--                        <hr class ="horiz_separator"/>--}}
                     </li> <!-- main menu list closing -->
 
                     <li class="ttr_menu_items_parent dropdown nav-item">
-                        <a href="testcontact" class="ttr_menu_items_parent_link nav-link">
+                        <a href="contactus" class="ttr_menu_items_parent_link nav-link">
 {{--                            <span class="menuchildicon"></span>--}}
                             Contact</a>
                     </li> <!-- main menu list closing -->

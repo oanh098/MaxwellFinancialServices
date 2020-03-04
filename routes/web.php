@@ -46,7 +46,7 @@ Route::get('/liabilities-management','PagesController@LiabilitiesManagement');
 Route::get('/clearing-and-execution','PagesController@ClearingAndExecution');
 Route::get('/product-solutions','PagesController@ProductSolution');
 Route::get('/transition-services','PagesController@TransitionServices');
-Route::get('/resource','PagesController@Resource_Name');
+Route::get('/resort','PagesController@Resource_Name');
 //Route::get('/testrsc', function()
 //{
 //    return 'testrsc Hello World';
@@ -54,11 +54,11 @@ Route::get('/resource','PagesController@Resource_Name');
 
 //Route::get('/contact','PagesController@Contact');
 //Route::get('/contact', 'ContactFormController@create');
-//Route::get('/contact', 'ContactFormController@index');
-Route::get('/testcontact', function()
-{
-    return 'Hello World';
-});
+Route::get('/contactus', 'ContactFormController@index');
+//Route::get('/contactus', function()
+//{
+//    return 'Hello World';
+//});
 
 Route::get('/holdings/{user}', 'HoldingsController@index')->name('holding.index');
 Route::get('/holdings/user/create', 'HoldingsController@create')->name('holding.create');
