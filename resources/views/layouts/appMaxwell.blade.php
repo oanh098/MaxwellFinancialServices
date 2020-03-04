@@ -3,11 +3,11 @@
 
     @include('inc.head')
 
-<body class="{{$bodyClass ?? ''}}">
+<body class="{{$bodyClass ?? 'no'}}">
 
 
 <div class="totopshow">
-    <a href="#" class="back-to-top"><img alt="Back to Top" src="{{asset('frontEnd')}}/images/gototop0.png"/></a>
+    <a href="#" class="back-to-top"><img alt="Back to Top" src="{{asset('FrontEnd')}}/images/gototop0.png"/></a>
 </div><!-- totopshow -->
 
 <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>

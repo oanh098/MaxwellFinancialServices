@@ -36,12 +36,13 @@ class CookieConsentServiceProvider extends ServiceProvider
         $this->app->resolving(EncryptCookies::class, function (EncryptCookies $encryptCookies) {
             $encryptCookies->disableFor(config('cookie-consent.cookie_name'));
         });
-
+//        echo 'hello';
         $this->app['view']->composer('cookieConsent::index', function (View $view) {
             $cookieConsentConfig = config('cookie-consent');
             $alreadyConsentedWithCookies = Cookie::has($cookieConsentConfig['cookie_name']);
 
             $view->with(compact('alreadyConsentedWithCookies', 'cookieConsentConfig'));
+
         });
     }
 

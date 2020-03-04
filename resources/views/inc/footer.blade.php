@@ -12,7 +12,7 @@
                         <p style="margin:0em 0em 0em 2.5em;">
                             <span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 0em 0em;">
                                 <span>
-                                    <img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('frontEnd')}}/images/Location-Icon716.png" alt="location" />
+                                    <img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/Location-Icon716.png" alt="location" />
                                 </span>
                             </span>
                             <span style="color:rgba(255,255,255,1);">MELBOURNE:</span>
@@ -26,7 +26,7 @@
                         <p style="margin:0em 0em 2.5em 2.5em;">
                             <span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 0em 0em;">
                                 <span>
-                                <img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('frontEnd')}}/images/Location-Icon716.png" alt="phone" />
+                                <img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/Location-Icon716.png" alt="phone" />
                                 </span>
                             </span>
                             <span style="color:rgba(255,255,255,1);">SYDNEY:</span>
@@ -38,7 +38,7 @@
                         <p style="margin:0em 0em 2.5em 2.5em;">
                             <span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 0em 0em;">
                                 <span>
-                                    <img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('frontEnd')}}/images/Location-Icon716.png" alt="mail" />
+                                    <img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/Location-Icon716.png" alt="mail" />
                                 </span>
                             </span>
                             <span style="color:rgba(255,255,255,1);">LONDON:</span>

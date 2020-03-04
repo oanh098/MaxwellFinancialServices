@@ -17,7 +17,7 @@
         <div class="ttr_index_html_column70">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span>
-                        <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/westpac-logo.png" alt="wespac" /></span></span></div>
+                        <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('FrontEnd')}}/images/westpac-logo.png" alt="wespac" /></span></span></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
@@ -25,7 +25,7 @@
         <div class="ttr_index_html_column70">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span>
-                            <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/citibank.png" /></span></span></div>
+                            <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('FrontEnd')}}/images/citibank.png" /></span></span></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
@@ -33,7 +33,7 @@
         <div class="ttr_index_html_column70">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span>
-                        <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/commonwealth-bank.png" alt="commonwealthbank" /></span></span></div>
+                        <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('FrontEnd')}}/images/commonwealth-bank.png" alt="commonwealthbank" /></span></span></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
@@ -42,7 +42,7 @@
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div class="html_content">
                 <span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span>
-                        <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/nab.png" alt="nab" /></span></span></div>
+                        <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('FrontEnd')}}/images/nab.png" alt="nab" /></span></span></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
@@ -51,14 +51,14 @@
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div class="html_content">
                 <span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span>
-                            <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/hsbc.png" alt="hsbc" /></span></span></div>
+                            <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('FrontEnd')}}/images/hsbc.png" alt="hsbc" /></span></span></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
     <div class="post_column col-lg-2 col-md-2 col-sm-3 col-xs-3">
         <div class="ttr_index_html_column70">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/anz.png" alt="anz" /></span></span></div>
+            <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('FrontEnd')}}/images/anz.png" alt="anz" /></span></span></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
@@ -66,21 +66,21 @@
     <div class="post_column col-lg-2 col-md-2 col-sm-3 col-xs-3">
         <div class="ttr_index_html_column70">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/61171.png" /></span></span></div>
+            <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('FrontEnd')}}/images/61171.png" /></span></span></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
     <div class="post_column col-lg-2 col-md-2 col-sm-3 col-xs-3">
         <div class="ttr_index_html_column70">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/eBay-Logo2.png" alt="ebay" /></span></span></div>
+            <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('FrontEnd')}}/images/eBay-Logo2.png" alt="ebay" /></span></span></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>
     <div class="post_column col-lg-2 col-md-2 col-sm-3 col-xs-3">
         <div class="ttr_index_html_column70">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('frontEnd')}}/images/xe.png" alt="xe" /></span></span>.</div>
+            <div class="html_content"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('FrontEnd')}}/images/xe.png" alt="xe" /></span></span>.</div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>

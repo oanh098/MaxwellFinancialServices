@@ -55,7 +55,7 @@
                             </li> <!-- 1st level child list closing -->
                         </ul>
                     </li> <!-- main menu list closing -->
-                    <li class="ttr_menu_items_parent dropdown"><a href="resourceo" class="ttr_menu_items_parent_link"><span class="menuchildicon"></span>Resourceorg</a>
+                    <li class="ttr_menu_items_parent dropdown"><a href="resource" class="ttr_menu_items_parent_link"><span class="menuchildicon"></span>Resourceorg</a>
                         <hr class ="horiz_separator"/>
                     </li> <!-- main menu list closing -->
                     <li class="ttr_menu_items_parent dropdown"><a href="contact" class="ttr_menu_items_parent_link"><span class="menuchildicon"></span>Contact</a>
