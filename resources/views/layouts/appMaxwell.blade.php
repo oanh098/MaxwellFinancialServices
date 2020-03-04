@@ -16,8 +16,8 @@
     @if($bodyClass =='index')
         @include('inc.slideShow')
     @else
-        @include('inc/nav')
-        @include('inc/header')
+        @include('inc.nav')
+        @include('inc.header')
     @endif
 
     <div id="ttr_content_and_sidebar_container">

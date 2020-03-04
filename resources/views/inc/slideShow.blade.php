@@ -30,7 +30,6 @@
 
             @include('inc.nav')
 
-
         </div>
         <div class="ttr_slideshow_last">
             <div id="nav"></div>
