@@ -14,10 +14,10 @@ class ContactFormController extends Controller
         return view('contact.create', compact(['bodyClass','headerTitle']));
     }
     public function index(){
-//        $bodyClass='liabilities-management';
-//        $headerTitle = 'Contact';
-//        return view('contact.create', compact(['bodyClass','headerTitle']));
-        return 'Hello';
+        $bodyClass='liabilities-management';
+        $headerTitle = 'Contact';
+        return view('contact.create', compact(['bodyClass','headerTitle']));
+//        return 'Hello';
     }
     public function store(){
 //        $users = [];
