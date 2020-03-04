@@ -49,11 +49,11 @@ Route::get('/transition-services','PagesController@TransitionServices');
 Route::get('/resource','PagesController@Resource');
 //Route::get('/contact','PagesController@Contact');
 //Route::get('/contact', 'ContactFormController@create');
-Route::get('/contact', 'ContactFormController@index');
-//Route::get('/contact', function()
-//{
-//    return 'Hello World';
-//});
+//Route::get('/contact', 'ContactFormController@index');
+Route::get('/contact', function()
+{
+    return 'Hello World';
+});
 
 Route::get('/holdings/{user}', 'HoldingsController@index')->name('holding.index');
 Route::get('/holdings/user/create', 'HoldingsController@create')->name('holding.create');

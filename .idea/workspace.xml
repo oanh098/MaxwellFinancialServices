@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87fbf1ca-b56f-4fba-ac50-4408cbcf3e88" name="Default Changelist" comment="INDEX 20191012- login.blade.php">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactFormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactFormController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/ourCustomer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/ourCustomer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/incPages/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/incPages/nav.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/appMaxwell.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/appMaxwell.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-cookie-consent/src/CookieConsentServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/spatie/laravel-cookie-consent/src/CookieConsentServiceProvider.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -231,7 +222,7 @@
       <workItem from="1580792619466" duration="5034000" />
       <workItem from="1581311427470" duration="13510000" />
       <workItem from="1581955931897" duration="80239000" />
-      <workItem from="1583215491087" duration="10840000" />
+      <workItem from="1583215491087" duration="11397000" />
     </task>
     <task id="LOCAL-00001" summary="commit 20191006">
       <created>1570361017506</created>
