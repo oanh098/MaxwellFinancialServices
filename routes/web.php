@@ -46,7 +46,7 @@ Route::get('/liabilities-management','PagesController@LiabilitiesManagement');
 Route::get('/clearing-and-execution','PagesController@ClearingAndExecution');
 Route::get('/product-solutions','PagesController@ProductSolution');
 Route::get('/transition-services','PagesController@TransitionServices');
-Route::get('/resource','PagesController@Resource');
+Route::get('/resource','PagesController@Resource_Name');
 //Route::get('/contact','PagesController@Contact');
 //Route::get('/contact', 'ContactFormController@create');
 //Route::get('/contact', 'ContactFormController@index');

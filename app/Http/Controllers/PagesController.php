@@ -47,7 +47,7 @@ class pagesController extends Controller
         $headerTitle = 'Transition Services';
         return view('TransitionServices', compact(['bodyClass','headerTitle']));
     }
-    public function Resource(){
+    public function Resource_Name(){
             $bodyClass='liabilities-management';
             $headerTitle = 'Resource';
             return view('Resource', compact(['bodyClass','headerTitle']));
