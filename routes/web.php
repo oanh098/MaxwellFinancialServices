@@ -46,7 +46,12 @@ Route::get('/liabilities-management','PagesController@LiabilitiesManagement');
 Route::get('/clearing-and-execution','PagesController@ClearingAndExecution');
 Route::get('/product-solutions','PagesController@ProductSolution');
 Route::get('/transition-services','PagesController@TransitionServices');
-Route::get('/resource','PagesController@Resource_Name');
+//Route::get('/resource','PagesController@Resource_Name');
+Route::get('/resource', function()
+{
+    return 'Resource Hello World';
+});
+
 //Route::get('/contact','PagesController@Contact');
 //Route::get('/contact', 'ContactFormController@create');
 //Route::get('/contact', 'ContactFormController@index');
