@@ -1,15 +1,4 @@
-{{--<nav class="navbar navbar-expand-lg">--}}
-{{--<div class="d-inline-flex flex-row p-2  bg-secondary "> register--}}
-{{--    <div class="p-2 bd-highlight">Flex item 1</div>--}}
-{{--    <div class="p-2 bd-highlight">Flex item 2</div>--}}
-{{--    <div class="p-2 bd-highlight">Flex item 3</div>--}}
-{{--</div>--}}
-{{--    <div class="d-flex flex-row-reverse bg-primary">pages--}}
-{{--        <div class="p-2 bd-highlight">Flex item 1</div>--}}
-{{--        <div class="p-2 bd-highlight">Flex item 2</div>--}}
-{{--        <div class="p-2 bd-highlight">Flex item 3</div>--}}
-{{--    </div>--}}
-{{--</nav>--}}
+
 
 <nav id="ttr_menu" class="navbar-default navbar">
     <div id="ttr_menu_inner_in">
@@ -35,7 +24,7 @@
                     </span>
                 </button>
             </div>
-{{--            <div class="navbar-expand-sm navbar-collapse">--}}
+            {{--            <div class="navbar-expand-sm navbar-collapse">--}}
             <div class="menu-center collapse navbar-collapse">
                 <!-- Right Side Of Navbar -->
                 <ul class="ttr_menu_items nav navbar-nav navbar-left "  style="padding-left: 30px; padding-top: 50px; ">
@@ -73,65 +62,60 @@
                         </li>
                     @endguest
                 </ul>
-{{--            </div>--}}
-{{--                <div class="menu-center collapse navbar-collapse">--}}
+                {{--            </div>--}}
+                {{--                <div class="menu-center collapse navbar-collapse">--}}
                 <ul class="ttr_menu_items nav navbar-nav navbar-right">
-{{--                <ul class="ttr_menu_items nav navbar-nav navbar-right">--}}
 
 
                     <li class="ttr_menu_items_parent nav-item  active">
                         <a href="index" class="ttr_menu_items_parent_link_active nav-link">
-{{--                            <span class="menuchildicon"></span>--}}
+                            {{--                            <span class="menuchildicon"></span>--}}
                             Home</a>
                         <hr class ="horiz_separator"/>
                     </li> <!-- main menu list closing -->
 
                     <li class="ttr_menu_items_parent nav-item ">
                         <a href="about" class="ttr_menu_items_parent_link nav-link">
-{{--                            <span class="menuchildicon"></span>--}}
+                            {{--                            <span class="menuchildicon"></span>--}}
                             About Us</a>
                         <hr class ="horiz_separator"/>
                     </li> <!-- main menu list closing -->
 
-                    <li class="ttr_menu_items_parent dropdown" >
-                        <a href="#" class="ttr_menu_items_parent_link_arrow dropdown-toggle" data-toggle="dropdown">
-
-{{--                            <span class="menuchildicon"></span>--}}
-                            Services</a>
-{{--                        <hr class ="horiz_separator"/>--}}
+                    <li class="ttr_menu_items_parent nav-item dropdown" >
+                        <a href="#" class="ttr_menu_items_parent_link_arrow dropdown-toggle" data-toggle="dropdown">Services</a>
                         <ul class="child dropdown-menu" role="menu">
                             <li><a class="dropdown-item" href="business-growth">
-{{--                                    <span class="menuchildicon"></span>--}}
+                                    {{--                                    <span class="menuchildicon"></span>--}}
                                     Superannuation SMSF</a>
-{{--                                <hr class ="separator"/>--}}
+                                {{--                                <hr class ="separator"/>--}}
                             </li> <!-- 1st level child list closing -->
 
                             <li><a class="dropdown-item" href="research-and-strategy">
-{{--                                    <span class="menuchildicon"></span>--}}
+                                    {{--                                    <span class="menuchildicon"></span>--}}
                                     International Investing</a>
-{{--                                <hr class ="separator"/>--}}
+                                {{--                                <hr class ="separator"/>--}}
                             </li> <!-- 1st level child list closing -->
 
                             <li><a class="dropdown-item" href="liabilities-management">
-{{--                                    <span class="menuchildicon"></span>--}}
+                                    {{--                                    <span class="menuchildicon"></span>--}}
                                     Fixed Term Deposits Annuties</a>
-{{--                                <hr class ="separator"/>--}}
+                                {{--                                <hr class ="separator"/>--}}
                             </li> <!-- 1st level child list closing -->
 
                             <li><a class="dropdown-item" href="clearing-and-execution">
-{{--                                    <span class="menuchildicon"></span>--}}
+                                    {{--                                    <span class="menuchildicon"></span>--}}
                                     Refinancing Advice</a>
-{{--                                <hr class ="separator"/>--}}
+                                {{--                                <hr class ="separator"/>--}}
                             </li> <!-- 1st level child list closing -->
 
                             <li><a class="dropdown-item" href="product-solutions">
-{{--                                    <span class="menuchildicon"></span>--}}
+                                    {{--                                    <span class="menuchildicon"></span>--}}
                                     Wills & Power of Attorneys Estate Planning</a>
                                 <hr class ="separator"/>
                             </li> <!-- 1st level child list closing -->
 
                             <li><a class="dropdown-item" href="transition-services">
-{{--                                    <span class="menuchildicon"></span>--}}
+                                    {{--                                    <span class="menuchildicon"></span>--}}
                                     Transition Services</a>
                             </li> <!-- 1st level child list closing -->
 
@@ -139,15 +123,15 @@
                     </li> <!-- main menu list closing -->
 
                     <li class="ttr_menu_items_parent nav-item">
-                        <a href="resort" class="ttr_menu_items_parent_link nav-link">
-{{--                            <span class="menuchildicon"></span>--}}
+                        <a href="resource" class="ttr_menu_items_parent_link nav-link">
+                            {{--                            <span class="menuchildicon"></span>--}}
                             Resource</a>
-{{--                        <hr class ="horiz_separator"/>--}}
+                        {{--                        <hr class ="horiz_separator"/>--}}
                     </li> <!-- main menu list closing -->
 
                     <li class="ttr_menu_items_parent dropdown nav-item">
-                        <a href="contactus" class="ttr_menu_items_parent_link nav-link">
-{{--                            <span class="menuchildicon"></span>--}}
+                        <a href="contact" class="ttr_menu_items_parent_link nav-link">
+                            {{--                            <span class="menuchildicon"></span>--}}
                             Contact</a>
                     </li> <!-- main menu list closing -->
                 </ul>

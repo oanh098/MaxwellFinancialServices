@@ -8,7 +8,7 @@
  <div class="row" >
             <div class="col-md-4"></div>
 
-             <div class="col-auto mr-auto ml-auto" id="xecurrencywidget" ></div>
+             <div class="col-md-4 mr-auto ml-auto" id="xecurrencywidget" ></div>
              <script>var xeCurrencyWidget = {"domain":"www.maxwellfinancialservices.com","language":"en","size":"normal"};</script>
              <script src="https://www.xe.com/syndication/currencyconverterwidget.js"></script>
             <div class="col-md-4"></div>
@@ -154,9 +154,9 @@ Funds management clients dealing with MFS Broking team can expect:
                     <span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 3.12em 0em;">
                         <span><img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/icon_arrow_up18.png" alt="Business Growth" />
                         </span>
-                    </span><a href="business-growth.html" class="tt_link" target="_self">
+                    </span>
                         <span style="font-family:'Open Sans','Arial'; font-weight:700;font-size:1em;color:rgba(0,0,255,1);">Business Growth
-                        </span></a></p><p><span style="font-family:'Open Sans','Arial'; font-weight:300;" >Our team will work closely with your team to connect your firm and advisors to our services and solutions to drive asset growth and client </span></p><p><span style="font-family:'Open Sans','Arial'; font-weight:300;" >loyalty.</span></p></div>
+                        </span></p><p><span style="font-family:'Open Sans','Arial'; font-weight:300;" >Our team will work closely with your team to connect your firm and advisors to our services and solutions to drive asset growth and client loyalty.</span></p></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div style="clear:both;"></div>
         </div>
@@ -165,7 +165,8 @@ Funds management clients dealing with MFS Broking team can expect:
     <div class="post_column col-lg-4 col-md-12 col-sm-12 col-xs-12">
         <div class="ttr_index_html_column41">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p><span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 3.12em 0em;"><span><img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/search-solution-48549718.png" alt="Product Solutions" /></span></span><a href="product-solutions.html" class="tt_link" target="_self"><span style="font-family:'Open Sans','Arial'; font-weight:700;font-size:1em;color:rgba(0,0,255,1);">Product Solutions</span></a></p><p style="margin:0.31em 0em 0.31em 0em;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >Advisor Solutions to assist in delivering top-otch advice. Through Maxwell Stienberg Trade Holdings, financial advisors have a smart and efficient product platform and team support accessible 24 hours a day.</span></p></div>
+            <div class="html_content"><p><span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 3.12em 0em;"><span><img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/search-solution-48549718.png" alt="Product Solutions" /></span></span>
+                    <span style="font-family:'Open Sans','Arial'; font-weight:700;font-size:1em;color:rgba(0,0,255,1);">Product Solutions</span></p><p style="margin:0.31em 0em 0.31em 0em;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >Advisor Solutions to assist in delivering top-otch advice. Through Maxwell Stienberg Trade Holdings, financial advisors have a smart and efficient product platform and team support accessible 24 hours a day.</span></p></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div style="clear:both;"></div>
         </div>
@@ -174,7 +175,7 @@ Funds management clients dealing with MFS Broking team can expect:
     <div class="post_column col-lg-4 col-md-12 col-sm-12 col-xs-12">
         <div class="ttr_index_html_column42">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p><span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 3.12em 0em;"><span><img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/5217.png" /></span></span><a href="liabilities-management.html" class="tt_link" target="_self"><span style="font-family:'Open Sans','Arial'; font-weight:700;font-size:1em;color:rgba(0,0,255,1);">Liabilities Management</span></a></p><p style="margin:0.31em 0em 0.31em 0em;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >Your advisors will have access to lending services and specialists amilable through our partners to help your advisors manage both sides of your clients balance sheet and broaden the services you can offer.</span></p></div>
+            <div class="html_content"><p><span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 3.12em 0em;"><span><img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/5217.png" /></span></span><span style="font-family:'Open Sans','Arial'; font-weight:700;font-size:1em;color:rgba(0,0,255,1);">Liabilities Management</span></p><p style="margin:0.31em 0em 0.31em 0em;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >Your advisors will have access to lending services and specialists amilable through our partners to help your advisors manage both sides of your clients balance sheet and broaden the services you can offer.</span></p></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div style="clear:both;"></div>
         </div>
@@ -185,7 +186,7 @@ Funds management clients dealing with MFS Broking team can expect:
     <div class="post_column col-lg-4 col-md-12 col-sm-12 col-xs-12">
         <div class="ttr_index_html_column50">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p><span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 3.38em 0em;"><span><img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/7517.png" alt="Research Strategy" /></span></span><a href="research-and-strategy.html" class="tt_link" target="_self"><span style="font-family:'Open Sans','Arial'; font-weight:700;font-size:1em;color:rgba(0,0,255,1);">Research &amp; Strategy</span></a></p><p style="margin:0.31em 0em 0.31em 0em;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >Because of our affiliation with our industry leading partners, your team will have access to these Misted Institutes consisting of dedicated, growth focused research strategists that support advisors with objective, unbiased investment and fund clearing advice</span><span style="font-family:'Open Sans','Arial'; font-weight:300;" >.</span></p></div>
+            <div class="html_content"><p><span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 3.38em 0em;"><span><img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/7517.png" alt="Research Strategy" /></span></span><span style="font-family:'Open Sans','Arial'; font-weight:700;font-size:1em;color:rgba(0,0,255,1);">Research &amp; Strategy</span></p><p style="margin:0.31em 0em 0.31em 0em;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >Because of our affiliation with our industry leading partners, your team will have access to these Misted Institutes consisting of dedicated, growth focused research strategists that support advisors with objective, unbiased investment and fund clearing advice</span><span style="font-family:'Open Sans','Arial'; font-weight:300;" >.</span></p></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div style="clear:both;"></div>
         </div>
@@ -194,7 +195,7 @@ Funds management clients dealing with MFS Broking team can expect:
     <div class="post_column col-lg-4 col-md-12 col-sm-12 col-xs-12">
         <div class="ttr_index_html_column51">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p><span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 3.12em 0em;"><span><img class="ttr_uniform" style="max-height:32px;max-width:40px;" src="{{asset('FrontEnd')}}/images/7417.png" alt="Transition service" /></span></span><a href="transition-services.html" class="tt_link" target="_self"><span style="font-family:'Open Sans','Arial'; font-weight:700;font-size:1em;color:rgba(0,0,255,1);">Transition Services</span></a></p><p style="margin:0.31em 0em 0.31em 0em;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >The decision to change clearing firm, or to trust another firm to do the clearing for you is a tough decision to make. Than why we will dedicate time and effort to know your business process from start to finish. </span></p></div>
+            <div class="html_content"><p><span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 3.12em 0em;"><span><img class="ttr_uniform" style="max-height:32px;max-width:40px;" src="{{asset('FrontEnd')}}/images/7417.png" alt="Transition service" /></span></span><span style="font-family:'Open Sans','Arial'; font-weight:700;font-size:1em;color:rgba(0,0,255,1);">Transition Services</span></p><p style="margin:0.31em 0em 0.31em 0em;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >The decision to change clearing firm, or to trust another firm to do the clearing for you is a tough decision to make. Than why we will dedicate time and effort to know your business process from start to finish. </span></p></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div style="clear:both;"></div>
         </div>
@@ -204,7 +205,7 @@ Funds management clients dealing with MFS Broking team can expect:
         <div class="ttr_index_html_column52">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div class="html_content"><p><span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 3.12em 0em;"><span>
-                            <img class="ttr_uniform" style="max-height:37px;max-width:40px;" src="{{asset('FrontEnd')}}/images/5517.png" /></span></span><a href="clearing-and-execution.html" class="tt_link" target="_self"><span style="font-family:'Open Sans','Arial'; font-weight:700;font-size:1em;color:rgba(0,0,255,1);">Clearing and Execution</span></a></p><p style="margin:0.31em 0em 0.31em 0em;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >We specialize in providing customized execution, clearing, and custody solutions to full service firms and independent broker dealers, advisors, and firms on the financial services sector.</span></p></div>
+                            <img class="ttr_uniform" style="max-height:37px;max-width:40px;" src="{{asset('FrontEnd')}}/images/5517.png" /></span></span><span style="font-family:'Open Sans','Arial'; font-weight:700;font-size:1em;color:rgba(0,0,255,1);">Clearing and Execution</span></p><p style="margin:0.31em 0em 0.31em 0em;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >We specialize in providing customized execution, clearing, and custody solutions to full service firms and independent broker dealers, advisors, and firms on the financial services sector.</span></p></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div style="clear:both;"></div>
         </div>
