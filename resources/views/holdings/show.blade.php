@@ -13,7 +13,7 @@
                     <div class="row pt-3">
                         <div class="col-md-4 text-md-right ">Date Input</div>
                         <div class="col-md-6">{{date('d-m-Y', strtotime( $holding->Date))}}
-{{--                            {{ $holding->Date->format('m-d-Y') }}--}}
+                            {{--                            {{ $holding->Date->format('m-d-Y') }}--}}
                         </div>
                     </div>
                     <div class="row pt-3">

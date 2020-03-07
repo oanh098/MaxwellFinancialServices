@@ -14,7 +14,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     {{--    start - css cookie consent in Laravel--}}
-    <link rel="stylesheet" href="{{ asset('css/app.css')  }}">
+{{--    <link rel="stylesheet" href="{{ asset('css/app.css')  }}">--}}
     {{--    end - css cookie consent in Laravel--}}
 
 {{--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">--}}

@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-8 offset-2">
                     <div class="row"><h1>Client Details</h1></div>
-{{--                    <div><a href="/holdings/{{auth()->id()}}">Back</a></div>--}}
+                    {{--                    <div><a href="/holdings/{{auth()->id()}}">Back</a></div>--}}
                     <div class="row pt-3">
                         <div class="col-md-4 text-md-right ">User Name</div>
                         <div class="col-md-6">{{ $user->name }} </div>
