@@ -41,4 +41,10 @@ class LoginController extends Controller
         $id = auth()->user()->id;
         return '/holdings/'.$id;
     }
+
+    public function showLoginForm()
+    {
+        echo('hello');
+        return view('auth.login');
+    }
 }

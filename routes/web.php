@@ -87,3 +87,4 @@ Route::get('/home', 'HomeController@index')->name('index');
 Auth::routes();
 
 
+
