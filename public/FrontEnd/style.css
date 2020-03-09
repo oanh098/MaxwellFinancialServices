@@ -21339,7 +21339,7 @@ transform:rotate(0deg);
 -webkit-transform:rotate(0deg);
 -o-transform:rotate(0deg);
 -ms-transform:rotate(0deg);
-top:5%;
+top: 18%;
 position:absolute;
 left: 4.2%;
 right:auto;
@@ -21361,13 +21361,13 @@ z-index:498;
 height:270px;
 width:426.293046971995px;
 }
-/* .ttr_slideshow_logo img*/
-/*{*/
-/*vertical-align:middle;*/
-/*  }*/
+ .ttr_slideshow_logo img
+{
+vertical-align:middle;
+  }
  .stickyslideshowforeground1
 {
-background: url(images/stickyslideshowforeground01.png)  ;
+background: url(images/stickyslideshowforeground01.webp)  ;
 }
  .stickyslideshowforeground1
 {
@@ -21390,7 +21390,7 @@ height: 100.333333333333px;
 }
  .stickyslideshowforeground2
 {
-background: url(images/stickyslideshowforeground02.png)  ;
+background: url(images/stickyslideshowforeground02.webp)  ;
      opacity: 0.7;
 }
  .stickyslideshowforeground2
@@ -22037,7 +22037,7 @@ max-width:100%;
 {
 background:linear-gradient(to top, rgba(255,255,255,0) 80% , rgba(255,255,255,1))
     ,linear-gradient(to left, rgba(255,255,255,0) 70%, rgba(255,255,255,1))
-    ,url(images/Slide0.png);
+    ,url(images/webp.png);
 background-color:#FFFFFF;
 background-repeat:no-repeat, no-repeat, no-repeat ;
 background-size:100% 85%, 70% 100%, 70% 85%;
@@ -22048,7 +22048,7 @@ background-clip:padding-box;
 {
 background:linear-gradient(to top, rgba(255,255,255,0) 80% , rgba(255,255,255,1))
     ,linear-gradient(to left, rgba(255,255,255,0) 70%, rgba(255,255,255,1))
-    ,url(images/Slide1.png);
+    ,url(images/Slide1.webp);
 background-color:#FFFFFF;
 background-repeat:no-repeat, no-repeat, no-repeat ;
 background-size:100% 85%, 70% 100%, 70% 85%;
@@ -22059,7 +22059,7 @@ background-clip:padding-box;
 {
 background:linear-gradient(to top, rgba(255,255,255,0) 80% , rgba(255,255,255,1))
     ,linear-gradient(to left, rgba(255,255,255,0) 70%, rgba(255,255,255,1))
-    ,url(images/Slide2.png);
+    ,url(images/Slide2.webp);
 background-color:#FFFFFF;
 background-repeat:no-repeat, no-repeat, no-repeat ;
 background-size:100% 85%, 70% 100%, 70% 85%;
