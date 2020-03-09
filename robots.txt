@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /database/
+Disallow: /scripts/
+Sitemap: http://www.maxwellfinancialservices.com/sitemap.xml

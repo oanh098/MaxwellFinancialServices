@@ -9,7 +9,7 @@ class pagesController extends Controller
     public function about()
     {
         $bodyClass = 'liabilities-management';
-        $headerTitle = 'About Us';
+        $headerTitle = 'MaxwellFinancialServices: About Us.';
         return view('about', compact(['bodyClass','headerTitle']));
     }
 
@@ -21,35 +21,35 @@ class pagesController extends Controller
 
     public function ResearchAndStrategy(){
         $bodyClass='liabilities-management';
-        $headerTitle = 'International Investing';
+        $headerTitle = 'MaxwellFinancialServices: International Investing';
         return view('ResearchAndStrategy', compact(['bodyClass','headerTitle']));
     }
 
     public function LiabilitiesManagement(){
         $bodyClass='liabilities-management';
-        $headerTitle = 'Fixed Term Deposits Annuties';
+        $headerTitle = 'MaxwellFinancialServices: Fixed Term Deposits Annuties';
         return view('LiabilitiesManagement', compact(['bodyClass','headerTitle']));
     }
 
     public function ClearingAndExecution(){
         $bodyClass='liabilities-management';
-        $headerTitle = 'Refinancing Advice';
+        $headerTitle = 'MaxwellFinancialServices: Refinancing Advice';
         return view('ClearingAndExecution', compact(['bodyClass','headerTitle']));
     }
 
     public function ProductSolution(){
         $bodyClass='liabilities-management';
-        $headerTitle = 'Wills & Power of Attorneys Estate Planning';
+        $headerTitle = 'MaxwellFinancialServices: Wills & Power of Attorneys Estate Planning';
         return view('ProductSolutions', compact(['bodyClass','headerTitle']));
     }
     public function TransitionServices(){
         $bodyClass='liabilities-management';
-        $headerTitle = 'Transition Services';
+        $headerTitle = 'MaxwellFinancialServices: Transition Services';
         return view('TransitionServices', compact(['bodyClass','headerTitle']));
     }
     public function Resource_Name(){
             $bodyClass='liabilities-management';
-            $headerTitle = 'Resource';
+            $headerTitle = 'MaxwellFinancialServices: Resource';
             return view('Resource', compact(['bodyClass','headerTitle']));
     }
 //    public function Contact(){

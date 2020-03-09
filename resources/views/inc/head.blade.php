@@ -1,6 +1,7 @@
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- start Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158597454-1"></script>
+
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -8,43 +9,14 @@
 
         gtag('config', 'UA-158597454-1');
     </script>
-
+    <!-- end Global site tag (gtag.js) - Google Analytics -->
     <meta charset="utf-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+{{--    start meta  tags collection --}}
+    <meta name="description" content="Maxwell financial services offer full investment strategies specializing in emerging markets, superannuation fixed interest and  SMSF. We have only one goal. Our clients to prosper." />
+
+{{--    end meta  tags collection --}}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    {{--    start - css cookie consent in Laravel--}}
-{{--    <link rel="stylesheet" href="{{ asset('css/app.css')  }}">--}}
-    {{--    end - css cookie consent in Laravel--}}
-
-{{--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">--}}
-{{--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>--}}
-{{--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>--}}
-{{--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>--}}
-
-    <script>
-    // $(document).ready(function(){
-    // document.getElementsByClassName('ttr_menu_items')
-
-    // $("button").click(function() {
-    // //     document.getElementById("myBtn").click(function(){
-    //
-    //     alert("Hello World!");
-    // });
-    //     navigationmenu();
-    // });
-    </script>
-{{--    <script  src="{{asset('js')}}/app.js">--}}
-{{--        --}}
-{{--        --}}
-{{--    </script>--}}
-
-<!-- Scripts -->
-{{--     <script src="{{ asset('js/app.js') }}" defer></script>--}}
-
-{{--    <script src="//code.jquery.com/jquery-1.10.2.js"></script>--}}
-{{--    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>--}}
-
     <script type="text/javascript" src="{{asset('FrontEnd')}}/navigation.js">
     </script>
     <script type="text/javascript" src="{{asset('FrontEnd')}}/jquery.js">
@@ -61,7 +33,7 @@
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>
-        home
+        Home - Maxwell Financial Services
     </title>
     <link rel="stylesheet"  href="{{asset('FrontEnd')}}/bootstrap.css" type="text/css" media="screen"/>
     <link rel="stylesheet"  href="{{asset('FrontEnd')}}/style.css" type="text/css" media="screen"/>
