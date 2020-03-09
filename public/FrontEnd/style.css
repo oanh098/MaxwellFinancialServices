@@ -21341,7 +21341,6 @@ transform:rotate(0deg);
 -ms-transform:rotate(0deg);
 top:5%;
 position:absolute;
-z-index:500;
 left: 4.2%;
 right:auto;
 display:block;
@@ -27668,6 +27667,7 @@ and (max-width : 767px)
 
     }
 
+    /* mobile view start */
     .ttr_slideshow_logo
 {
     background-repeat: no-repeat;
@@ -27693,6 +27693,9 @@ and (max-width : 767px)
     box-sizing:border-box;
     z-index:498;
 }
+    .navbar-collapse {
+        z-index: 501;
+    }
 
     .ttr_slideshow_logo img
     {
@@ -27725,6 +27728,7 @@ and (max-width : 767px)
         height: 10%;
         /*height: 67.3333333333329px;*/
     }
+
     .stickyslideshowforeground2
     {
         background-size: 100% 100%;
