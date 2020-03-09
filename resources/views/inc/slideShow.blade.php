@@ -34,7 +34,7 @@
         <div class="ttr_slideshow_last">
             <div id="nav"></div>
             <div class="ttr_slideshow_logo">
-                <img src="{{asset('FrontEnd')}}/slideshowlogo.webp" alt="slideshowlogo.png"/>
+                <img src="{{asset('FrontEnd')}}/slideshowlogo.webp" alt="slideshowlogo.webp"/>
             </div>
             <div class="stickyslideshowforeground1">
             </div>
