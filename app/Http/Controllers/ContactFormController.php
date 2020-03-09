@@ -10,7 +10,7 @@ class ContactFormController extends Controller
 {
     public function create(){
         $bodyClass='liabilities-management';
-        $headerTitle = 'MaxwellFinancialServices: Contact for more information.';
+        $headerTitle = 'Contact';
         return view('contact.create', compact(['bodyClass','headerTitle']));
     }
 //    public function index(){
