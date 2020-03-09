@@ -15,19 +15,19 @@ class pagesController extends Controller
 
     public function BusinessGrowth(){
         $bodyClass='liabilities-management';
-        $headerTitle = 'Superannuation SMSF';
+        $headerTitle = 'MaxwellFinancialServices: Superannuation SMSF.';
         return view('BusinessGrowth', compact(['bodyClass','headerTitle']));
     }
 
     public function ResearchAndStrategy(){
         $bodyClass='liabilities-management';
-        $headerTitle = 'MaxwellFinancialServices: International Investing';
+        $headerTitle = 'MaxwellFinancialServices: International Investing.';
         return view('ResearchAndStrategy', compact(['bodyClass','headerTitle']));
     }
 
     public function LiabilitiesManagement(){
         $bodyClass='liabilities-management';
-        $headerTitle = 'MaxwellFinancialServices: Fixed Term Deposits Annuties';
+        $headerTitle = 'MaxwellFinancialServices: Fixed Term Deposits Annuties.';
         return view('LiabilitiesManagement', compact(['bodyClass','headerTitle']));
     }
 
@@ -39,17 +39,17 @@ class pagesController extends Controller
 
     public function ProductSolution(){
         $bodyClass='liabilities-management';
-        $headerTitle = 'MaxwellFinancialServices: Wills & Power of Attorneys Estate Planning';
+        $headerTitle = 'MaxwellFinancialServices: Wills & Power of Attorneys Estate Planning.';
         return view('ProductSolutions', compact(['bodyClass','headerTitle']));
     }
     public function TransitionServices(){
         $bodyClass='liabilities-management';
-        $headerTitle = 'MaxwellFinancialServices: Transition Services';
+        $headerTitle = 'MaxwellFinancialServices: Transition Services.';
         return view('TransitionServices', compact(['bodyClass','headerTitle']));
     }
     public function Resource_Name(){
             $bodyClass='liabilities-management';
-            $headerTitle = 'MaxwellFinancialServices: Resource';
+            $headerTitle = 'MaxwellFinancialServices: Resource.';
             return view('Resource', compact(['bodyClass','headerTitle']));
     }
 //    public function Contact(){

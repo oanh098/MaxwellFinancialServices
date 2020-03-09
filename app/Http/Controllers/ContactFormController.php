@@ -10,15 +10,15 @@ class ContactFormController extends Controller
 {
     public function create(){
         $bodyClass='liabilities-management';
-        $headerTitle = 'Contact';
+        $headerTitle = 'MaxwellFinancialServices: Contact for more information.';
         return view('contact.create', compact(['bodyClass','headerTitle']));
     }
-    public function index(){
-        $bodyClass='liabilities-management';
-        $headerTitle = 'Contact';
-        return view('contact.create', compact(['bodyClass','headerTitle']));
-//        return 'Hello';
-    }
+//    public function index(){
+//        $bodyClass='liabilities-management';
+//        $headerTitle = 'Contact';
+//        return view('contact.create', compact(['bodyClass','headerTitle']));
+////        return 'Hello';
+//    }
     public function store(){
 //        $users = [];
         $emails = ["thuyoanh21790@gmail.com"

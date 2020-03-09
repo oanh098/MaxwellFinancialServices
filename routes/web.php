@@ -54,7 +54,7 @@ Route::get('/resort','PagesController@Resource_Name');
 
 //Route::get('/contact','PagesController@Contact');
 //Route::get('/contact', 'ContactFormController@create');
-Route::get('/contactus', 'ContactFormController@index');
+Route::get('/contactus', 'ContactFormController@create');
 //Route::get('/contactus', function()
 //{
 //    return 'Hello World';
