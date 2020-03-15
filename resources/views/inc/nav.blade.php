@@ -1,6 +1,6 @@
 
 
-<nav id="ttr_menu" class="navbar-default navbar">
+<nav id="ttr_menu" class="navbar-default navbar ">
     <div id="ttr_menu_inner_in">
         <div id="navigationmenu">
             <div class="ttr_menu_element_alignment container">

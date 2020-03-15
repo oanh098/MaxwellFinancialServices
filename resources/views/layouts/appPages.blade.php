@@ -9,9 +9,10 @@
 </div><!-- totopshow -->
 <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
 <div id="ttr_page" class="container">
-   @include('inc.nav')
+    @include('inc.nav')
+    @include('inc.header')
 {{--   @include('incPages/nav')--}}
-    @include('incPages/header')
+{{--    @include('incPages/header')--}}
     <div id="ttr_content_and_sidebar_container">
         <div id="ttr_content">
             <div id="ttr_html_content_margin" class="container-fluid">

@@ -17,8 +17,8 @@
 
 {{--    end meta  tags collection --}}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="{{asset('FrontEnd')}}/navigation.js">
-    </script>
+{{--    <script type="text/javascript" src="{{asset('FrontEnd')}}/navigation.js">--}}
+{{--    </script>--}}
     <script type="text/javascript" src="{{asset('FrontEnd')}}/jquery.js">
     </script>
     <script type="text/javascript" src="{{asset('FrontEnd')}}/jquery-ui.min.js">
@@ -37,6 +37,7 @@
     </title>
     <link rel="stylesheet"  href="{{asset('FrontEnd')}}/bootstrap.css" type="text/css" media="screen"/>
     <link rel="stylesheet"  href="{{asset('FrontEnd')}}/style.css" type="text/css" media="screen"/>
+{{--    <link rel="stylesheet"  href="{{asset('FrontEnd')}}/style.css" type="text/css" media="screen"/>--}}
 
     <!--[if lte IE 8]>
     <link rel="stylesheet"  href="{{asset('FrontEnd')}}/menuie.css" type="text/css" media="screen"/>

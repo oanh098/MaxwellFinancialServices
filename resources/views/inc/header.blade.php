@@ -1,3 +1,4 @@
+{{--    @include('inc.nav')--}}
 <header id="ttr_header">
     <div id="ttr_header_inner">
         <div class="ttr_header_logo">
@@ -9,6 +10,6 @@
             <div class="html_content"><p><span style="font-weight:300;font-size:3.25em;color:rgba(243,243,243,1);">{{$headerTitle ?? ''}}</span></p></div>
         </div>
     </div>
-
+{{--    @include('inc.nav')--}}
 
 </header>
