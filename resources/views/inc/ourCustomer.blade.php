@@ -51,7 +51,7 @@
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div class="html_content">
                 <span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span>
-                            <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('FrontEnd')}}/images/hsbc.webp" alt="hsbc" /></span></span></div>
+                            <img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('FrontEnd')}}/images/hsbc.png" alt="hsbc" /></span></span></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
         </div>
     </div>

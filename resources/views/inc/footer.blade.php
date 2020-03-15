@@ -19,7 +19,7 @@
                             <br style="font-weight:500;font-size:1em;color:rgba(255,255,255,1); " />
                             <span style="color:rgba(255,255,255,1); ">Collins Street Level 3, 480 Collins Street Melbourne VIC 3000 </span>
                             <br style="font-weight:500;font-size:1em;color:rgba(255,255,255,1); " />
-                            <span style="color:rgba(255,255,255,1);margin: 0em 0em 0em 4.5em ">Contact Number: +61 390 711 898 </span>
+                            <span style="color:rgba(255,255,255,1); margin: 0em 0em 0em 4.5em; ">Contact Number: +61 390 711 898</span> </span>
 
                         </p>
                         <br style="margin:0em 0em 0em 2.5em;" />

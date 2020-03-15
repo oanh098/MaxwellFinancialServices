@@ -11,6 +11,7 @@
     </script>
     <!-- end Global site tag (gtag.js) - Google Analytics -->
     <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 {{--    start meta  tags collection --}}
     <meta name="description" content="Maxwell financial services offer full investment strategies specializing in emerging markets, superannuation fixed interest and  SMSF. We have only one goal. Our clients to prosper." />
