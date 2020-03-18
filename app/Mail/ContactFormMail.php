@@ -34,7 +34,7 @@ class   ContactFormMail extends Mailable
 
         return $this->from( 'auto@mail.com', 'MaxwellFinancialServices')
                     ->markdown('emails.contact.contact-form')
-                    ->subject('Contacts from MaxwellFinancialServices');
+                    ->subject('Contacts sent to MaxwellFinancialServices');
 
     }
 }
