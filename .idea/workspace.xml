@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87fbf1ca-b56f-4fba-ac50-4408cbcf3e88" name="Default Changelist" comment="INDEX 20191012- login.blade.php">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mail/ContactFormMail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/ContactFormMail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mail/NewUserWelcomeMail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/NewUserWelcomeMail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/emails/contact/contact-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/contact/contact-form.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/emails/welcome-mail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/welcome-mail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/head.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/vendor/mail/html/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/layout.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -161,13 +157,13 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WORKING\mastercatchall001\MaxwellFinancialServices\resources\views\contact" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WORKING\mastercatchall001\MaxwellFinancialServices\config" />
       <recent name="D:\WORKING\mastercatchall001\MaxwellFinancialServices-github" />
       <recent name="D:\WORKING\mastercatchall001\MaxwellFinancialServices\resources\views\holdings" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WORKING\mastercatchall001\MaxwellFinancialServices\resources\views\contact" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -254,7 +250,7 @@
       <workItem from="1581955931897" duration="80239000" />
       <workItem from="1583215491087" duration="29036000" />
       <workItem from="1583396993576" duration="159643000" />
-      <workItem from="1584419600332" duration="18914000" />
+      <workItem from="1584419600332" duration="20720000" />
     </task>
     <task id="LOCAL-00001" summary="commit 20191006">
       <created>1570361017506</created>

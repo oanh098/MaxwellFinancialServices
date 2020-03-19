@@ -1,4 +1,4 @@
-{{--@component('mail::message')--}}
+@component('mail::message')
 
 
     <div>
@@ -9,4 +9,4 @@
         <strong> Message: </strong> {{$data['message']}}
     </div>
 
-{{--@endcomponent--}}
+@endcomponent
