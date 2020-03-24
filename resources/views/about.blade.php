@@ -84,7 +84,7 @@
                                 <p style="margin:0em 0em 0em 0em;font-family:'Times New Roman'  ">
                                     <span style="font-family:'Open Sans','Arial';font-size:1em; font-weight:300;">
                                        Rooted on our expert knowledge and understanding of the financial services. industry, Maxwell Financial Services has been helping investment and financial firms of all types for more than 40 years.
-                                        We have been in the industry long enough to know what works, and what doesn't We make sure that our services are in tune with the modern-day technologies,
+                                        We have been in the industry long enough to know what works, and what doesn't. We make sure that our services are in tune with the modern-day technologies,
                                         and compliant to all broker-investor regulations required. We believe that giving our clients access to advanced technology solutions will enable them to boost their firm's productivity.
                                     </span></p>
                                 <br>

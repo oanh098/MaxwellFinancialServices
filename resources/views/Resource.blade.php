@@ -10,7 +10,7 @@
                     <p style="margin:0.7em 0em 0em 0em;">
                         <span style="font-family:'Open Sans','Arial';  font-weight:300; ">
                             Maxwell Financial Services offers an exceptional suite of execution and clearing services across all of the markets we serve.
-                            Our preeminent exchange rankings on all equity, commodity and fi.res exchanges coupled with our extensive network of banking and financial
+                            Our preeminent exchange rankings on all equity, commodity and futures exchanges coupled with our extensive network of banking and financial
                             relationships enable us to provide unmatched access to pools of liquidity.
                         </span>
                     </p>
@@ -29,7 +29,7 @@
                     </p>
                     <p style="margin:0.7em 0em 0em 0em;">
                        <span style="font-family:'Open Sans','Arial';  font-weight:300; ">
-                            Maxwell Financial Services is one of the leading clearing firms of exchange-listed equities and commodities in the wodd.
+                            Maxwell Financial Services is one of the leading clearing firms of exchange-listed equities and commodities in the world.
                       We provide execution and clearing services for exchange-traded and over-the-counter derivative products as well as for non-derivative
                            foreign exchange products and securities in the cash market. Maxwell Financial Services operates across the entire range of trading markets,
                            including currencies, equities and commodities.

@@ -13,21 +13,24 @@
              <script src="https://www.xe.com/syndication/currencyconverterwidget.js"></script>
             <div class="col-md-4"></div>
  </div>
-<div class="ttr_index_html_row0 row">
-
-    <div class="post_column col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <div class="ttr_index_html_column00">
-            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p style="margin:0.7em 0em 0em 0em;text-align:Center;"><span style="font-family:'Open Sans','Arial'; font-weight:700;font-size:2.25em;color:rgba(53,72,110,1);">Rely on a trusted financial services custodian </span>
-                    <span style="font-family:'Open Sans','Arial'; font-weight:700;font-size:2.25em;color:rgba(53,72,110,1);">who is dedicated to your success.</span><br style="font-size:1em;color:rgba(68,99,163,1);" /></p>
+<div class="row" style="padding-top: 2em;">
+     <div class="col-lg-2 col-md-1 "></div>
+    <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
+{{--        <div class="ttr_index_html_column00">--}}
+{{--            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>--}}
+            <div class="html_content"><p style="margin:0.7em 0em 0em 0em;text-align:Center;">
+                    <span style=" font-weight:700;font-size:2.25em;color:rgba(53,72,110,1);">Rely on a trusted financial services custodian
+                    who is dedicated to your success.</span></p>
                 <br />
            </div>
-            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div style="clear:both;"></div>
-        </div>
+{{--            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>--}}
+{{--            <div style="clear:both;"></div>--}}
+{{--        </div>--}}
     </div>
-    <div class=" visible-lg-block visible-sm-block visible-md-block visible-xs-block" style="clear: both;"></div>
+    <div class="col-lg-2 col-md-1"></div>
+{{--    <div class=" visible-lg-block visible-sm-block visible-md-block visible-xs-block" style="clear: both;"></div>--}}
 </div>
+
 <div class="ttr_index_html_row1 row">
     <div class="post_column col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="ttr_index_html_column10">
@@ -35,7 +38,7 @@
             <div class="html_content">
                 <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >
                  Maxwell Financial Services believes that our client’s success is our success.
-Maxwell Stienberg Trade Holdings has over 23 years of professional financial services. Excellence. With our strong tenure in the financial services industry, focusing on the Australasian European markets our clients are secure and confident . We specialize in providing customized execution, clearing, and custody solutions to full-service firms and independent broker dealers.
+Maxwell Financial Services has over 23 years of professional financial services. Excellence. With our strong tenure in the financial services industry, focusing on the Australasian European markets our clients are secure and confident . We specialize in providing customized execution, clearing, and custody solutions to full-service firms and independent broker dealers.
                     </span></p>
                 <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >
 We offer direct accounts and prime brokerage services to professional and institutional clients as well as high-profile individual investors. We offer clearing services to broker dealers that service both institutional and retail accounts. Fully disclosed clearing arrangements are available to all of our clients worldwide.
@@ -74,7 +77,7 @@ The Australian share market accounts for a mere 3% of global equities by market 
                 <p><span style="font-size: 2.25em;">Discover Global Investing</span></p>
                 <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;">
                     <span style="font-family:'Open Sans','Arial'; font-weight:300;" >
-Access global share markets – OMIS clients can access shares listed on major markets in North America, Europe, Asia, South America, and various emerging markets across the globe. Your MFS Adviser has direct access to listed shares across all major international exchanges including:
+Access global share markets – MFC clients can access shares listed on major markets in North America, Europe, Asia, South America, and various emerging markets across the globe. Your MFS Adviser has direct access to listed shares across all major international exchanges including:
                          </span></p>
                 <ul style="font-family:'Open Sans','Arial'; font-weight:300;">
                 <li>US – New York Stock Exchange, NASDAQ</li>
@@ -122,12 +125,12 @@ Funds management clients dealing with MFS Broking team can expect:
             <div class="html_content"><br style="line-height:1.375;" /><h2 style="margin:0.7em 0em 0em 0.5em;line-height:1.375;"><span style="font-family:'Open Sans','Arial';font-weight:700; font-size:1.75em;color:rgba(243,243,243,1);">Resources</span></h2><h2 style="margin:0.7em 0em 0em 0.5em;line-height:1.375;"><span style="color:rgba(243,243,243,1);"> </span></h2>
                 <p>
                     <span style="font-family: 'Open Sans', 'Arial'; font-weight: 300; font-size:1em;color:rgba(255,255,255,1);">
-                        Maxwell Stienberg Trade Holdings offers an exceptional suite of execution and clearing services across all the markets we serve.
+                        Maxwell Financial Services offers an exceptional suite of execution and clearing services across all the markets we serve.
                         Pur preeminent exchange rankings on all major commodity, futures, and options exchanges coupled with our extensive network of banking and financial relationships
                         enable us to provide unmatched access to pools of liquidity.</span>
                 </p>
                 <h2 style=" font-family: 'Open Sans', 'Arial'; margin:0.7em 0em 0em 0.5em;text-align:Right;line-height:1.375;"><br style="color:rgba(243,243,243,1);" />
-                    <span><a href="index.html" target="_self" class="btn btn-md btn-default">Read More</a></span></h2></div>
+                    <span><a href="resort" target="_self" class="btn btn-md btn-default">Read More</a></span></h2></div>
 {{--            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>--}}
 {{--            <div style="clear:both;"></div>--}}
         </div>
@@ -166,7 +169,7 @@ Funds management clients dealing with MFS Broking team can expect:
         <div class="ttr_index_html_column41">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div class="html_content"><p><span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 3.12em 0em;"><span><img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/search-solution-48549718.png" alt="Product Solutions" /></span></span>
-                    <span style="font-family:'Open Sans','Arial'; font-weight:700;font-size:1em;color:rgba(0,0,255,1);">Product Solutions</span></p><p style="margin:0.31em 0em 0.31em 0em;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >Advisor Solutions to assist in delivering top-otch advice. Through Maxwell Stienberg Trade Holdings, financial advisors have a smart and efficient product platform and team support accessible 24 hours a day.</span></p></div>
+                    <span style="font-family:'Open Sans','Arial'; font-weight:700;font-size:1em;color:rgba(0,0,255,1);">Product Solutions</span></p><p style="margin:0.31em 0em 0.31em 0em;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >Advisor Solutions to assist in delivering top-otch advice. Through Maxwell Financial Services, financial advisors have a smart and efficient product platform and team support accessible 24 hours a day.</span></p></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div style="clear:both;"></div>
         </div>
