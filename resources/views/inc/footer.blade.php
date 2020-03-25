@@ -15,7 +15,7 @@
                                     <img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/Location-Icon716.png" alt="location" />
                                 </span>
                             </span>
-                            <span style="color:rgba(255,255,255,1);">MELBOURNE:</span>
+                            <span style="color:rgba(255,255,255,1);">Head Office Melbourne:</span>
                             <br style="font-weight:500;font-size:1em;color:rgba(255,255,255,1); " />
                             <span style="color:rgba(255,255,255,1); ">Collins Street Level 3, 480 Collins Street Melbourne VIC 3000 </span>
                             <br style="font-weight:500;font-size:1em;color:rgba(255,255,255,1); " />

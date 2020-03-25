@@ -4,7 +4,7 @@
 {{--    <h2>{{ $test }}</h2>--}}
 <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
 <div class="row scroll-left">
-   <p>Due to the COVID-19 we are currently recieving a high volume of calls you can email us at info@maxwellfinancialservices.com and we will get back to you within 24 hours.</p>
+   <p>Due to the COVID-19 we are currently recieving a high volume of calls you can email us at info@maxwellfinancialservices.com and we will return your call within 24 hours.</p>
 </div>
  <div class="row" >
             <div class="col-md-4"></div>
