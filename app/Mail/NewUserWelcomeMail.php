@@ -10,17 +10,20 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 class NewUserWelcomeMail extends Mailable
 {
     use Queueable, SerializesModels;
-    public $user;
+//    public $user;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($user)
+//    public function __construct($user)
+    public function __construct()
     {
-        $this->user=$user;
+//        $this->user=$user;
     }
+
+
 
     /**
      * Build the message.

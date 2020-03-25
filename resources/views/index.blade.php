@@ -3,8 +3,9 @@
 @section('content')
 {{--    <h2>{{ $test }}</h2>--}}
 <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-
-
+<div class="row scroll-left">
+    <p>Due to the covid-19 we are currently recieving a high volume of calls please be patient.</p>
+</div>
  <div class="row" >
             <div class="col-md-4"></div>
 
@@ -77,7 +78,7 @@ The Australian share market accounts for a mere 3% of global equities by market 
                 <p><span style="font-size: 2.25em;">Discover Global Investing</span></p>
                 <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;">
                     <span style="font-family:'Open Sans','Arial'; font-weight:300;" >
-Access global share markets – MFC clients can access shares listed on major markets in North America, Europe, Asia, South America, and various emerging markets across the globe. Your MFS Adviser has direct access to listed shares across all major international exchanges including:
+Access global share markets – MFS clients can access shares listed on major markets in North America, Europe, Asia, South America, and various emerging markets across the globe. Your MFS Adviser has direct access to listed shares across all major international exchanges including:
                          </span></p>
                 <ul style="font-family:'Open Sans','Arial'; font-weight:300;">
                 <li>US – New York Stock Exchange, NASDAQ</li>

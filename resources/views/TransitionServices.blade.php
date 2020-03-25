@@ -18,7 +18,7 @@
                 </p>
                 <p style="margin:0.7em 0em 0em 0em;">
                     <span style="font-family:'Open Sans','Arial';  font-weight:300;">
-                        We want to know whars important to you so we can customize our services to your business needs.
+                        We want to know what important to you so we can customize our services to your business needs.
                         This approach will allow us to collaborate and give you a full view of how our platform aligns with your firm's goals
                         so that you can convey those benefits to advisors and other stakeholders with confidence.
                     </span>

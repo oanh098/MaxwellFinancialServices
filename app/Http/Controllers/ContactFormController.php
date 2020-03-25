@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\ContactFormMail;
+use App\Mail\NewUserWelcomeMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -33,8 +34,11 @@ class ContactFormController extends Controller
 
 //         Mail::to($users)->send(new OrderAdminSendInvoice($o));
         Mail::to($emails)->send (new ContactFormMail($data));
-
+        Mail::to($data['email'])->send(new NewUserWelcomeMail());
         return redirect('contactus');
         //dd(\request()->all());
     }
 }
+
+
+//Mail::to($data['email'])->send(new NewUserWelcomeMail($user));
