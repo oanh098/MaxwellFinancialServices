@@ -39,7 +39,7 @@ class pagesController extends Controller
 
     public function ProductSolution(){
         $bodyClass='liabilities-management';
-        $headerTitle = 'Wills & Power of Attorneys Estate Planning.';
+        $headerTitle = 'Wills & Power of Attorneys.';
         return view('ProductSolutions', compact(['bodyClass','headerTitle']));
     }
     public function TransitionServices(){
