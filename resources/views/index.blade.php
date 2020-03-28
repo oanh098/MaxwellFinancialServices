@@ -285,7 +285,7 @@
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <div class="ttr_index_html_column21">
                 <div class="html_content">
-                    <span style="color:rgba(243,243,243,1); font-size: 2.25em; ">Resources bck</span>
+                    <span style="color:rgba(243,243,243,1); font-size: 2.25em; ">Resources</span>
                     <p style="color:rgba(255,255,255,1);">
                         Maxwell Financial Services offers an exceptional suite of execution and clearing services across all the markets we serve.
                         Pur preeminent exchange rankings on all major commodity, futures, and options exchanges coupled with our extensive network of banking and financial relationships
