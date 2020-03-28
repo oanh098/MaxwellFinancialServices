@@ -1,7 +1,15 @@
 @extends('layouts.appMaxwell')
 @section('content')
-    <div class="row scroll-left" style="background: blue;  opacity: 0.65; ">
-        <p>In these uncertain times ask us about our guaranteed fixed term deposits paid fortnightly</p>
+
+
+
+    <div class="row" >
+        <section>
+            <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits paid fortnightly.</p></div>
+            <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits paid fortnightly.</p></div>
+        </section>
+
+
     </div>
     <div class="ttr_liabilities-management_html_row0 row">
         <div class="col-lg-12 col-md-10 col-sm-10 col-xs-9">

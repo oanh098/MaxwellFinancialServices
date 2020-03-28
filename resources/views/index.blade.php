@@ -194,9 +194,15 @@
 @extends('layouts.appMaxwell')
 
 @section('content')
-    <div class="row scroll-left">
-        <p>Due to the COVID-19 we are currently recieving a high volume of calls you can email us at
-            <a style="color: #1155cc;" href="mailto:info@maxwellfinancialservices.com">info@maxwellfinancialservices.com </a> and we will return your call within 24 hours.</p>
+    <div class="row">
+        <section>
+            <div><p>Due to the COVID-19 we are currently recieving a high volume of calls you can email us at
+                    <a style="color: #1155cc;" href="mailto:info@maxwellfinancialservices.com">info@maxwellfinancialservices.com </a> and we will return your call within 24 hours.</p></div>
+            <div><p>Due to the COVID-19 we are currently recieving a high volume of calls you can email us at
+                    <a style="color: #1155cc;" href="mailto:info@maxwellfinancialservices.com">info@maxwellfinancialservices.com </a> and we will return your call within 24 hours.</p></div>
+        </section>
+
+
     </div>
     <div class="row" >
         <div class="col-md-4"></div>
