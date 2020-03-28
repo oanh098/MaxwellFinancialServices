@@ -1,40 +1,35 @@
 <footer id="ttr_footer">
-    <div class="ttr_footer-widget-cell_inner_widget_container row">
-        <div class="ttr_footer-widget-cell_inner0">
-            <div class="post_column col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <div class="footercellcolumn1">
-                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-                    <div class="html_content"><p style="margin:0em 0em 0em 2.5em;">
-                            <br style="font-weight:500;font-size:1em;color:rgba(255,255,255,1);" />
-                        <p style="margin:0em 0em 0em 2.5em;">
-                            <br style="font-weight:500;font-size:1em;color:rgba(255,255,255,1);" />
-                        </p>
-                        <p style="margin:0em 0em 0em 1em;">
-                            <span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 0em 0em;">
+    <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+{{--                <div class="footercellcolumn1">--}}
+                    <div class="html_content"><p />
+                        <p />
+                        <p style="margin:1em 1.25em 1em 1em;color:rgba(255,255,255,1);">
                                 <span>
-                                    <img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/Location-Icon716.png" alt="location" />
+                                    <img style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/Location-Icon716.png" alt="location" />
                                 </span>
-                            </span>
-                            <span style="color:rgba(255,255,255,1);">Head Office Melbourne:</span>
-                            <br style="font-weight:500;font-size:1em;color:rgba(255,255,255,1); " />
-                            <span style="color:rgba(255,255,255,1); ">Collins Street Level 3, 480 Collins Street Melbourne VIC 3000 </span>
-                            <br style="font-weight:500;font-size:1em;color:rgba(255,255,255,1); " />
-                            <span style="color:rgba(255,255,255,1); margin: 0em 0em 0em 4.5em; ">Contact Number: +61 390 711 898</span> </span>
+                            <span>Head Office Melbourne:</span>
+                            <br />
+                            <span >Collins Street Level 3, 480 Collins Street Melbourne VIC 3000 </span>
+                            <br />
+                            <span style="padding-left: 2.5em">Contact Number: +61 390 711 898</span> </span>
 
                         </p>
-                        <br style="margin:0em 0em 0em 2.5em;" />
-                        <p style="margin:0em 0em 2.5em 1em;">
-                            <span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 0em 0em;">
+                        <br  />
+
+                        <p style="margin:1em 1.25em 1em 1em;color:rgba(255,255,255,1);">
                                 <span>
-                                <img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/Location-Icon716.png" alt="phone" />
+                                    <img style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/Location-Icon716.png" alt="location" />
                                 </span>
-                            </span>
-                            <span style="color:rgba(255,255,255,1);">SYDNEY:</span>
-                            <br style="font-weight:500;font-size:1em;color:rgba(255,255,255,1); " />
-                            <span style="color:rgba(255,255,255,1); ">33 Australia Square 264 George St, Sydney NSW 2000 </span>
-                            <br style="font-weight:500;font-size:1em;color:rgba(255,255,255,1); " />
-                            <span style="color:rgba(255,255,255,1);margin: 0em 0em 0em 4.5em ">Contact Number: +61 291 583 232 </span>
+                            <span>SYDNEY:</span>
+                            <br />
+                            <span >33 Australia Square 264 George St, Sydney NSW 2000</span>
+                            <br />
+                            <span style="padding-left: 2.5em">Contact Number: +61 291 583 232 </span> </span>
+
                         </p>
+
+
                         <p style="margin:0em 0em 2.5em 1em;">
                             <span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 0em 0em;">
                                 <span>
@@ -47,7 +42,7 @@
                             <br style="font-weight:500;font-size:1em;color:rgba(255,255,255,1); " />
                             <span style="color:rgba(255,255,255,1);margin: 0em 0em 0em 1em ">Contact Number: +44 330 027 2008 </span>
                         </p>
-                    </div>
+{{--                    </div>--}}
                     <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
                 </div>
             </div>
@@ -83,7 +78,6 @@
             </div>
             <div class=" visible-lg-block visible-xs-block" style="clear: both;"></div>
             <div class=" visible-lg-block visible-sm-block visible-md-block visible-xs-block" style="clear:both;"></div>
-        </div>
 
 
     </div>

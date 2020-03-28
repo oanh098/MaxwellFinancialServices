@@ -4609,11 +4609,11 @@ and (max-width : 1024px)
 
     .liabilities-management .ttr_headershape01 , .liabilities-management .ttr_headershape01 p, .liabilities-management .ttr_headershape01 .tt_link
     {/*ipad*/
-        /*font-size:16px !important;*/
-        top: 6%;
-        left: 60%;
-        vertical-align: center;
-        horiz-align: center;
+        top: 9.5%;
+        left: 55%;
+        /*vertical-align: center;*/
+        /*horiz-align: center;*/
+
     }
     .about .ttr_title_position
     {

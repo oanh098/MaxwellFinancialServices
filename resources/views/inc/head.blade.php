@@ -36,8 +36,8 @@
     <title>
         {{$headerTitle ?? 'Home - Maxwell Financial Services'}}
     </title>
-    <link rel="stylesheet"  href="{{asset('FrontEnd')}}/bootstrap.css" type="text/css" media="screen"/>
-    <link rel="stylesheet"  href="{{asset('FrontEnd')}}/style.css" type="text/css" media="screen"/>
+    <link rel="stylesheet"  href="{{asset('FrontEnd')}}/bootstrapbck.css" type="text/css" media="screen"/>
+    <link rel="stylesheet"  href="{{asset('FrontEnd')}}/stylebck.css" type="text/css" media="screen"/>
     <link rel="stylesheet"  href="{{asset('FrontEnd')}}/extraStyle.css" type="text/css" media="screen"/>
 
     <!--[if lte IE 8]>

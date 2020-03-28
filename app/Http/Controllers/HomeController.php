@@ -24,6 +24,6 @@ class HomeController extends Controller
     public function index()
     {
         $bodyClass='index';
-        return view('index', compact(['bodyClass']));
+        return view('indexbck', compact(['bodyClass']));
     }
 }

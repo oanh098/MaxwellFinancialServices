@@ -18,109 +18,79 @@
 <div class="row" style="padding-top: 2em;">
      <div class="col-lg-2 col-md-1 "></div>
     <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
-{{--        <div class="ttr_index_html_column00">--}}
-{{--            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>--}}
-            <div class="html_content"><p style="margin:0.7em 0em 0em 0em;text-align:Center;">
-                    <span style=" font-weight:700;font-size:2.25em;color:rgba(53,72,110,1);">Rely on a trusted financial services custodian
-                    who is dedicated to your success.</span></p>
-                <br />
+            <div class="html_content">
+                <p style="text-align:Center;font-size:2.25em;color:rgba(53,72,110,1);">Rely on a trusted financial services custodian
+                    who is dedicated to your success.</p>
            </div>
-{{--            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>--}}
-{{--            <div style="clear:both;"></div>--}}
-{{--        </div>--}}
+
     </div>
     <div class="col-lg-2 col-md-1"></div>
-{{--    <div class=" visible-lg-block visible-sm-block visible-md-block visible-xs-block" style="clear: both;"></div>--}}
 </div>
 
-<div class="ttr_index_html_row1 row">
+<div class="row" style="padding:10px 50px 0 50px">
     <div class="post_column col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <div class="ttr_index_html_column10">
-            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div class="html_content">
-                <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >
-                 Maxwell Financial Services believes that our client’s success is our success.
-Maxwell Financial Services has over 23 years of professional financial services. Excellence. With our strong tenure in the financial services industry, focusing on the Australasian European markets our clients are secure and confident . We specialize in providing customized execution, clearing, and custody solutions to full-service firms and independent broker dealers.
-                    </span></p>
-                <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >
-We offer direct accounts and prime brokerage services to professional and institutional clients as well as high-profile individual investors. We offer clearing services to broker dealers that service both institutional and retail accounts. Fully disclosed clearing arrangements are available to all of our clients worldwide.
-                    </span></p>
-                <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >
-We believe that an advisor’s strength is his belief in innovation and his ability to turn a loss into an opportunity, and his capability to forecast success. Our focus is to ensure that the settlement process is time-saving, smooth running, and efficient reducing risk and giving you more time on your hands to spend on that matters most growing your client accounts.
-                    </span></p>
-                <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >
-Simplify your business operations by relying on all the services we will be providing you Maxwell Financial services understand that your success depends on the advisor client relationship.
-                    </span></p>
-                <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >
-                        Small and medium businesses are what runs the economy.</span></p>
-                <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >
-                        Our team is your team.</span></p>
-                <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >
-As our client, you are assured that we will always be on your side of the trade. We have but one goal, to prosper.
-                    </span></p>
-                <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >
-Maxwell Financial services office is comprised of a team of stockbrokers and financial planning professionals offering a comprehensive range of financial advice, incorporating stockbroking, financial planning, fixed interest, superannuation, insurance, estate planning, margin lending and SMSF Self-Managed Superannuation Fund advice.
-                    </span></p>
-                <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >
-We pride ourselves on offering clients professional and objective financial advice, as well as access to new IPO's and other opportunities.
-                    </span></p>
-                <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >
-Our advisers are supported by the firm's award-winning research team, as well as the corporate finance team, which has members based in the Melbourne, Sydney and London offices.
-                    </span></p>
-                <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >
-No matter what your investment requirements are, we can match you to an adviser who is best suited to your style of investment.
-                    </span></p>
-                <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >
-
-The Australian share market accounts for a mere 3% of global equities by market capitalisation. Investing in international shares though Maxwell Financial service allows you to access those opportunities which are unavailable at home and thereby diversify your portfolio.
-                        Maximising your profits in emerging markets.
-                    </span></p>
+                <p>Maxwell Financial Services believes that our client’s success is our success. Maxwell Financial Services has over 23 years of professional financial services.
+                    Excellence. With our strong tenure in the financial services industry, focusing on the Australasian European markets our clients are secure and confident . We specialize in providing customized execution, clearing, and custody solutions to full-service firms and independent broker dealers.
+                </p>
+                <p>We offer direct accounts and prime brokerage services to professional and institutional clients as well as high-profile individual investors. We offer clearing services to broker dealers that service both institutional and retail accounts. Fully disclosed clearing arrangements are available to all of our clients worldwide.
+                </p>
+                <p>We believe that an advisor’s strength is his belief in innovation and his ability to turn a loss into an opportunity, and his capability to forecast success. Our focus is to ensure that the settlement process is time-saving, smooth running, and efficient reducing risk and giving you more time on your hands to spend on that matters most growing your client accounts.
+                </p>
+                <p>Simplify your business operations by relying on all the services we will be providing you Maxwell Financial services understand that your success depends on the advisor client relationship.
+                </p>
+                <p>Small and medium businesses are what runs the economy.
+                </p>
+                <p>Our team is your team.
+                </p>
+                <p>As our client, you are assured that we will always be on your side of the trade. We have but one goal, to prosper.
+                </p>
+                <p>Maxwell Financial services office is comprised of a team of stockbrokers and financial planning professionals offering a comprehensive range of financial advice, incorporating stockbroking, financial planning, fixed interest, superannuation, insurance, estate planning, margin lending and SMSF Self-Managed Superannuation Fund advice.
+                </p>
+                <p>We pride ourselves on offering clients professional and objective financial advice, as well as access to new IPO's and other opportunities.
+                </p>
+                <p>Our advisers are supported by the firm's award-winning research team, as well as the corporate finance team, which has members based in the Melbourne, Sydney and London offices.
+                </p>
+                <p>No matter what your investment requirements are, we can match you to an adviser who is best suited to your style of investment.
+                The Australian share market accounts for a mere 3% of global equities by market capitalisation. Investing in international shares though Maxwell Financial service allows you to access those opportunities which are unavailable at home and thereby diversify your portfolio.
+                        Maximising your profits in emerging markets.</p>
+                </p>
 
                 <p><span style="font-size: 2.25em;">Discover Global Investing</span></p>
-                <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;">
-                    <span style="font-family:'Open Sans','Arial'; font-weight:300;" >
-Access global share markets – MFS clients can access shares listed on major markets in North America, Europe, Asia, South America, and various emerging markets across the globe. Your MFS Adviser has direct access to listed shares across all major international exchanges including:
-                         </span></p>
-                <ul style="font-family:'Open Sans','Arial'; font-weight:300;">
-                <li>US – New York Stock Exchange, NASDAQ</li>
-                <li>United Kingdom – London Stock Exchange</li>
-                <li>Japan – Tokyo Stock Exchange</li>
-                <li>Canada – Toronto Stock Exchange</li>
-                </ul>
+                <p>Access global share markets – MFS clients can access shares listed on major markets in North America, Europe, Asia, South America, and various emerging markets across the globe. Your MFS Adviser has direct access to listed shares across all major international exchanges including:
+                </p>
+                    <ul style="font-weight:300;">
+                        <li>US – New York Stock Exchange, NASDAQ</li>
+                        <li>United Kingdom – London Stock Exchange</li>
+                        <li>Japan – Tokyo Stock Exchange</li>
+                        <li>Canada – Toronto Stock Exchange</li>
+                    </ul>
 
-                <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" > 
-Foreign exchange – MFS will settle your foreign exchange obligations using your existing Australian bank account.  Our affiliation with XE gives you the capital needed at the spot market price if requested all keeping your working capital in AUD.  At the best possible exchange rate. You can also keep foreign currencies in your trading account for use at a later date. Hedging them against fluctuating markets
-                    </span></p>
+                <p>Foreign exchange – MFS will settle your foreign exchange obligations using your existing Australian bank account.  Our affiliation with XE gives you the capital needed at the spot market price if requested all keeping your working capital in AUD.  At the best possible exchange rate. You can also keep foreign currencies in your trading account for use at a later date. Hedging them against fluctuating markets
+                </p>
+
                 <p><span style="font-size: 2.25em;">What We Offer Institutional and Retail Clients</span></p>
-                <p style="margin:0.7em 0em 0em 0.5em;line-height:1.875;"><span style="font-family:'Open Sans','Arial'; font-weight:300;" >
-Funds management clients dealing with MFS Broking team can expect:
-                    </span></p>
-                <ul style="font-family:'Open Sans','Arial'; font-weight:300;">
-                <li>Access to some of the best analysts in the Australian small and mid-cap market</li>
-                <li>Exclusive access to company roadshows, meetings and events</li>
-                <li>Sought after invitations to site trips and company tours</li>
-                <li>Best trade execution and settlement</li>
-                <li>Weekly market reports</li>
-                <li>Priority access to Maxwell Financial Services arranged IPOs, placements and raisings</li>
-                </ul>
-                <br />
+                <p>Funds management clients dealing with MFS Broking team can expect:
+                </p>
+                <p>
+                    <ul style="font-weight:300;">
+                        <li>Access to some of the best analysts in the Australian small and mid-cap market</li>
+                        <li>Exclusive access to company roadshows, meetings and events</li>
+                        <li>Sought after invitations to site trips and company tours</li>
+                        <li>Best trade execution and settlement</li>
+                        <li>Weekly market reports</li>
+                        <li>Priority access to Maxwell Financial Services arranged IPOs, placements and raisings</li>
+                    </ul>
+                </p>
             </div>
-            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div style="clear:both;"></div>
-        </div>
     </div>
-    <div class=" visible-lg-block visible-sm-block visible-md-block visible-xs-block" style="clear: both;"></div>
 </div>
+
 <div class="ttr_index_html_row2 row">
     <div class="post_column col-lg-5 col-md-6 col-sm-6 col-xs-12">
         <div class="ttr_index_html_column20">
-            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><br style="line-height:1.375;" /><p style="line-height:1.375;" /></div>
-            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div style="clear:both;"></div>
         </div>
     </div>
-    <div class=" visible-xs-block" style="clear: both;"></div>
     <div class="post_column col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <div class="ttr_index_html_column21">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
@@ -133,8 +103,6 @@ Funds management clients dealing with MFS Broking team can expect:
                 </p>
                 <h2 style=" font-family: 'Open Sans', 'Arial'; margin:0.7em 0em 0em 0.5em;text-align:Right;line-height:1.375;"><br style="color:rgba(243,243,243,1);" />
                     <span><a href="resort" target="_self" class="btn btn-md btn-default">Read More</a></span></h2></div>
-{{--            <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>--}}
-{{--            <div style="clear:both;"></div>--}}
         </div>
     </div>
     <div class=" visible-sm-block visible-md-block visible-xs-block" style="clear: both;"></div>

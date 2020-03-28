@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $bodyClass='index';
-    return view('index',compact(['bodyClass']));
+    return view('indexbck',compact(['bodyClass']));
 
 });
 Route::get('/ExampleNavigation', function () {
@@ -28,7 +28,7 @@ Route::get('/ExampleNavigation', function () {
 
 });
 
-Route::get('/index', 'indexController@index');
+//Route::get('/index', 'indexController@index');
 Route::get('/mail', function(){
     return new NewUserWelcomeMail();
 });
