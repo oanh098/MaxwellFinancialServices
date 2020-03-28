@@ -17,7 +17,7 @@
                 <p> When it comes to the transition itself, we have a well mapped out onboarding process that supports all aspects of our clients business including
                     operational excellence, risk and growth.
                 </p>
-                <p>Our services team will help keep your firm and advisors informed of operational developments, resolve complex questions, and connect you to resources to ensure your business runs smoothly.
+                <p>Our services team will help keep your firm and advisors informed of operational developments, resolve complex questions, and connect you to updated version resources to ensure your business runs smoothly.
                 </p>
             </div>
     </div>

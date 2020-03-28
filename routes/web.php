@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $bodyClass='index';
-    return view('indexbck',compact(['bodyClass']));
+    return view('index',compact(['bodyClass']));
 
 });
 Route::get('/ExampleNavigation', function () {
