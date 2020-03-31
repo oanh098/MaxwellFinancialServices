@@ -27,7 +27,7 @@
             {{--            <div class="navbar-expand-sm navbar-collapse">--}}
             <div class="menu-center collapse navbar-collapse">
                 <!-- Right Side Of Navbar -->
-                <ul class="ttr_menu_items nav navbar-nav navbar-left "  style="padding-left: 30px; padding-top: 50px; ">
+                <ul class="ttr_menu_items nav navbar-nav navbar-left "  style="padding-left: 30px;">
                     <!-- Authentication Links -->
                     @guest
 

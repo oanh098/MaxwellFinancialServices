@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://maxwellfinancialservices.com/'),
+    'url' => env('APP_URL', 'maxwellfinancialservices.com'),
 
     'asset_url' => env('ASSET_URL', null),
 

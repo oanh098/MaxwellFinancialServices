@@ -33,8 +33,7 @@ class NewUserWelcomeMail extends Mailable
     public function build()
     {
 //        return $this->markdown('emails.welcome-mail');
-        return $this->from( 'auto@mail.com', 'Welcome new member from MaxwellFinancialServices')
-//        return $this->from( 'infor@maxwellfinancialservices.com', 'MaxwellFinancialServices')
+        return $this->from( 'auto@mail.com', 'Welcome from MaxwellFinancialServices')
             ->markdown('emails.welcome-mail')
             ->subject('Welcome mail from MaxwellFinancialServices');
     }

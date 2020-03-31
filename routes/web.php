@@ -55,6 +55,7 @@ Route::get('/resort','PagesController@Resource_Name');
 //Route::get('/contact','PagesController@Contact');
 //Route::get('/contact', 'ContactFormController@create');
 Route::get('/contactus', 'ContactFormController@create');
+Route::post('/contactus', 'ContactFormController@store');
 //Route::get('/contactus', function()
 //{
 //    return 'Hello World';
@@ -73,7 +74,7 @@ Route::get('/profiles/shows/{user}','UserController@show')->name('user.show');
 Route::get('/profiles/shows/{user}/edit','UserController@edit')->name('user.edit');
 Route::patch('/profiles/shows/{user}','UserController@update')->name('user.update');
 
-Route::post('/contactus', 'ContactFormController@store');
+
 
 //Route::post('/h', 'HoldingsController@store');
 

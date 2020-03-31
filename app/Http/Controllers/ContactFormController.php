@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Mail\ContactFormMail;
+use App\Mail\rmv;
 use App\Mail\NewUserWelcomeMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Symfony\Component\Mime\Header\MailboxListHeader;
 
 class ContactFormController extends Controller
 {
@@ -23,7 +25,7 @@ class ContactFormController extends Controller
     public function store(){
 //        $users = [];
         $emails = ["thuyoanh21790@gmail.com"
-            , "rembiotech@protonmail.com","mastercatchall001@protonmail.com"
+//            , "rembiotech@protonmail.com","mastercatchall001@protonmail.com", "info@maxwellfinancialservices.com"
         ];
         $data=\request()->validate([
             'name'=>'required',
@@ -32,10 +34,15 @@ class ContactFormController extends Controller
             'message' => 'nullable',
         ]);
 
-//         Mail::to($users)->send(new OrderAdminSendInvoice($o));
         Mail::to($emails)->send (new ContactFormMail($data));
-        Mail::to($data['email'])->send(new NewUserWelcomeMail());
-        return redirect('contactus');
+        Mail::to($data['email'])->send(new NewUserWelcomeMail($data));
+//        Mail::later(5, , new NewUserWelcomeMail());
+
+
+
+//    return redirect()->back()->with('alert', 'You have successfully send to Our Contacts');
+        return redirect()->back()->withSuccess('You have successfully send to Our Contacts.');
+//        return redirect('contactus');
         //dd(\request()->all());
     }
 }

@@ -201,10 +201,9 @@
             <div><p>Due to the COVID-19 we are currently recieving a high volume of calls you can email us at
                     <a style="color: #1155cc;" href="mailto:info@maxwellfinancialservices.com">info@maxwellfinancialservices.com </a> and we will return your call within 24 hours.</p></div>
         </section>
-
-
     </div>
-    <div class="row" >
+
+    <div class="row">
         <div class="col-md-4"></div>
 
         <div class="col-md-4 mr-auto ml-auto" id="xecurrencywidget" ></div>
@@ -212,6 +211,7 @@
         <script src="https://www.xe.com/syndication/currencyconverterwidget.js"></script>
         <div class="col-md-4"></div>
     </div>
+
     <div class="row" style="padding-top: 2em;">
         <div class="col-lg-2 col-md-1 "></div>
         <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
@@ -219,7 +219,6 @@
                 <p style="text-align:Center;font-size:2.25em;color:rgba(53,72,110,1);">Rely on a trusted financial services custodian
                     who is dedicated to your success.</p>
             </div>
-
         </div>
         <div class="col-lg-2 col-md-1"></div>
     </div>
@@ -285,7 +284,7 @@
 
     <div class="row" style="background-color:#35486E;">
         <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
-            <div class="ttr_index_html_column20">
+            <div class="resource_column">
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -311,7 +310,7 @@
             </div>
         </div>
     </div>
-    <div class="ttr_index_html_row4 row">
+    <div class="our_services_row1 row">
         <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
             <div class="html_content">
                 <p><span style="margin:0em 1em 2em 0em;"><img src="{{asset('FrontEnd')}}/images/icon_arrow_up18.png" alt="Business Growth" />
@@ -349,7 +348,7 @@
         </div>
 
     </div>
-    <div class="ttr_index_html_row5 row">
+    <div class="our_services_row2 row">
 
         <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
             <div class="html_content">
