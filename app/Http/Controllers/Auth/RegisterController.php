@@ -53,7 +53,7 @@ class RegisterController extends Controller
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'account_number' =>  ['string', 'max:255','nullable','unique:users'],
+//            'account_number' =>  ['string', 'max:255','nullable','unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ]);
     }
@@ -69,10 +69,11 @@ class RegisterController extends Controller
          $user= User::create([
             'name' => $data['name'],
             'email' => $data['email'],
-            'account_number' => $data['account_number'],
+//            'account_number' => $data['account_number'],
             'password' => Hash::make($data['password']),
         ]);
-        Mail::to($data['email'])->send(new NewUserWelcomeMail($user));
+//        Mail::to($data['email'])->send(new NewUserWelcomeMail($user));
+        Mail::to($data['email'])->send(new NewUserWelcomeMail());
         return $user;
 //        $id = auth()->user()->id;
 //        return '/holdings/'.$id;

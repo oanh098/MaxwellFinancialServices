@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-2" >
-                <img src="{{asset('frontEnd')}}/slideshowlogo.png" style="width: auto; height: 150px; margin-top: 15px;" ></div>
+                <img src="{{asset('FrontEnd')}}/slideshowlogo.png" style="width: auto; height: auto; margin-top: 25px;" ></div>
             <div class="col-md-1" ></div>
             <div class="col-md-8">
                 <div class="card">
