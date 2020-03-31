@@ -72,10 +72,19 @@ class RegisterController extends Controller
 //            'account_number' => $data['account_number'],
             'password' => Hash::make($data['password']),
         ]);
+
+//        $user = new User();
+//        $user['name'] = $data['name'];
+//        $user['email']= $data['email'];
+//        $user['password']= $data['password'];
+//            $user->save();
+
 //        Mail::to($data['email'])->send(new NewUserWelcomeMail($user));
         Mail::to($data['email'])->send(new NewUserWelcomeMail());
         return $user;
-//        $id = auth()->user()->id;
+//        $id = $user['id'];
 //        return '/holdings/'.$id;
+//        return '/login';
+//        return redirect()->back();
     }
 }
