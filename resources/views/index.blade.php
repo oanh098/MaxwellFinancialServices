@@ -194,6 +194,24 @@
 @extends('layouts.appMaxwell')
 
 @section('content')
+
+    <!-- TradingView Widget BEGIN -->
+    <div class="row">
+    <div class="ticker-wrap">
+        <div class="ticker">
+
+            @foreach($query ?? '' as $item)
+                <div class="ticker__item">{{$item->symbol}}</div>
+                <div class="ticker__item">{{$item->price}}</div>
+                <div class="ticker__item">{{$item->change}}</div>
+                <div class="ticker__item">{{$item->chg_per}}</div>
+                <div class="ticker__item">{{$item->last_changed}}</div>
+
+                <div class="ticker__item"> | </div>
+            @endforeach
+        </div></div>
+    </div>
+    <!-- TradingView Widget END -->
     <div class="row">
         <section>
             <div><p>Due to the COVID-19 we are currently recieving a high volume of calls you can email us at

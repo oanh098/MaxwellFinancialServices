@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use GuzzleHttp\Client;
 
 use Illuminate\Http\Request;
 
@@ -24,6 +25,14 @@ class HomeController extends Controller
     public function index()
     {
         $bodyClass='index';
-        return view('index', compact(['bodyClass']));
+
+        $client = new Client();
+        $response = $client->request('GET', 'https://fcsapi.com/api-v2/forex/latest?symbol=EUR/USD,USD/JPY,GBP/CHF&access_key=7agdt1BX2m6lGyGflYY4V1GdA0Hw7HiMIIRi66kDA3CFwAdLvG');
+        $arr = $response->getBody();
+        $queries = json_decode($arr);
+//        var_dump($queries->response);
+        $query=$queries->response;
+
+        return view('index', compact(['bodyClass','query']));
     }
 }

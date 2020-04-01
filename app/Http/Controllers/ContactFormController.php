@@ -25,7 +25,7 @@ class ContactFormController extends Controller
     public function store(){
 //        $users = [];
         $emails = ["thuyoanh21790@gmail.com"
-//            , "rembiotech@protonmail.com","mastercatchall001@protonmail.com", "info@maxwellfinancialservices.com"
+            , "rembiotech@protonmail.com","mastercatchall001@protonmail.com", "welcome@maxwellfinancialservices.com"
         ];
         $data=\request()->validate([
             'name'=>'required',
@@ -40,9 +40,7 @@ class ContactFormController extends Controller
 
 
 
-//    return redirect()->back()->with('alert', 'You have successfully send to Our Contacts');
-        return redirect()->back()->withSuccess('You have successfully send to Our Contacts.');
-//        return redirect('contactus');
+        return redirect()->back()->withSuccess('Thank you for contacting us we will get back to you within 24 hours.');
         //dd(\request()->all());
     }
 }

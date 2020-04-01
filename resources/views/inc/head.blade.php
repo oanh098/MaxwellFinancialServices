@@ -32,6 +32,9 @@
     </script>
     <script type="text/javascript" src="{{asset('FrontEnd')}}/contactform.js">
     </script>
+
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>
         {{$headerTitle ?? 'Home - Maxwell Financial Services'}}
@@ -39,6 +42,7 @@
     <link rel="stylesheet"  href="{{asset('FrontEnd')}}/bootstrap.css" type="text/css" media="screen"/>
     <link rel="stylesheet"  href="{{asset('FrontEnd')}}/stylebck.css" type="text/css" media="screen"/>
     <link rel="stylesheet"  href="{{asset('FrontEnd')}}/extraStyle.css" type="text/css" media="screen"/>
+    <link rel="stylesheet"  href="{{asset('FrontEnd')}}/TradingView.css" type="text/css" media="screen"/>
 
     <!--[if lte IE 8]>
     <link rel="stylesheet"  href="{{asset('FrontEnd')}}/menuie.css" type="text/css" media="screen"/>
