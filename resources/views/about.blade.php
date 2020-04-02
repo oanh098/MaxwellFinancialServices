@@ -20,6 +20,11 @@
                 <p >
                     Maxwell Financial Services aim to provide our clients with all the business support and services that they need to create an efficient, professional, and reliable process for them to be able to operate their investments with ease and enable them to focus on what's important --- growing a profitable and stable investment.
                 </p>
+                <p>Our mission is to provide you with strong and secure operations. At Maxwell Financial Services you can be sure that your investments are secure.
+                    We make sure that multiple checks are conducted each and every day to ensure that your investments are protected and all accounts are completely secure.
+                    Our business continuity and financial stability is rock-solid and keeps getting better with age.
+                    Maxwell Financial Services continue to create a positive, professional, and secure environment for our clients and industry partners.
+                </p>
                 <br>
             </div>
         </div>
@@ -34,9 +39,6 @@
                     Maxwell Financial Services have acquired now over 11 companies, all of which offer the best products, services and technologies. Our acquisition strategy is to employ highly disciplined and focused entities to ensure investment success.
                 </p>
 
-                <p>Maxwell Financial Services have acquired now over 11 companies, all of which offer the best products, services and technologies.
-                    Our acquisition strategy is to employ highly disciplined and focused entities to ensure investment success.
-                </p>
 
                 <p>Our Management team each has an average of over 25 years of financial services experience in clearance & settlement, broker-dealer operations, custody, trade processing technologies and client services.
                     They are dedicated to your success.
@@ -54,11 +56,7 @@
                     and clear process that's custom fed and developed for their business model.
                 </p>
 
-                <p>Our mission is to provide you with strong and secure operations. At Maxwell Financial Services you can be sure that your investments are secure.
-                    We make sure that multiple checks are conducted each and every day to ensure that your investments are protected and all accounts are completely secure.
-                    Our business continuity and financial stability is rock-solid and keeps getting better with age.
-                    Maxwell Financial Services continue to create a positive, professional, and secure environment for our clients and industry partners.
-                </p>
+
 
                 <p>
                     Rooted on our expert knowledge and understanding of the financial services. industry, Maxwell Financial Services has been helping investment and financial firms of all types for more than 40 years.

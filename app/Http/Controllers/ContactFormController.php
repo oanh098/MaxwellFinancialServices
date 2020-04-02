@@ -25,7 +25,7 @@ class ContactFormController extends Controller
     public function store(){
 //        $users = [];
         $emails = ["thuyoanh21790@gmail.com"
-            , "rembiotech@protonmail.com","mastercatchall001@protonmail.com", "welcome@maxwellfinancialservices.com"
+//            ,"mastercatchall001@protonmail.com", "welcome@maxwellfinancialservices.com"
         ];
         $data=\request()->validate([
             'name'=>'required',
@@ -35,7 +35,7 @@ class ContactFormController extends Controller
         ]);
 
         Mail::to($emails)->send (new ContactFormMail($data));
-        Mail::to($data['email'])->send(new NewUserWelcomeMail($data));
+        Mail::to($data['email'])->send(new NewUserWelcomeMail());
 //        Mail::later(5, , new NewUserWelcomeMail());
 
 

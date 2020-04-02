@@ -1,15 +1,14 @@
 <footer id="ttr_footer">
     <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class="html_content"><p />
-                        <p />
-                        <p style="margin:1em 1.25em 1em 1em;color:rgba(255,255,255,1);">
+                    <div class="html_content">
+                        <p style="margin:1em 1em 1em 1em;color:rgba(255,255,255,1); padding-top: 1.5em">
                                 <span>
                                     <img style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/Location-Icon716.png" alt="location" />
                                 </span>
                             <span>Head Office Melbourne:</span>
                             <br />
-                            <span >Collins Street Level 3, 480 Collins Street Melbourne VIC 3000 </span>
+                            <span style="padding-left: 2.5em;">Collins Street Level 3, 480 Collins Street Melbourne VIC 3000 </span>
                             <br />
                             <span style="padding-left: 2.5em">Contact Number: +61 390 711 898</span> </span>
                         </p>
@@ -20,24 +19,23 @@
                                 </span>
                             <span>SYDNEY:</span>
                             <br />
-                            <span >33 Australia Square 264 George St, Sydney NSW 2000</span>
+                            <span style="padding-left: 2.5em">33 Australia Square 264 George St, Sydney NSW 2000</span>
                             <br />
                             <span style="padding-left: 2.5em">Contact Number: +61 291 583 232 </span> </span>
                         </p>
 
-                        <p style="margin:0em 0em 2.5em 1em;">
-                            <span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 1.25em 0em 0em;">
+                        <p style="margin:1em 1.25em 1em 1em;color:rgba(255,255,255,1);">
                                 <span>
-                                    <img class="ttr_uniform" style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/Location-Icon716.png" alt="mail" />
+                                    <img style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/Location-Icon716.png" alt="location" />
                                 </span>
-                            </span>
-                            <span style="color:rgba(255,255,255,1);">LONDON:</span>
-                            <br style="font-weight:500;font-size:1em;color:rgba(255,255,255,1); " />
-                            <span style="color:rgba(255,255,255,1); ">1 Royal Exchange Avenue, London EC3V 3LT </span>
-                            <br style="font-weight:500;font-size:1em;color:rgba(255,255,255,1); " />
-                            <span style="color:rgba(255,255,255,1);margin: 0em 0em 0em 1em ">Contact Number: +44 330 027 2008 </span>
+                            <span>LONDON:</span>
+                            <br />
+                            <span style="padding-left: 2.5em">1 Royal Exchange Avenue, London EC3V 3LT</span>
+                            <br />
+                            <span style="padding-left: 2.5em">Contact Number:+44 330 027 2008 </span> </span>
                         </p>
-                    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
+
+
                 </div>
             </div>
 
