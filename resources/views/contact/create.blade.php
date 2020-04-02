@@ -1,7 +1,7 @@
 @extends('layouts.appMaxwell')
 @section('content')
     <div class="ttr_liabilities-management_html_row0 row">
-        <div class="post_column col-lg-12 col-md-10 col-sm-10 col-xs-12">
+        <div class=" col-lg-12 col-md-10 col-sm-10 col-xs-12">
             <div class="ttr_liabilities-management_html_column00">
                 <div class="html_content"><br style="line-height:1.375;" /><p style="margin:0.12em 0em 0em 0.5em;line-height:1.375;">
                     <div class="contactformdiv" style="margin:10px 10px 10px 10px;">
@@ -42,11 +42,12 @@
                                 </div>
                             </div>
 
-                            <div class="success" style="text-align: center">
+                            <div class="success" style="text-align: center; font-size: 1.5em;">
                                 @if(session('success'))
                                     <p>{{session('success')}}</p>
                                 @endif
                             </div>
+
 
 
 

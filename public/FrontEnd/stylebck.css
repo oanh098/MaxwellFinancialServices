@@ -3790,10 +3790,7 @@ select, select.form-control,select:focus, select.form-control:focus
     background:white;height:auto;}
 .form-horizontal .control-label
 {
-    font-size:14px;
-    font-family:"Hind","Arial";font-weight:400;
     font-style:normal;
-    color:#333333;
     text-shadow:none;
     text-align:left;
     text-decoration:none;
