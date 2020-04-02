@@ -33,6 +33,6 @@ class HomeController extends Controller
 ////        var_dump($queries->response);
 //        $query=$queries->response;
 
-        return view('index', compact(['bodyClass'));
+        return view('index', compact(['bodyClass']));
     }
 }
