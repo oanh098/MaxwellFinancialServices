@@ -26,13 +26,13 @@ class HomeController extends Controller
     {
         $bodyClass='index';
 
-        $client = new Client();
-        $response = $client->request('GET', 'https://fcsapi.com/api-v2/forex/latest?symbol=EUR/USD,USD/JPY,GBP/CHF&access_key=7agdt1BX2m6lGyGflYY4V1GdA0Hw7HiMIIRi66kDA3CFwAdLvG');
-        $arr = $response->getBody();
-        $queries = json_decode($arr);
-//        var_dump($queries->response);
-        $query=$queries->response;
+//        $client = new Client();
+//        $response = $client->request('GET', 'https://fcsapi.com/api-v2/forex/latest?symbol=EUR/USD,USD/JPY,GBP/CHF&access_key=7agdt1BX2m6lGyGflYY4V1GdA0Hw7HiMIIRi66kDA3CFwAdLvG');
+//        $arr = $response->getBody();
+//        $queries = json_decode($arr);
+////        var_dump($queries->response);
+//        $query=$queries->response;
 
-        return view('index', compact(['bodyClass','query']));
+        return view('index', compact(['bodyClass'));
     }
 }

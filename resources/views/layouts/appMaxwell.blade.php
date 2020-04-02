@@ -12,6 +12,70 @@
 
 <div ></div>
 <div id="ttr_page" class="container">@include('cookieConsent::index')
+<!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+            {
+                "symbols": [
+                {
+                    "description": "",
+                    "proName": "CURRENCYCOM:NDAQ"
+                },
+                {
+                    "description": "",
+                    "proName": "FOREXCOM:AUDUSD"
+                },
+                {
+                    "description": "",
+                    "proName": "NASDAQ:NDAQ"
+                },
+                {
+                    "description": "",
+                    "proName": "MYX:SP500-CJ"
+                },
+                {
+                    "description": "",
+                    "proName": "LSE:LSE"
+                },
+                {
+                    "description": "",
+                    "proName": "ASX:YQFN"
+                },
+                {
+                    "description": "",
+                    "proName": "ASX:YQFN"
+                },
+                {
+                    "description": "",
+                    "proName": "FX_IDC:USDAUD"
+                },
+                {
+                    "description": "",
+                    "proName": "ASX:WBC"
+                },
+                {
+                    "description": "",
+                    "proName": "ASX:ANZ"
+                },
+                {
+                    "description": "",
+                    "proName": "ASX:CBA"
+                },
+                {
+                    "description": "",
+                    "proName": "ASX:NAB"
+                }
+            ],
+                "colorTheme": "light",
+                "isTransparent": false,
+                "displayMode": "adaptive",
+                "locale": "en"
+            }
+        </script>
+    </div>
+    <!-- TradingView Widget END -->
 
     @if($bodyClass =='index')
         @include('inc.slideShow')
