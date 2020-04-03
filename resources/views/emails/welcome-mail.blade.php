@@ -1,9 +1,11 @@
 <!doctype html>
-<html ⚡4email>
+{{--<html ⚡4email>--}}
+<html>
 <head>
     <meta charset="utf-8">
     <style amp4email-boilerplate>
-        body{visibility:hidden}
+        body
+        /*{visibility:hidden}*/
     </style>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
 
@@ -358,7 +360,8 @@
                                                     </table>
                                                 </td>
                                             </tr>
-                                        </table></td>
+                                        </table>
+                                    </td>
                                 </tr>
                             </table>
                         </td>
@@ -606,3 +609,10 @@
 </body>
 </html>
 {{-- --}}
+
+
+
+
+
+
+
