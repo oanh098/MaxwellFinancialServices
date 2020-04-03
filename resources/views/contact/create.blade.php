@@ -6,6 +6,12 @@
                 <div class="html_content"><br style="line-height:1.375;" /><p style="margin:0.12em 0em 0em 0.5em;line-height:1.375;">
                     <div class="contactformdiv" style="margin:10px 10px 10px 10px;">
                         <form id="ContactForm5" class="form-horizontal" role="form" method="post" action="/contactus" style="float:left;width:100%;">
+                            <div class="success" style="text-align: center; font-size: 1.5em;">
+                                @if(session('success'))
+                                    <p>hello {{session('success')}}</p>
+                                @endif
+                            </div>
+
                             <div class="form-group">
                                 <label class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Name</label>
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
@@ -41,15 +47,6 @@
                                     <input type="submit" class="pull-left btn btn-md btn-default" id="submitform" name="submit" value="Send Message" />
                                 </div>
                             </div>
-
-                            <div class="success" style="text-align: center; font-size: 1.5em;">
-                                @if(session('success'))
-                                    <p>{{session('success')}}</p>
-                                @endif
-                            </div>
-
-
-
 
                             <div class="req_field"></div>
                         </form>
