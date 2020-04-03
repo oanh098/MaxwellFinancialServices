@@ -12,20 +12,20 @@
 
 <div ></div>
 <div id="ttr_page" class="container">@include('cookieConsent::index')
+
 <!-- TradingView Widget BEGIN -->
     <div class="tradingview-widget-container">
         <div class="tradingview-widget-container__widget"></div>
-
         <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
             {
                 "symbols": [
                 {
                     "description": "",
-                    "proName": "CURRENCYCOM:NDAQ"
+                    "proName": "ASX:XAT"
                 },
                 {
                     "description": "",
-                    "proName": "FOREXCOM:AUDUSD"
+                    "proName": "NASDAQ:IXIC"
                 },
                 {
                     "description": "",
@@ -38,10 +38,6 @@
                 {
                     "description": "",
                     "proName": "LSE:LSE"
-                },
-                {
-                    "description": "",
-                    "proName": "ASX:YQFN"
                 },
                 {
                     "description": "",
