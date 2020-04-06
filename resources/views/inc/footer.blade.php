@@ -31,13 +31,13 @@
                     <div class="html_content">
 
                         <p style="margin:0em 0em 0em 2.5em; padding-top: 3em"><span style="font-weight:500;font-size:1em;color:rgba(255,255,255,1);">ABOUT US</span></p>
-                        <p style="margin:0.31em 0em 0.31em 2.5em;"><span style="font-family:'Open Sans','Tahoma';color:rgba(243,243,243,1);">Maxwell Financial Services aim to provide our clients with all the business support and services that they need to create an efficient, professional, and reliable process for them to be able to operate the business with ease and enable them to focus on what's important
+                        <p style="margin:0.31em 0em 0.31em 2.5em;"><span style="color:rgba(243,243,243,1);">Maxwell Financial Services aim to provide our clients with all the business support and services that they need to create an efficient, professional, and reliable process for them to be able to operate the business with ease and enable them to focus on what's important
                                 --- growing a profitable and stable investment strategy.</span></p><br style="margin:0.62em 0em 0em 2.5em;line-height:1.5625;" /></div>
             </div>
             <div class="col-lg-4 col-md-3 col-sm-3 col-xs-12">
                     <div class="html_content">
                         <p style="text-indent:20px;margin:0em 0em 0em 1.25em; padding-top: 3em">
-                            <span style="font-weight:500;font-size:1em;color:rgba(255,255,255,1);">GET IN TOUCH:  <a style="color: #1155cc;"
+                            <span style="font-size:1em;color:rgba(255,255,255,1);">GET IN TOUCH:  <a style="color: #1155cc;"
                                     href="mailto:info@maxwellfinancialservices.com">info@maxwellfinancialservices.com</a>
                             </span>
                         </p>
@@ -53,7 +53,7 @@
 
             <div id="ttr_footer_designed_by_links">
                 <span >
-                © 2012-2020 Maxwell Financial Services . Privacy
+                © 2012-2020 Maxwell Financial Services. ABN 76 758 983 802. Privacy
                 </span>
             </div>
         </div>
