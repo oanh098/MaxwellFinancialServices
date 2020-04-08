@@ -75,14 +75,14 @@
                         <a href="index" class="ttr_menu_items_parent_link_active nav-link">
                             {{--                            <span class="menuchildicon"></span>--}}
                             Home</a>
-                        <hr class ="horiz_separator"/>
+{{--                        <hr class ="horiz_separator"/>--}}
                     </li> <!-- main menu list closing -->
 
                     <li class="ttr_menu_items_parent nav-item ">
                         <a href="about" class="ttr_menu_items_parent_link nav-link">
                             {{--                            <span class="menuchildicon"></span>--}}
                             About Us</a>
-                        <hr class ="horiz_separator"/>
+{{--                        <hr class ="horiz_separator"/>--}}
                     </li> <!-- main menu list closing -->
 
                     <li class="ttr_menu_items_parent nav-item dropdown" >
@@ -115,7 +115,6 @@
                             <li><a class="dropdown-item" href="product-solutions">
                                     {{--                                    <span class="menuchildicon"></span>--}}
                                     Wills & Power of Attorneys Estate Planning</a>
-                                <hr class ="separator"/>
                             </li> <!-- 1st level child list closing -->
 
                             <li><a class="dropdown-item" href="transition-services">

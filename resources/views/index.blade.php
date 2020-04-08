@@ -65,7 +65,7 @@
                 <p><span style="font-size: 2.25em;">Discover Global Investing</span></p>
                 <p>Access global share markets – MFS clients can access shares listed on major markets in North America, Europe, Asia, South America, and various emerging markets across the globe. Your MFS Adviser has direct access to listed shares across all major international exchanges including:
                 </p>
-                <ul style="font-weight:300;  margin-left: 25px;">
+                <ul style="margin-left: 0.5em;">
                     <li>US – New York Stock Exchange, NASDAQ</li>
                     <li>United Kingdom – London Stock Exchange</li>
                     <li>Japan – Tokyo Stock Exchange</li>
@@ -79,7 +79,7 @@
                 <p>Funds management clients dealing with MFS Broking team can expect:
                 </p>
                 <p>
-                <ul style="font-weight:300;  margin-left: 25px;">
+                <ul style= "margin-left: 0.5em;">
                     <li>Access to some of the best analysts in the Australian small and mid-cap market</li>
                     <li>Exclusive access to company roadshows, meetings and events</li>
                     <li>Sought after invitations to site trips and company tours</li>
@@ -94,8 +94,8 @@
 
     <div class="row" style="background-color:#35486E;">
         <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
-            <div class="resource_column">
-            </div>
+            <div style="padding-right: 2em;padding-left: 2em">
+               <img src="{{asset('FrontEnd')}}/images/1891930544html_column20.jpg" alt="" class="img-resouce" ></div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <div class="ttr_index_html_column21">
@@ -120,7 +120,7 @@
             </div>
         </div>
     </div>
-    <div class="our_services_row1 row">
+    <div class="row" style="padding-left: 4em; padding-right: 4em">
         <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
             <div class="html_content">
                 <p><span style="margin:0em 1em 2em 0em;"><img src="{{asset('FrontEnd')}}/images/icon_arrow_up18.png" alt="Business Growth" />
@@ -158,7 +158,7 @@
         </div>
 
     </div>
-    <div class="our_services_row2 row">
+    <div class="row" style="padding-left: 4em; padding-right: 4em">
 
         <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
             <div class="html_content">

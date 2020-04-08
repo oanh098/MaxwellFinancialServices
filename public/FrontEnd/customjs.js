@@ -76,9 +76,10 @@ $('#navigationmenu .ttr_menu_items.nav.navbar-nav.navbar-right a')
         var parentTag = $( this ).get( 0 );
         $('#navigationmenu .ttr_menu_items.nav.navbar-nav.navbar-right')
             .find('li.ttr_menu_items_parent.nav-item.active').removeClass('active');
-        // alert ('hi: ') + parentTag.nodeName;
-        $(this).parent('li.ttr_menu_items_parent.nav-item').addClass('active');
 
+        $(this).parent('li.ttr_menu_items_parent.nav-item').addClass('active');
+        // alert ('hi: ') + $(event.target).text();
+        // console.log($(this.target).text());
        // $(this).addClass('active');
        //
         // alert ('hi: ' .  $(this));
