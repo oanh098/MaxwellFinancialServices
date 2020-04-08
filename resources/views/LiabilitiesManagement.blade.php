@@ -2,9 +2,51 @@
 @section('content')
 
 
+        <div class="trailer" >
+        <div class="row" >
+             <div class="col-lg-10 col-md-10 col-sm-12">
+                 <img src="{{asset('FrontEnd')}}/images/img-FixedTermDeposits.jpg" style="max-width: 800px;"  alt="" >
+                 <img src="{{asset('FrontEnd')}}/images/close.png"  alt="" style="position: absolute; left: 110%; top: 1%" onclick="toggle()">
+             </div>
+        </div>
+        <div class="row" >
 
-    <div class="row" >
-        <div align="right" style="padding-left: 80%"><a style="color: #1155cc; " href="https://vimeo.com/393155428">Click here for current rate.</a></div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+
+                <iframe src="https://player.vimeo.com/video/393155428?title=0&byline=0&portrait=0"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+
+                <iframe src="https://player.vimeo.com/video/393134816" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+                <iframe src="https://player.vimeo.com/video/393086629?title=0&byline=0&portrait=0"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+            </div>
+
+        </div>
+        </div>
+{{--        <div class="trailer">--}}
+{{--            <video src="https://vimeo.com/393155428" controls="true"></video>--}}
+{{--            <img src="close.png" class="close" alt="" onclick="toggle()">--}}
+{{--            <h2>Popup</h2>--}}
+
+{{--            <div class="popup" onclick="myFunction()">Click me to toggle the popup!--}}
+{{--                <span class="popuptext" id="myPopup">A Simple Popup!</span>--}}
+{{--            </div>--}}
+
+
+{{--        </div>--}}
+        <div class="row" > <div class="col-lg-10 col-md-9 col-sm-8 col-xs-9" ></div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-9" >
+{{--        <div align="right" style="right: 0" >--}}
+            <a style="color: #1155cc;" onclick="toggle()">Click here for current rate.</a>
+{{--        </div>--}}
+        </div></div>
+        <div class="row" >
         <section>
             <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply. </span></p></div>
             <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply.</span> </p></div>

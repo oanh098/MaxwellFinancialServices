@@ -939,9 +939,10 @@ and (max-width : 767px)
     font-size:3em;
     align-self: end;
     margin-right: auto;
-    padding-left: 3em;
-    padding-top: 1em;
+    padding-left: 1em;
+    padding-top: 0.5em;
     color: black;
+    max-height: 306px;
 
 }
 
@@ -960,6 +961,8 @@ and (max-width : 1024px)
         text-align: center;
         line-height: 1.3em;
         color: black;
+        padding-left: 1em;
+        padding-top: 0;
     }
 }
 

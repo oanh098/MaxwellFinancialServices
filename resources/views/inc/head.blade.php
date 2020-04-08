@@ -30,6 +30,8 @@
     </script>
     <script type="text/javascript" src="{{asset('FrontEnd')}}/customjs.js">
     </script>
+    <script type="text/javascript" src="{{asset('FrontEnd')}}/extraJS.js">
+    </script>
     <script type="text/javascript" src="{{asset('FrontEnd')}}/contactform.js">
     </script>
 

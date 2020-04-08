@@ -32,6 +32,15 @@ footer {
 .navbar-default {
     border-color: transparent;
 }
+
+.liabilities-management .navbar-default {
+    background-color: #FFFFFF;
+    background: rgba(255,255,255,1);
+    background-clip: padding-box;
+    margin: 0 0 0 0;
+    padding-top: 20px;
+    padding-bottom: 40px;}
+
 #ttr_page
 {
     min-width: 20px;
@@ -214,10 +223,7 @@ and (max-width : 1024px)
     }
 }
 
-@media only screen and (max-width: 767px) and (min-width: 150px){
-    #navigationmenu .navbar-header {
-        position: relative;
-    }}
+
 
 @media only screen
 and (max-width : 767px)
@@ -232,6 +238,10 @@ and (max-width : 767px)
         background-repeat: no-repeat;
 
         margin-bottom: 1em;
+
+        height: auto;
+        min-height: 50px;
+        box-sizing: border-box;
     }
 }
 
@@ -355,16 +365,19 @@ and (max-width : 767px)
 }
 
 
-@media only screen and (max-width: 767px){
+
+
+.liabilities-management .ttr_liabilities-management_html_row0 {
+    padding: 25px 100px 100px 100px;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 150px)
+and (max-width : 767px) {
     .liabilities-management .ttr_liabilities-management_html_row0 {
         padding: 0 10px 20px 10px;
     }
 }
-
-    .liabilities-management .ttr_liabilities-management_html_row0 {
-        padding: 25px 100px 100px 100px;
-    }
-
 #nav-expander .ttr_menu_toggle_button {
     display: inline-block;
 }
@@ -383,3 +396,15 @@ nav#ttr_menu .icon-bar {
     border-color: #35B5EB;
     height: 2px;
 }}
+
+
+/*menu*/
+@media only screen and (max-width: 767px){
+    .container {
+        overflow: visible!important;
+        width: 100%;
+    }}
+.ttr_menu_element_alignment {
+    position: absolute;
+    height: 100%;
+}
