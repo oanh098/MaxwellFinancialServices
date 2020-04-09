@@ -4,30 +4,34 @@
 
         <div class="trailer" >
         <div class="row" >
-             <div class="col-lg-10 col-md-10 col-sm-12">
-                 <img src="{{asset('FrontEnd')}}/images/img-FixedTermDeposits.jpg" style="max-width: 800px;"  alt="" >
-                 <img src="{{asset('FrontEnd')}}/images/close.png"  alt="" style="position: absolute; left: 110%; top: 1%" onclick="toggle()">
+             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                 <img src="{{asset('FrontEnd')}}/images/img-FixedTermDeposits.jpg" class="FDA-bannerimg"  alt="" >
+                 <img src="{{asset('FrontEnd')}}/images/return.png"  alt=""  class="close-img" style="" onclick="toggle()">
              </div>
         </div>
+
+{{--            </div>--}}
         <div class="row" >
 
-            <div class="col-lg-4 col-md-6 col-sm-10">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6  flex-video-title" >
+                Fixed term deposit
 
                 <iframe src="https://player.vimeo.com/video/393155428?title=0&byline=0&portrait=0"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-10">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 flex-video-title" >Our offices
 
                 <iframe src="https://player.vimeo.com/video/393134816" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-10">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 flex-video-title">  Why choose us
                 <iframe src="https://player.vimeo.com/video/393086629?title=0&byline=0&portrait=0"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
             </div>
 
         </div>
+
         </div>
 {{--        <div class="trailer">--}}
 {{--            <video src="https://vimeo.com/393155428" controls="true"></video>--}}

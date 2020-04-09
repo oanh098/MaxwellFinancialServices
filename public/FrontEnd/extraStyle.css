@@ -93,12 +93,10 @@ section div p{
 }
 
 
-
-
 /* pop up*/
 .trailer{
     position: fixed;
-    top: 50%;
+    /*top: 50%;*/
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10000;
@@ -114,31 +112,90 @@ section div p{
     visibility: hidden;
     opacity: 0;
 }
-.trailer.active{
+ .active{
     visibility: visible;
     opacity: 1;
 }
-.trailer video{
+.trailer iframe{
     position: relative;
-    max-width: 900px;
+    max-width: 800px;
     outline: none;
 }
-    /*.trailer img{*/
-    /*    position: relative;*/
-    /*    max-width: 900px;*/
-    /*    align-items: center;*/
-    /*    outline: none;*/
-    /*}*/
+.FDA-bannerimg{
+    position: relative;
+    max-width: 900px;
+    /*align-items: center;*/
+    outline: none;
+}
 .close-img {
     position: absolute;
     /*top: 20px;*/
     cursor:pointer;
     filter: invert(1);
     max-width: 32px;
+    left: 95%;
+    top: 7%;
 }
-@media (max-width:  991px) {
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
 
-    .trailer video{
-        max-width: 90%;
+
+
+.row .flex-video-title
+{
+    display: flex; flex-direction: column;
+    text-align: center;
+    font-size: 1.2em;
+    color: whitesmoke;
+    align-items: center;
+}
+
+
+@media (max-width: 767px) {
+
+    .trailer iframe{
+        max-width: 80%;
     }
+
+    .trailer .row .FDA-bannerimg{
+        max-width: 85%;
+    }
+    .row .flex-video-title
+    {
+        font-size: 0.9em;
+    }
+    .close-img {
+        left: 71%;
+        top: 4%;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+/*//CSS*/
+    .trailer .row .FDA-bannerimg{
+        max-width: 80%;
+        left: 2%;
+    }
+    /*.trailer*/
+    /*{*/
+
+    /*    top: 45%;*/
+    /*    left: 50%;*/
+    /*}*/
+
+    .close-img {
+        left: 67%;
+        top: 1%;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 150px){
+
 }
