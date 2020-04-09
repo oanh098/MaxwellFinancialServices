@@ -4,7 +4,7 @@
 
         <div class="trailer" >
         <div class="row" >
-             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="align-items: center; justify-content: center">
                  <img src="{{asset('FrontEnd')}}/images/img-FixedTermDeposits.jpg" class="FDA-bannerimg"  alt="" >
                  <img src="{{asset('FrontEnd')}}/images/return.png"  alt=""  class="close-img" style="" onclick="toggle()">
              </div>

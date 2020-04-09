@@ -150,13 +150,23 @@ section div p{
     font-size: 1.2em;
     color: whitesmoke;
     align-items: center;
+    justify-content: center;
 }
 
 
 @media (max-width: 767px) {
 
     .trailer iframe{
-        max-width: 80%;
+        /*max-width: 65%;*/
+        /*<iframe src="https://player.vimeo.com/video/393155428?byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>*/
+        /*<p><a href="https://vimeo.com/393155428">MFS Fixed Term Deposit</a> from <a href="https://vimeo.com/user108873629">MaxwellFinancialServices</a> on <a href="https://vimeo.com">Vimeo</a>.</p>*/
+
+        width:150px;
+        height:84px;
+
+    }
+    .trailer{
+        justify-content: flex-start;
     }
 
     .trailer .row .FDA-bannerimg{
@@ -181,8 +191,8 @@ section div p{
 
 /*//CSS*/
     .trailer .row .FDA-bannerimg{
-        max-width: 80%;
-        left: 2%;
+        max-width: 62%;
+        /*left: 2%;*/
     }
     /*.trailer*/
     /*{*/
@@ -195,6 +205,8 @@ section div p{
         left: 67%;
         top: 1%;
     }
+
+    
 }
 @media only screen and (max-width: 1024px) and (min-width: 150px){
 
