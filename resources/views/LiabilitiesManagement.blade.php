@@ -47,7 +47,7 @@
         <div class="row" > <div class="col-lg-10 col-md-9 col-sm-8 col-xs-9" ></div>
             <div class="col-lg-2 col-md-3 col-sm-4 col-xs-9" >
 {{--        <div align="right" style="right: 0" >--}}
-            <a style="color: #1155cc;" onclick="toggle()">Click here for current rate.</a>
+            <a style="color: #1155cc; background-color: yellow;" onclick="toggle()">Click here for current rate.</a>
 {{--        </div>--}}
         </div></div>
         <div class="row" >
