@@ -25,7 +25,7 @@
                 <iframe src="https://player.vimeo.com/video/393134816" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 flex-video-title">  Why choose us
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 flex-video-title">  Why choose us?
                 <iframe src="https://player.vimeo.com/video/393086629?title=0&byline=0&portrait=0"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
             </div>
