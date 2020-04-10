@@ -191,19 +191,18 @@ section div p{
 
 /*//CSS*/
     .trailer .row .FDA-bannerimg{
-        max-width: 50%;
-        align-items: flex-start;
+        max-width: 62%;
+        /*left: 2%;*/
     }
-    /*.trailer*/
-    /*{*/
+    .trailer
+    {
 
-    /*    top: 45%;*/
-    /*    left: 50%;*/
-    /*}*/
+       /*justify-content: flex-start;*/
+    }
 
     .close-img {
-        left: 69%;
-        top: 2%;
+        left: 67%;
+        top: 1%;
     }
 
 
