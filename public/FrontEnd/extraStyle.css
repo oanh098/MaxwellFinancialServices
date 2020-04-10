@@ -210,3 +210,19 @@ section div p{
 @media only screen and (max-width: 1024px) and (min-width: 150px){
 
 }
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {
+    /* insert styles here */
+    .trailer {
+        top: 50%;
+    }
+    .FDA-bannerimg{
+        max-width: 60%;
+    }
+    .close-img{
+        left: 75%;
+        top: 6%;
+    }
+}
+
+
