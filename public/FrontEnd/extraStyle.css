@@ -147,12 +147,19 @@ section div p{
 {
     display: flex; flex-direction: column;
     text-align: center;
+    font-size: 2.3em;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+}
+.flex-video-title-3video{
+    display: flex; flex-direction: column;
+    text-align: center;
     font-size: 1.2em;
     color: whitesmoke;
     align-items: center;
     justify-content: center;
 }
-
 
 @media (max-width: 767px) {
 
@@ -161,8 +168,10 @@ section div p{
         /*<iframe src="https://player.vimeo.com/video/393155428?byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>*/
         /*<p><a href="https://vimeo.com/393155428">MFS Fixed Term Deposit</a> from <a href="https://vimeo.com/user108873629">MaxwellFinancialServices</a> on <a href="https://vimeo.com">Vimeo</a>.</p>*/
 
-        width:150px;
-        height:84px;
+        /*width:150px;*/
+        /*height:84px;  */
+        width:auto;
+        height:auto;
 
     }
     .trailer{

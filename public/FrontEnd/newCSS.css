@@ -29,7 +29,7 @@ footer {
     display: none;
     z-index:999;
 }
-.navbar-default {
+ .navbar-default, .navbar-default .navbar-collapse{
     border-color: transparent;
 }
 
@@ -63,6 +63,21 @@ footer {
     background-position: 9% 74%, 10% 99%,10% 99%, 5% 10%;
     background-repeat: no-repeat, no-repeat,no-repeat, no-repeat;
 }
+
+@media only screen and (max-width: 767px) {
+    .ttr_slideshow_in {
+        height: 520px;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        pointer-events: none;
+        background-image: url(images/stickyslideshowforeground01.png), url(images/stickyslideshowforeground02.png), url(images/stickyslideshowforeground02.png), url(slideshowlogo.png);
+        background-size: 50% auto, 50% auto, 50% auto, 60% auto;
+        background-position: 15% 8%, 15% 50%, 15% 50%, 7% 23%;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    }
+}
+
 #ttr_slideshow_inner {
     height: 520px;
     position: absolute;
@@ -77,7 +92,11 @@ footer {
     height: 520px;
     width: 100%;
 }
-
+@media only screen and (max-width: 767px){
+    .ttr_slide {
+        height: 320px;
+        width: 100%;
+    }}
 #Slide0 {
     background: linear-gradient(to top, rgba(255,255,255,0) 80% , rgba(255,255,255,1)) ,linear-gradient(to left, rgba(255,255,255,0) 70%, rgba(255,255,255,1)) ,url(images/Slide0.png);
     background-color: #FFFFFF;
@@ -121,7 +140,20 @@ footer {
     text-align: center;
     font-size: 0;
 }
-
+@media only screen and (max-width: 767px){
+    #nav {
+        bottom: 0;
+        position: absolute;
+        z-index: 500;
+        left: 39.38%;
+        right: auto;
+        display: block;
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+    }}
 .paginationLink {
 
     border: solid #35486E;
@@ -174,16 +206,7 @@ and (max-width : 1024px) {
 }
 /*------------------------------------------------------*/
 
-.liabilities-management header#ttr_header {
-    background: linear-gradient(to left, rgba(255,255,255,0) 80%, rgba(255,255,255,1)), url(images/1887519443header.jpg);
-    background-repeat: no-repeat , no-repeat;
-    background-size: 80% 70%, 80% 70%;
-    background-position: Right Top, Right Top;
-    background-clip: padding-box;
-    height: 270px;
-    width: auto;
-    box-sizing: border-box;
-}
+
 
 #ttr_header_inner {
     height: 190px;
@@ -248,9 +271,7 @@ and (max-width : 767px)
 
 .liabilities-management #ttr_menu.navbar
 {
-    height:110px;
-    min-height:50px;
-    box-sizing:border-box;
+    /*!*height:110px;*! khong set height, de nav tu push menu xuong*/
 
 }
 
@@ -408,3 +429,18 @@ nav#ttr_menu .icon-bar {
     position: absolute;
     height: 100%;
 }
+
+.nav.ttr_menu_items li a.ttr_menu_items_parent_link_active
+, .ttr_menu_items li a.ttr_menu_items_parent_link
+ {
+    text-transform: uppercase;
+}
+.navbar-default .nav.ttr_menu_items li a.ttr_menu_items_parent_link_arrow {
+    text-transform: uppercase;
+    background: url(images/menuMainArrow00.png),rgba(255,255,255,0);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right top 1.2em;
+    background-clip: padding-box;
+}
+

@@ -13,19 +13,19 @@
 {{--            </div>--}}
         <div class="row" >
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6  flex-video-title" >
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6  flex-video-title-3video" >
                 Fixed term deposit
 
                 <iframe src="https://player.vimeo.com/video/393155428?title=0&byline=0&portrait=0"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 flex-video-title" >Our offices
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 flex-video-title-3video" >Our offices
 
                 <iframe src="https://player.vimeo.com/video/393134816" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 flex-video-title">  Why choose us?
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 flex-video-title-3video">  Why choose us?
                 <iframe src="https://player.vimeo.com/video/393086629?title=0&byline=0&portrait=0"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
             </div>
@@ -44,11 +44,9 @@
 
 
 {{--        </div>--}}
-        <div class="row" > <div class="col-lg-10 col-md-9 col-sm-8 col-xs-9" ></div>
+        <div class="row" > <div class="col-lg-9 col-md-9 col-sm-8 col-xs-9" ></div>
             <div class="col-lg-2 col-md-3 col-sm-4 col-xs-9" >
-{{--        <div align="right" style="right: 0" >--}}
             <a style="color: #1155cc; background-color: yellow;" onclick="toggle()">Click here for current rate.</a>
-{{--        </div>--}}
         </div></div>
         <div class="row" >
         <section>
