@@ -33,6 +33,13 @@ class HoldingsController extends Controller
             'Reversed_Units' => ['required','numeric'],
             'Purchase_Price' => ['required','numeric'],
             'Total_Value' => ['required','numeric'],
+
+
+            'Amount_Invested' => ['required','numeric'],
+            'Interest_Rate' => ['required','numeric'],
+            'Fortnight_Return' => ['required','numeric'],
+            'Client_Account' => 'required',
+            'Bank_Name' => 'required',
         ]);
         //auth()->user()->Holdings()->create($data);
        \App\Holding::create($data);
@@ -49,6 +56,12 @@ class HoldingsController extends Controller
             'Reversed_Units' => ['required','numeric'],
             'Purchase_Price' => ['required','numeric'],
             'Total_Value' => ['required','numeric'],
+
+            'Amount_Invested' => ['required','numeric'],
+            'Interest_Rate' => ['required','numeric'],
+            'Fortnight_Return' => ['required','numeric'],
+            'Client_Account' => 'required',
+            'Bank_Name' => 'required',
         ]);
        $holding->update($data);
        return redirect('/holdings/'.Auth()->id());
@@ -66,7 +79,6 @@ class HoldingsController extends Controller
             if (in_array($user->email, $adminList)) {
                 $holdings = \App\Holding::all();
                 $users = \App\User::all();
-
 
                 return view('holdings.holding', [
                     'user' => $user,

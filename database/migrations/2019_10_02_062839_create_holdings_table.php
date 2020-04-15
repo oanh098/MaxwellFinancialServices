@@ -27,6 +27,8 @@ class CreateHoldingsTable extends Migration
 
 
 
+
+
             $table->timestamps();
         });
     }

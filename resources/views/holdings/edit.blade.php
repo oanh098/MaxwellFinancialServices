@@ -124,6 +124,78 @@
                             @enderror
                         </div>
                     </div>
+{{--                    --------------------------------------
+
+--}}
+
+                      <div class="form-group row">
+                        <label for="Amount_Invested" class="col-md-4 col-form-label text-md-right">{{ __('Amount Invested') }}</label>
+
+                        <div class="col-md-6">
+                            <input id="Total_Value" type="text" class="form-control @error('Amount_Invested') is-invalid @enderror" name="Amount_Invested" value="{{ $holding->Amount_Invested }}"  autocomplete="Amount_Invested" autofocus>
+
+                            @error('Amount_Invested')
+                            <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                            @enderror
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="Interest_Rate" class="col-md-4 col-form-label text-md-right">{{ __('Interest Rate') }}</label>
+
+                        <div class="col-md-6">
+                            <input id="Interest_Rate" type="text" class="form-control @error('Interest_Rate') is-invalid @enderror" name="Interest_Rate" value="{{ $holding->Interest_Rate }}"  autocomplete="Interest_Rate" autofocus>
+
+                            @error('Interest_Rate')
+                            <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                            @enderror
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="Fortnight_Return" class="col-md-4 col-form-label text-md-right">{{ __('Fortnight Return') }}</label>
+
+                        <div class="col-md-6">
+                            <input id="Fortnight_Return" type="text" class="form-control @error('Fortnight_Return') is-invalid @enderror" name="Fortnight_Return" value="{{ $holding->Fortnight_Return }}"  autocomplete="Fortnight_Return" autofocus>
+
+                            @error('Fortnight_Return')
+                            <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                            @enderror
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="Client_Account" class="col-md-4 col-form-label text-md-right">{{ __('Client Account') }}</label>
+
+                        <div class="col-md-6">
+                            <input id="Client_Account" type="text" class="form-control @error('Client_Account') is-invalid @enderror" name="Client_Account" value="{{ $holding->Client_Account }}"  autocomplete="Client_Account" autofocus>
+
+                            @error('Client_Account')
+                            <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                            @enderror
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="Bank_Name" class="col-md-4 col-form-label text-md-right">{{ __('Bank Name') }}</label>
+
+                        <div class="col-md-6">
+                            <input id="Bank_Name" type="text" class="form-control @error('Bank_Name') is-invalid @enderror" name="Bank_Name" value="{{ $holding->Bank_Name }}"  autocomplete="Bank_Name" autofocus>
+
+                            @error('Bank_Name')
+                            <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                            @enderror
+                        </div>
+                    </div>
+
+
+
                     @csrf
                     <div class="row">
                         <button class="btn btn-primary">Save Holding</button>

@@ -20,7 +20,7 @@
 
 
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 flex-video-title-3video" >Our offices
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6  flex-video-title-3video">Our offices
 
                 <iframe src="https://player.vimeo.com/video/393134816" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 

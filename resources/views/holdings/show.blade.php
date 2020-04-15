@@ -10,6 +10,7 @@
                 <div class="col-8 offset-2">
                     <div class="row"><h1>Holding Details</h1></div>
                     <div><a href="/holdings/{{auth()->id()}}">Back</a></div>
+
                     <div class="row pt-3">
                         <div class="col-md-4 text-md-right ">Date Input</div>
                         <div class="col-md-6">{{date('d-m-Y', strtotime( $holding->Date))}}
@@ -44,6 +45,30 @@
                         <div class="col-md-4 text-md-right ">Total Value</div>
                         <div class="col-md-6">{{ $holding->Total_Value }} </div>
                     </div>
+
+
+
+                    <div class="row pt-3">
+                        <div class="col-md-4 text-md-right ">Amount Invested</div>
+                        <div class="col-md-6">{{ $holding->Amount_Invested }} </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-md-4 text-md-right ">Interest Rate</div>
+                        <div class="col-md-6">{{ $holding->Interest_Rate }} </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-md-4 text-md-right ">Fornight Return</div>
+                        <div class="col-md-6">{{ $holding->Fortnight_Return }} </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-md-4 text-md-right ">Client Account</div>
+                        <div class="col-md-6">{{ $holding->Client_Account }} </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-md-4 text-md-right ">Bank Name</div>
+                        <div class="col-md-6">{{ $holding->Bank_Name }} </div>
+                    </div>
+
                     <div><a href="/holdings/shows/{{$holding->id}}/edit">Edit</a></div>
 
                 </div>

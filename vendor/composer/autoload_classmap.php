@@ -21,6 +21,7 @@ return array(
     'App\\Http\\Controllers\\HoldingsController' => $baseDir . '/app/Http/Controllers/HoldingsController.php',
     'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
     'App\\Http\\Controllers\\SavePivotController' => $baseDir . '/app/Http/Controllers/SavePivotController.php',
+    'App\\Http\\Controllers\\TradingViewController' => $baseDir . '/app/Http/Controllers/TradingViewController.php',
     'App\\Http\\Controllers\\UserController' => $baseDir . '/app/Http/Controllers/UserController.php',
     'App\\Http\\Controllers\\indexController' => $baseDir . '/app/Http/Controllers/indexController.php',
     'App\\Http\\Controllers\\pagesController' => $baseDir . '/app/Http/Controllers/PagesController.php',

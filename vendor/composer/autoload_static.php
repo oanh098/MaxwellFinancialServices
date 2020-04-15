@@ -457,6 +457,7 @@ class ComposerStaticInitfdfd36256b5ef7d85a938d76e11e951e
         'App\\Http\\Controllers\\HoldingsController' => __DIR__ . '/../..' . '/app/Http/Controllers/HoldingsController.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\SavePivotController' => __DIR__ . '/../..' . '/app/Http/Controllers/SavePivotController.php',
+        'App\\Http\\Controllers\\TradingViewController' => __DIR__ . '/../..' . '/app/Http/Controllers/TradingViewController.php',
         'App\\Http\\Controllers\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/UserController.php',
         'App\\Http\\Controllers\\indexController' => __DIR__ . '/../..' . '/app/Http/Controllers/indexController.php',
         'App\\Http\\Controllers\\pagesController' => __DIR__ . '/../..' . '/app/Http/Controllers/PagesController.php',
