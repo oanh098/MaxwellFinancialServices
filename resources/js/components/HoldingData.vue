@@ -17,7 +17,7 @@
            <div class="col-xs-1 col-sm-1 col-lg-1 border font-weight-bold" >Code Units</div>
            <div class="col-xs-1 col-sm-1 col-lg-1 border font-weight-bold" >Registered Units</div>
            <div class="col-xs-1 col-sm-1 col-lg-1 border font-weight-bold" >Available Units</div>
-           <div class="col-xs-1 col-sm-1 col-lg-1 border font-weight-bold" >Reversed Units</div>
+           <div class="col-xs-1 col-sm-1 col-lg-1 border font-weight-bold" >Reserved Units</div>
            <div class="col-xs-2 col-sm-2 col-lg-1 border font-weight-bold" >Purchase Price</div>
            <div class="col-xs-2 col-sm-2 col-lg-1 border font-weight-bold" >Total Value</div>
        </div>

@@ -140,7 +140,7 @@
                     <span style="color:rgba(0,0,255,1);">Product Solutions
                     </span>
                 </p>
-                <p>Advisor Solutions to assist in delivering top-otch advice. Through Maxwell Financial Services, financial advisors have a smart and efficient product platform and team support accessible 24 hours a day.
+                <p>Through Maxwell Financial Services, financial advisors have a smart and efficient product platform and team support accessible 24 hours a day.
                 </p>
             </div>
         </div>
