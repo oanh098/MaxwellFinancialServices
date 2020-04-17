@@ -43,7 +43,7 @@
     </title>
     <meta name="google-site-verification" content="google-site-verification=k0Q7hbIkkspS1tjNEoOB6GcbnndtU0t2_ktvJx0DulQ">
     <link rel="stylesheet"  href="{{asset('FrontEnd')}}/bootstrap.css" type="text/css" media="screen"/>
-    <link rel="stylesheet"  href="{{asset('FrontEnd')}}/stylebck.css" type="text/css" media="screen"/>
+    <link rel="stylesheet"  href="{{asset('FrontEnd')}}/newCSS.css" type="text/css" media="screen"/>
     <link rel="stylesheet"  href="{{asset('FrontEnd')}}/extraStyle.css" type="text/css" media="screen"/>
     <link rel="stylesheet"  href="{{asset('FrontEnd')}}/TradingView.css" type="text/css" media="screen"/>
 

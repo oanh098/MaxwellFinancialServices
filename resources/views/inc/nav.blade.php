@@ -27,11 +27,11 @@
             {{--            <div class="navbar-expand-sm navbar-collapse">--}}
             <div class="menu-center collapse navbar-collapse">
                 <!-- Right Side Of Navbar -->
-                <ul class="ttr_menu_items nav navbar-nav navbar-left "  style="padding-left: 30px;">
+                <ul class="ttr_menu_items nav navbar-nav navbar-left "  >
                     <!-- Authentication Links -->
                     @guest
 
-                        <li class="nav-item" style="padding-right: 20px">
+                        <li class="nav-item" >
 
                             <a class="nav-link" href="{{ route('login') }}">
                                 {{ __('Login') }}</a>

@@ -2,7 +2,7 @@ p
 {
     font-weight:300;
     margin:0.7em 0em 0em 0.5em;
-    line-height:1.875;
+    /*line-height:1.875;*/
 }
 
 
@@ -221,15 +221,14 @@ and (max-width : 1024px) {
 }
 
 .liabilities-management .ttr_headershape01 {
-    display: inline-block;
+    display: flex;
     font-size: 3em;
-    align-self: center;
     padding-left: 1em;
-    padding-right: 1em;
     color: black;
-    max-height: 306px;
-    margin-top: 0;
-    line-height: 1.2em;
+    /*line-height: 1.2em;*/
+    width: 70%;
+    margin-right: 0;
+    height: 188px;
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -245,9 +244,9 @@ and (max-width : 1024px)
 }
 @media only screen and (max-width: 767px) {
     .liabilities-management .ttr_headershape01 {
-        display: inline-block;
         text-align: center;
         color: black;
+        width: 100%;
 
     }
 }
@@ -412,7 +411,7 @@ and (max-width : 767px)
 }
 .html_content p {
     margin: 0.7em 0em 0em 0.5em;
-    line-height: 1.875;
+    line-height: 1.6em;
 }
 
 
@@ -461,9 +460,17 @@ nav#ttr_menu .icon-bar {
 }
 
 .nav.ttr_menu_items li a.ttr_menu_items_parent_link_active
-, .ttr_menu_items li a.ttr_menu_items_parent_link
+{
+    text-transform: uppercase;
+    background: rgba(163,157,135,1);
+    text-align: center;
+    color: #F3F3F3;
+}
+.ttr_menu_items li a.ttr_menu_items_parent_link
  {
     text-transform: uppercase;
+    text-align: center;
+
 }
 .navbar-default .nav.ttr_menu_items li a.ttr_menu_items_parent_link_arrow {
     text-transform: uppercase;
@@ -473,5 +480,6 @@ nav#ttr_menu .icon-bar {
     background-position: right top 1.2em;
     background-clip: padding-box;
     color: black;
+    text-align: center;
 }
 
