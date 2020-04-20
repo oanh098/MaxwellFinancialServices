@@ -16,9 +16,14 @@
     <div class="row">
         <div class="col-md-4"></div>
 
-        <div class="col-md-4 mr-auto ml-auto" id="xecurrencywidget" ></div>
-        <script>var xeCurrencyWidget = {"domain":"www.maxwellfinancialservices.com","language":"en","size":"normal"};</script>
+{{--        <div class="col-md-4 mr-auto ml-auto" id="xecurrencywidget" ></div>--}}
+{{--        <script>var xeCurrencyWidget = {"domain":"www.maxwellfinancialservices.com","language":"en","width":"100%"};</script>--}}
+{{--        <script src="https://www.xe.com/syndication/currencyconverterwidget.js"></script>--}}
+
+        <div class="col-md-4 mr-auto ml-auto" id="xecurrencywidget"></div>
+        <script>var xeCurrencyWidget = {"domain":"www.maxwellfinancialservices.com","language":"en","size":"compact"};</script>
         <script src="https://www.xe.com/syndication/currencyconverterwidget.js"></script>
+
         <div class="col-md-4"></div>
     </div>
 
