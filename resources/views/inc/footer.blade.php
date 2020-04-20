@@ -44,7 +44,7 @@
                     </div>
                     <span>
                             <iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.821075553137!2d144.95576831590415!3d-37.81765974204047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c53a5c497%3A0x8986700f301f3ba5!2sLevel%203%2F480%20Collins%20St%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2s!4v1583400873537!5m2!1sen!2s"
-                                 width="400" height="400" frameborder="0" style="border:0; padding-top: 1em; padding-left:3em" allowfullscreen=""></iframe>
+                                 width="auto" height="400" frameborder="0" style="border:0; padding-top: 1em; padding-left:3em" allowfullscreen=""></iframe>
                     </span>
                     <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             </div>

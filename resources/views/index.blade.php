@@ -208,6 +208,6 @@
 
     </div>
 
-    @include('inc.ourCustomerbck')
+    @include('inc.ourCustomer')
     <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
 @endsection
