@@ -1,4 +1,4 @@
-<footer id="ttr_footer">
+<footer id="ttr_footer" class="container">
     <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <div class="html_content" style="color: rgba(255,255,255,1); padding-left: 1.5em; padding-top: 2em">
