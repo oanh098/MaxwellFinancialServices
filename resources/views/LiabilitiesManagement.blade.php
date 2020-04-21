@@ -17,7 +17,7 @@
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  flex-video-title-3video" >
                 <span> Fixed-term </span>
 
-                <iframe src="https://player.vimeo.com/video/393155428"   frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/393155428"    frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
             </div>

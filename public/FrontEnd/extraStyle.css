@@ -114,7 +114,7 @@ section div p{
 .FDA-bannerimg{
     position: relative;
     object-fit: contain;
-    max-width: 40%;
+    max-width: 25%;
 
     margin-right: auto;
     margin-left: auto;
@@ -183,9 +183,7 @@ section div p{
 
 }
 @media (max-width: 767px) and (orientation: landscape){
-    .trailer .row .FDA-bannerimg{
-        max-width: 29%;
-    }
+
 
     .trailer .row .width-height{
         height:auto;
@@ -205,3 +203,30 @@ section div p{
 }
 
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 790px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .trailer .row .FDA-bannerimg{
+        max-width: 40%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .trailer .row .FDA-bannerimg{
+        max-width: 40%;
+    }
+}
