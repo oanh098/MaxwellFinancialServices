@@ -177,6 +177,9 @@ section div p{
     .trailer .row .FDA-bannerimg{
         max-width: 100%;
     }
+    .trailer .row .width-height{
+        height:auto;
+    }
 
 }
 @media (max-width: 767px) and (orientation: landscape){
