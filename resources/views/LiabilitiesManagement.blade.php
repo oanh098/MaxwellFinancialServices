@@ -2,31 +2,32 @@
 @section('content')
 
 
-        <div class="trailer" >
-        <div class="row" >
-             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="align-items: center; justify-content: center">
-                 <img src="{{asset('FrontEnd')}}/images/img-FixedTermDeposits.jpg" class="FDA-bannerimg"  alt="" >
-                 <img src="{{asset('FrontEnd')}}/images/return.png"  alt=""  class="close-img" style="" onclick="toggle()">
+        <div class="trailer">
+        <div class="row">
+             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                 <img src="{{asset('FrontEnd')}}/images/return.png"  alt=""  class="close-img"  onclick="toggle()">
+                 <img src="{{asset('FrontEnd')}}/images/img-FixedTermDeposits.jpg" class="FDA-bannerimg" alt="" >
+
              </div>
         </div>
 
 {{--            </div>--}}
         <div class="row" >
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6  flex-video-title-3video" >
-                Fixed term deposit
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  flex-video-title-3video" >
+                <span> Fixed-term </span>
 
-                <iframe src="https://player.vimeo.com/video/393155428?title=0&byline=0&portrait=0"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/393155428"   frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6  flex-video-title-3video">Our offices
-
-                <iframe src="https://player.vimeo.com/video/393134816" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 flex-video-title-3video">  Why choose us?
-                <iframe src="https://player.vimeo.com/video/393086629?title=0&byline=0&portrait=0"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  flex-video-title-3video"><span> Our offices</span>
+
+                <iframe src="https://player.vimeo.com/video/393134816"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 flex-video-title-3video"><span >Why choose us?</span>
+                <iframe src="https://player.vimeo.com/video/393086629"   frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
             </div>
 

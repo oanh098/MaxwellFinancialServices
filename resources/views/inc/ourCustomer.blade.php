@@ -3,7 +3,7 @@
     <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="ttr_index_html_column60">
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
-            <div class="html_content"><p style="text-align:Center;"><span style="font-weight:700;font-size:1.75em;color:rgba(31,31,31,1);">Our Affiliated Clientele</span></p></div>
+            <div class="html_content"><p style="text-align:Center;"><span style="font-size:2em;color:rgba(31,31,31,1);">Our Affiliated Clientele</span></p></div>
             <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             <div style="clear:both;"></div>
         </div>

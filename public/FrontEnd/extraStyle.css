@@ -96,45 +96,43 @@ section div p{
 /* pop up*/
 .trailer{
     position: fixed;
-    /*top: 50%;*/
     left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
     z-index: 10000;
     background: rgba(0,0,0,0.9);
-    /*background-image: url(images/img-FixedTermDeposits.jpg);*/
-    /*background-size:50% 50%;*/
     width: 100%;
     height: 100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
     visibility: hidden;
-    opacity: 0;
 }
  .active{
     visibility: visible;
     opacity: 1;
 }
-.trailer iframe{
-    position: relative;
-    max-width: 800px;
-    outline: none;
-}
+
 .FDA-bannerimg{
     position: relative;
-    max-width: 800px;
-    /*align-items: center;*/
-    outline: none;
+    object-fit: contain;
+    max-width: 40%;
+
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    z-index: 0;
 }
 .close-img {
-    position: absolute;
-    /*top: 20px;*/
+    position: relative;
+    top: 10px;
     cursor:pointer;
     filter: invert(1);
-    max-width: 32px;
-    left: 95%;
-    top: 7%;
+    max-width: 30px;
+
+    margin-right: auto;
+    margin-left: auto;
+   display: block;
+
+    z-index: 1;
 }
 /*
   ##Device = Desktops
@@ -142,56 +140,55 @@ section div p{
 */
 
 
-
 .row .flex-video-title
 {
-    display: flex; flex-direction: column;
+    display: flex;
+    flex-direction: column;
+
     text-align: center;
     font-size: 2.3em;
     color: whitesmoke;
-    align-items: center;
-    justify-content: center;
+    white-space: nowrap;
+
+    margin-right: auto;
+    margin-left: auto;
+
+
 }
 .flex-video-title-3video{
-    display: flex; flex-direction: column;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-size: 1.2em;
     color: whitesmoke;
-    align-items: center;
-    /*justify-content: center;*/
-    /*border: solid #35B5EB 0.3em;*/
-    justify-content: space-between;
+    white-space: nowrap;
+
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
 }
-
-@media (max-width: 767px) {
-
-    .trailer iframe{
-        /*max-width: 65%;*/
-        /*<iframe src="https://player.vimeo.com/video/393155428?byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>*/
-        /*<p><a href="https://vimeo.com/393155428">MFS Fixed Term Deposit</a> from <a href="https://vimeo.com/user108873629">MaxwellFinancialServices</a> on <a href="https://vimeo.com">Vimeo</a>.</p>*/
-
-        /*width:150px;*/
-        /*height:84px;  */
-        width:auto;
-        height:auto;
-
-    }
-    .trailer{
-        justify-content: flex-start;
-    }
-
+.trailer .row .width-height{
+    width: auto;
+    height: 508px;
+}
+@media (max-width: 767px) and (orientation: portrait){
     .trailer .row .FDA-bannerimg{
-        max-width: 85%;
+        max-width: 100%;
     }
-    .row .flex-video-title
-    {
-        font-size: 0.9em;
+
+}
+@media (max-width: 767px) and (orientation: landscape){
+    .trailer .row .FDA-bannerimg{
+        max-width: 29%;
     }
-    .close-img {
-        left: 71%;
-        top: 4%;
+
+    .trailer .row .width-height{
+        height:auto;
     }
 }
+
 
 /*
   ##Device = Tablets, Ipads (portrait)
@@ -201,39 +198,7 @@ section div p{
 @media (min-width: 768px) and (max-width: 1024px) {
 
 /*//CSS*/
-    .trailer .row .FDA-bannerimg{
-        max-width: 62%;
-        /*left: 2%;*/
-    }
-    .trailer
-    {
 
-       /*justify-content: flex-start;*/
-    }
-
-    .close-img {
-        left: 67%;
-        top: 1%;
-    }
-
-
-}
-@media only screen and (max-width: 1024px) and (min-width: 150px){
-
-}
-/* (1366x768) WXGA Display */
-@media  screen and (max-width: 1366px) {
-    /* insert styles here */
-    .trailer {
-        top: 50%;
-    }
-    .FDA-bannerimg{
-        max-width: 60%;
-    }
-    .close-img{
-        left: 75%;
-        top: 6%;
-    }
 }
 
 

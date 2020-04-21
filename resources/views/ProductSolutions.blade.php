@@ -3,20 +3,19 @@
 
     <div class="trailer" >
         <div class="row" >
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="align-items: center; justify-content: center;">
-                <img src="{{asset('FrontEnd')}}/images/return.png"  alt="" class="" style=" max-width: 45px; filter:  invert(1);" onclick="toggle()">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+                <img src="{{asset('FrontEnd')}}/images/return.png"  alt="" class="close-img" onclick="toggle()">
             </div>
         </div>
 
         <div class="row" >
 
-            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12  flex-video-title" >
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  flex-video-title" >
                 Wills & Power of Attorneys
 
-                <iframe src="https://player.vimeo.com/video/394174481?byline=0&portrait=0" width="900" height="506" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/394174481?byline=0&portrait=0" class="width-height"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                 <p><a href="https://vimeo.com/394174481">Wills and Power of Attorneys</a></p>
 
-                </iframe>
             </div>
         </div>
     </div>

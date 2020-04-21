@@ -1,15 +1,27 @@
 <head>
-    <!-- start Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158597454-1"></script>
+{{--    <!-- start Global site tag (gtag.js) - Google Analytics -->--}}
+{{--    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158597454-1"></script>--}}
 
+{{--    <script>--}}
+{{--        window.dataLayer = window.dataLayer || [];--}}
+{{--        function gtag(){dataLayer.push(arguments);}--}}
+{{--        gtag('js', new Date());--}}
+
+{{--        gtag('config', 'UA-158597454-1');--}}
+{{--    </script>--}}
+{{--    <!-- end Global site tag (gtag.js) - Google Analytics -->--}}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163673113-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'UA-158597454-1');
+        gtag('config', 'UA-163673113-1');
     </script>
-    <!-- end Global site tag (gtag.js) - Google Analytics -->
+
+
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
