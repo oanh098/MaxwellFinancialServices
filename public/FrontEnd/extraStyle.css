@@ -105,6 +105,7 @@ section div p{
     height: 100%;
 
     visibility: hidden;
+    overflow: auto;
 }
  .active{
     visibility: visible;
@@ -171,7 +172,8 @@ section div p{
 }
 .trailer .row .width-height{
     width: auto;
-    height: 508px;
+    height: auto;
+    /*height: 508px;*/
 }
 @media (max-width: 767px) and (orientation: portrait){
     .trailer .row .FDA-bannerimg{
@@ -209,17 +211,27 @@ section div p{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 768px) {
+    /*.trailer .row .width-height{*/
+    /*    height: 508px;*/
+    /*}*/
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 790px) {
-
+@media only screen and (min-width: 1024px) {
+    .trailer .row .width-height{
+        height: 508px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .trailer .row .FDA-bannerimg{
         max-width: 40%;
+    }
+    .trailer .row .width-height{
+        height: 508px;
     }
 }
 
@@ -228,5 +240,9 @@ section div p{
 
     .trailer .row .FDA-bannerimg{
         max-width: 40%;
+    }
+
+    .trailer .row .width-height{
+        height: 508px;
     }
 }
