@@ -56,6 +56,11 @@
             <div class="html_content">
                 <span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('FrontEnd')}}/images/xe.png" alt="xe" /></span></span>.</div>
         </div>
+    <div class=" col-lg-2 col-md-2 col-sm-3 col-xs-3">
+            <div class="html_content">
+                <span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;">
+                    <span><img class="ttr_uniform" style="max-height:128px;max-width:128px;" src="{{asset('FrontEnd')}}/images/3aw.png" alt="3aw" /></span></span>.</div>
+        </div>
     </div>
 </div>
 
