@@ -45,7 +45,8 @@ class ContactFormController extends Controller
 
 
 
-        return redirect()->back()->withSuccess('Thank you for contacting Maxwell Financial Services we will contact you within 24 hours.');
+        return redirect()->back()->withSuccess('Thank you for contacting Maxwell Financial Services we will contact you within 24 hours
+        , we have sent you a welcome mail please check your junk mail if you didnt receive it.');
         //dd(\request()->all());
     }
 }

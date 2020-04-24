@@ -9,6 +9,7 @@
                             @if(session('success'))<div class="success" style="text-align: center; font-size: 1.5em;">
 
                                     <p> {{session('success')}} </p>
+                                    <br>
 
                             </div> @endif
                                 <p style="margin:0.12em 0em 1em 10em;line-height:1.375;">
