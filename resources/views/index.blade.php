@@ -14,7 +14,9 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4"></div>
+        <div class="col-md-4">
+
+        </div>
 
 {{--        <div class="col-md-4 mr-auto ml-auto" id="xecurrencywidget" ></div>--}}
 {{--        <script>var xeCurrencyWidget = {"domain":"www.maxwellfinancialservices.com","language":"en","width":"100%"};</script>--}}
@@ -24,7 +26,16 @@
         <script>var xeCurrencyWidget = {"domain":"www.maxwellfinancialservices.com","language":"en","size":"compact"};</script>
         <script src="https://www.xe.com/syndication/currencyconverterwidget.js"></script>
 
-        <div class="col-md-4"></div>
+        <div class="col-md-4" style=" display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2em;
+
+">
+            <img src="{{asset('FrontEnd')}}/images/notification.jpg" style="object-fit: contain; width:60px; opacity:0.5;" alt="">
+            <p>Dear clients</p>
+            <p>On the 3rd of May we will be updating out trading platform between 2AM - 4AM EST. </p>
+        </div>
     </div>
 
     <div class="row" style="padding-top: 2em;">
