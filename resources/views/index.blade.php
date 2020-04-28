@@ -34,7 +34,7 @@
 ">
             <img src="{{asset('FrontEnd')}}/images/notification.jpg" style="object-fit: contain; width:60px; opacity:0.5;" alt="">
             <p>Dear clients</p>
-            <p>On the 3rd of May we will be updating out trading platform between 2AM - 4AM EST. </p>
+            <p>On the 3rd of May we will be updating our trading platform between 2AM - 4AM EST. </p>
         </div>
     </div>
 

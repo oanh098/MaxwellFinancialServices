@@ -247,18 +247,4 @@ section div p{
     }
 }
 
-#ttr_html_content_margin div:nth-child(2) div.col-md-4.notification
-
-/*.col-md-4 .notification*/
-{
-    display: flex;
-    flex-direction: column;
-    background-color: #A39d87;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-
-}
-/*.col-md-4 .notification:before*/
-#ttr_html_content_margin div:nth-child(2) div.col-md-4.notification:before
-{
-
-}
+/*---------------------------------------------------------------------*/

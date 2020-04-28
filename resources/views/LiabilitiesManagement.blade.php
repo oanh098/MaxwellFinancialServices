@@ -2,49 +2,73 @@
 @section('content')
 
 
-        <div class="trailer">
-        <div class="row">
-             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                 <img src="{{asset('FrontEnd')}}/images/return.png"  alt=""  class="close-img"  onclick="toggle()">
-                 <img src="{{asset('FrontEnd')}}/images/img-FixedTermDeposits.jpg" class="FDA-bannerimg" alt="" >
+{{--    <div class="trailer">--}}
+{{--        <div class="row">--}}
+{{--             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">--}}
+{{--                 <img src="{{asset('FrontEnd')}}/images/return.png"  alt=""  class="close-img"  onclick="toggle()">--}}
+{{--                 <img src="{{asset('FrontEnd')}}/images/img-FixedTermDeposits.jpg" class="FDA-bannerimg" alt="" >--}}
 
-             </div>
-        </div>
+{{--             </div>--}}
+{{--        </div>--}}
+
+{{--        <div class="row" >--}}
+
+{{--            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  flex-video-title-3video" >--}}
+{{--                <span> Fixed-term </span>--}}
+
+{{--                <iframe src="https://player.vimeo.com/video/393155428"    frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>--}}
+
 
 {{--            </div>--}}
-        <div class="row" >
+{{--            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  flex-video-title-3video"><span> Our offices</span>--}}
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  flex-video-title-3video" >
-                <span> Fixed-term </span>
+{{--                <iframe src="https://player.vimeo.com/video/393134816"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>--}}
 
-                <iframe src="https://player.vimeo.com/video/393155428"    frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  flex-video-title-3video"><span> Our offices</span>
-
-                <iframe src="https://player.vimeo.com/video/393134816"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 flex-video-title-3video"><span >Why choose us?</span>
-                <iframe src="https://player.vimeo.com/video/393086629"   frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-            </div>
-
-        </div>
-
-        </div>
-{{--        <div class="trailer">--}}
-{{--            <video src="https://vimeo.com/393155428" controls="true"></video>--}}
-{{--            <img src="close.png" class="close" alt="" onclick="toggle()">--}}
-{{--            <h2>Popup</h2>--}}
-
-{{--            <div class="popup" onclick="myFunction()">Click me to toggle the popup!--}}
-{{--                <span class="popuptext" id="myPopup">A Simple Popup!</span>--}}
 {{--            </div>--}}
+{{--            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 flex-video-title-3video"><span >Why choose us?</span>--}}
+{{--                <iframe src="https://player.vimeo.com/video/393086629"   frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>--}}
 
+{{--            </div>--}}
 
 {{--        </div>--}}
+
+{{--    </div>--}}
+
+
+<div class="trailer">
+    <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-6">
+{{--            <img class="img-responsive" src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" />--}}
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <img src="{{asset('FrontEnd')}}/images/return.png"  alt=""  class="close-img"  onclick="toggle()">
+            <img class="img-responsive"
+                 src="{{asset('FrontEnd')}}/images/img-FixedTermDeposits.jpg" />
+        </div>
+{{--        <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="http://blog.arborday.org/wp-content/uploads/2013/02/NEC1-300x200.jpg" /></div>--}}
+        <div class="col-md-3 col-sm-4 col-xs-6">
+{{--            <img class="img-responsive" src="http://th03.deviantart.net/fs70/200H/f/2010/256/0/9/painting_of_nature_by_dhikagraph-d2ynalq.jpg" />--}}
+        </div>
+    </div><div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-6">
+            <p style="color: white; font-size: 2em">Fixed-term</p>
+            <div style="padding:56.25% 0 0 0;position:relative;">
+
+                <iframe src="https://player.vimeo.com/video/393155428?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-6">
+            <p style="color: white; font-size: 2em">Our offices</p>
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/393134816?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-6">
+            <p style="color: white; font-size: 2em">Why choose us?</p>
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/393086629?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+
+    </div>
+</div>
+
         <div class="row" > <div class="col-lg-9 col-md-9 col-sm-8 col-xs-9" ></div>
             <div class="col-lg-2 col-md-3 col-sm-4 col-xs-9" >
             <a style="color: #1155cc; background-color: yellow;" onclick="toggle()">Click here for current rate.</a>
