@@ -28,3 +28,20 @@ $(document).keyup(function(e) {
         trailer.classList.toggle("active");
     }   // esc
 });
+
+$(document).ready(function() {
+    var selectElem = document.querySelector("#country");
+    var inputEle = document.querySelector("#telNo");
+    var spanvalidity = document.querySelector(".validity");
+
+    selectElem.onchange = function () {
+        if(selectElem.value === "AU") {
+            inputEle.placeholder = "0123-456-789";
+            spanvalidity.style.visibility = "visible";
+        }else if(selectElem.value === "Others"){
+            inputEle.placeholder = "Maximum 20 digits";
+            spanvalidity.style.visibility = "hidden";
+        }
+    }
+
+})

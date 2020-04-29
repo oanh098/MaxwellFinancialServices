@@ -1,6 +1,21 @@
 @extends('layouts.appMaxwell')
 @section('content')
-    <div class="ttr_liabilities-management_html_row0 row">
+    <style>
+
+        input:invalid+span:after {
+            position: absolute; content: '✖';
+            padding-left: 5px;
+            color: #8b0000;}
+        input:valid+span:after {
+            position: absolute;
+            content: '✓';
+            padding-left: 5px;
+            color: #009000;
+        }
+
+    </style>
+
+     <div class="ttr_liabilities-management_html_row0 row">
         <div class=" col-lg-12 col-md-10 col-sm-10 col-xs-12">
                 <div class="html_content">
 
@@ -8,7 +23,7 @@
                         <form id="ContactForm5" class="form-horizontal" role="form" method="post" action="/contactus" style="float:left;width:100%;">
                             @if(session('success'))<div class="success" style="text-align: center; font-size: 1.5em;">
 
-                                    <p> {{session('success')}} </p>
+                                    <p id="hidethis"> {{session('success')}} </p>
                                     <br>
 
                             </div> @endif
@@ -26,6 +41,25 @@
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                                     <input type="text" class="form-control" data-vali="novalidation" name="email" />
                                     <div>{{$errors->first('email')}}</div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Choose your country</label>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <select id="country" name="country">
+                                        <option selected>AU</option>
+                                        <option>Others</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Phone Number</label>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <input type="tel" id="telNo" name="telNo" placeholder="0123-456-789"
+                                           pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required size="20" minlength="9" maxlength="14" /><span style="visibility:visible" class="validity"></span>
+                                    <div>{{$errors->first('telNo')}}</div>
                                 </div>
                             </div>
 
