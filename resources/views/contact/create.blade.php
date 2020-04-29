@@ -58,7 +58,7 @@
                                 <label class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Phone Number</label>
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                                     <input type="tel" id="telNo" name="telNo" placeholder="0123-456-789"
-                                           pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required size="20" minlength="9" maxlength="14" /><span style="visibility:visible" class="validity"></span>
+                                          required size="20" minlength="9" maxlength="14" /><span style="visibility:visible" class="validity"></span>
                                     <div>{{$errors->first('telNo')}}</div>
                                 </div>
                             </div>
