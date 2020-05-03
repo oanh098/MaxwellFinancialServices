@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87fbf1ca-b56f-4fba-ac50-4408cbcf3e88" name="Default Changelist" comment="INDEX 20191012- login.blade.php" />
+    <list default="true" id="87fbf1ca-b56f-4fba-ac50-4408cbcf3e88" name="Default Changelist" comment="INDEX 20191012- login.blade.php">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +259,7 @@
       <workItem from="1583396993576" duration="159643000" />
       <workItem from="1584419600332" duration="37339000" />
       <workItem from="1585023187582" duration="383737000" />
-      <workItem from="1588004312474" duration="22282000" />
+      <workItem from="1588004312474" duration="22931000" />
     </task>
     <task id="LOCAL-00001" summary="commit 20191006">
       <created>1570361017506</created>
