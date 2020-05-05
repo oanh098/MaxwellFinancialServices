@@ -6,10 +6,11 @@
 
     <div class="row">
         <section>
-            <div><p>Due to the COVID-19 we are currently recieving a high volume of calls you can email us at
-                    <a style="color: #1155cc;" href="mailto:info@maxwellfinancialservices.com">info@maxwellfinancialservices.com </a> and we will return your call within 24 hours.</p></div>
-            <div><p>Due to the COVID-19 we are currently recieving a high volume of calls you can email us at
-                    <a style="color: #1155cc;" href="mailto:info@maxwellfinancialservices.com">info@maxwellfinancialservices.com </a> and we will return your call within 24 hours.</p></div>
+            <div><p>Due to the COVID-19 and our intro fixed term opposite we are currently receiving a high volume of calls you can email us at
+                    <a style="color: #000000;" href="mailto:info@maxwellfinancialservices.com"> info@maxwellfinancialservices.com </a> and we will get back to you within 2 hours.</p></div>
+            <div><p>Due to the COVID-19 and our intro fixed term opposite we are currently receiving a high volume of calls you can email us at
+                    <a style="color: #000000;" href="mailto:info@maxwellfinancialservices.com"> info@maxwellfinancialservices.com  </a> and we will get back to you within 2 hours.</p></div>
+
         </section>
     </div>
 
@@ -32,7 +33,7 @@
     font-size: 1.2em;
 
 ">
-            
+
         </div>
     </div>
 

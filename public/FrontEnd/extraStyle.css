@@ -1,4 +1,4 @@
-
+/*banner covid*/
 section
 {
     position: relative;
@@ -11,15 +11,15 @@ section
 section div{
     position: relative;
     width: 50%;
-    background: #990000;
+    background: lightpink;
     overflow: hidden;
     color: #FFFFFF;
-    opacity: 0.4;
+    /*opacity: 0.4;*/
 }
 section div:nth-child(1){
     position: relative;
     width: 50%;
-    background: #990000;
+    background: lightpink;
     overflow: hidden;
 }
 section div:nth-child(1) p{

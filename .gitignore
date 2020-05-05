@@ -4,6 +4,7 @@
 /public/storage
 /storage/*.key
 /resources/views/test.html
+/resources/views/admin.html
 /startbootstrap-sb-admin-gh-pages
 
 

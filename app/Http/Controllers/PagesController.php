@@ -27,7 +27,7 @@ class pagesController extends Controller
 
     public function LiabilitiesManagement(){
         $bodyClass='liabilities-management';
-        $headerTitle = 'Fixed Term Deposits Annuties';
+        $headerTitle = 'Our Fixed Term Deposits Annuties';
         return view('LiabilitiesManagement', compact(['bodyClass','headerTitle']));
     }
 
