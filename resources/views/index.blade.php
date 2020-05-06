@@ -7,9 +7,9 @@
     <div class="row">
         <section>
             <div><p>Due to the COVID-19 and our intro fixed term deposit we are currently receiving a high volume of calls you can email us at
-                    <a style="color: #000000;" href="mailto:info@maxwellfinancialservices.com"> info@maxwellfinancialservices.com </a> and we will get back to you within 2 hours.</p></div>
+                    <a style="color: #000000;" href="mailto:info@maxwellfinancialservices.com"> info@maxwellfinancialservices.com </a> and we will get back to you within 2 business hours.</p></div>
             <div><p>Due to the COVID-19 and our intro fixed term deposit we are currently receiving a high volume of calls you can email us at
-                    <a style="color: #000000;" href="mailto:info@maxwellfinancialservices.com"> info@maxwellfinancialservices.com  </a> and we will get back to you within 2 hours.</p></div>
+                    <a style="color: #000000;" href="mailto:info@maxwellfinancialservices.com"> info@maxwellfinancialservices.com  </a> and we will get back to you within 2 business hours.</p></div>
 
         </section>
     </div>
