@@ -69,16 +69,20 @@
     </div>
 </div>
 
-        <div class="row" > <div class="col-lg-9 col-md-9 col-sm-8 col-xs-9" ></div>
+        <div class="row" >
+            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" ></div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 pl-3" >
+                <a href="{{asset('FrontEnd')}}/PDSFTD.pdf" class="view-pdf"><span style="background-color: yellow; color: #1155cc;"> Click here for PDS </span></a>
+            </div>
             <div class="col-lg-2 col-md-3 col-sm-4 col-xs-9" >
             <a style="color: #1155cc; background-color: yellow;" onclick="toggle()">Click here for current rate.</a>
         </div></div>
         <div class="row" >
         <section>
             <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits
-                    <a href="{{asset('FrontEnd')}}/PDSFTD.pdf" class="view-pdf"><span style="background-color: yellow;"> ( Click here )</span></a> paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply. </span></p></div>
+                     paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply. </span></p></div>
             <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits
-                    <a href="{{asset('FrontEnd')}}/PDSFTD.pdf" class="view-pdf"><span style="background-color: yellow;"> ( Click here )</span></a> paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply.</span> </p></div>
+                     paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply.</span> </p></div>
         </section>
 
 
