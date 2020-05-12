@@ -75,8 +75,10 @@
         </div></div>
         <div class="row" >
         <section>
-            <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply. </span></p></div>
-            <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply.</span> </p></div>
+            <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits
+                    <a href="{{asset('FrontEnd')}}/PDSFTD.pdf" class="view-pdf"><span style="background-color: yellow;"> ( Click here )</span></a> paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply. </span></p></div>
+            <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits
+                    <a href="{{asset('FrontEnd')}}/PDSFTD.pdf" class="view-pdf"><span style="background-color: yellow;"> ( Click here )</span></a> paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply.</span> </p></div>
         </section>
 
 
