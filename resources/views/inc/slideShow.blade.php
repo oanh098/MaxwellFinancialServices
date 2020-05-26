@@ -1,6 +1,4 @@
-<div class="ttr_banner_slideshow" >
     @include('inc.nav')
-</div>
 <div class="ttr_slideshow">
 
     <div id="ttr_slideshow_inner">
@@ -24,22 +22,19 @@
                 </div>
             </li>
         </ul>
-
-
     </div>
     <div class="ttr_slideshow_in">
-        <div class="innermenu">
+{{--        contain 3 logo--}}
 
-{{--            @include('inc.nav')--}}
-
-        </div>
-        <div id="nav"></div>
+{{--        <div class="innermenu">--}}
+{{--        </div>--}}
+{{--        <div id="nav"></div>--}}
 
     </div>
 
 </div>
-<div class="ttr_banner_slideshow">
-</div>
+{{--<div class="ttr_banner_slideshow">--}}
+{{--</div>--}}
 
 
 {{--        <div class="ttr_slideshow_logo">--}}

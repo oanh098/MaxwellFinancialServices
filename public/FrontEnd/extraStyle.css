@@ -197,7 +197,7 @@ section div p{
 
 /*--------------------------------Contact page-------------------------------------*/
 #hidethis {
-    animation: css 0s 5s forwards;
+    animation: css 0s 10s forwards;
 }
 
 @keyframes css  {

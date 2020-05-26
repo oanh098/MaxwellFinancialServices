@@ -27,8 +27,7 @@
                                     <br>
 
                             </div> @endif
-                                <p style="margin:0.12em 0em 1em 10em;line-height:1.375;">
-                            <div class="form-group">
+                            <div class="form-row pt-2">
                                 <label class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Name</label>
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                                     <input type="text" class="form-control" data-vali="novalidation" name="name" />
@@ -36,7 +35,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group">
+                            <div class="form-row pt-2">
                                 <label class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Email</label>
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                                     <input type="text" class="form-control" data-vali="novalidation" name="email" />
@@ -44,7 +43,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group">
+                            <div class="form-row pt-2">
                                 <label class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Choose your country</label>
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                                     <select id="country" name="country">
@@ -54,7 +53,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group">
+                            <div class="form-row pt-2">
                                 <label class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Phone Number</label>
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                                     <input type="tel" id="telNo" name="telNo" placeholder="0123-456-789"
@@ -63,7 +62,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group">
+                            <div class="form-row pt-2">
                                 <label class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Subject</label>
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                                     <input type="text" class="form-control" data-vali="novalidation" name="subject" />
@@ -71,7 +70,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group" style="padding-top: 1em">
+                            <div class="form-row pt-2" >
                                 <label class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Message</label>
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                                     <textarea class="form-control comment" name="message" rows="4"></textarea>
@@ -79,9 +78,10 @@
                             </div>
 
                             @csrf
-                            <div class="form-group" style="padding-top: 1em">
+                            <div class="form-row pt-2">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"></div>
                                 <div class="col-sm-8 col-sm-offset-4">
-                                    <input type="submit" class="pull-left btn btn-md btn-default" id="submitform" name="submit" value="Send Message" />
+                                    <input type="submit" class="btn btn-primary" id="submitform" name="submit" value="Send Message" />
                                 </div>
                             </div>
 

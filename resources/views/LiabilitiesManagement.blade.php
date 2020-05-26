@@ -2,38 +2,6 @@
 @section('content')
 
 
-{{--    <div class="trailer">--}}
-{{--        <div class="row">--}}
-{{--             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">--}}
-{{--                 <img src="{{asset('FrontEnd')}}/images/return.png"  alt=""  class="close-img"  onclick="toggle()">--}}
-{{--                 <img src="{{asset('FrontEnd')}}/images/img-FixedTermDeposits.jpg" class="FDA-bannerimg" alt="" >--}}
-
-{{--             </div>--}}
-{{--        </div>--}}
-
-{{--        <div class="row" >--}}
-
-{{--            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  flex-video-title-3video" >--}}
-{{--                <span> Fixed-term </span>--}}
-
-{{--                <iframe src="https://player.vimeo.com/video/393155428"    frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>--}}
-
-
-{{--            </div>--}}
-{{--            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  flex-video-title-3video"><span> Our offices</span>--}}
-
-{{--                <iframe src="https://player.vimeo.com/video/393134816"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>--}}
-
-{{--            </div>--}}
-{{--            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 flex-video-title-3video"><span >Why choose us?</span>--}}
-{{--                <iframe src="https://player.vimeo.com/video/393086629"   frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>--}}
-
-{{--            </div>--}}
-
-{{--        </div>--}}
-
-{{--    </div>--}}
-
 
 <div class="trailer">
     <div class="row">
@@ -71,12 +39,14 @@
 
         <div class="row" >
             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" ></div>
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 pl-3" >
+            <div class="col-lg-8 col-md-6 col-sm-5 col-xs-5 pl-3" >
                 <a href="{{asset('FrontEnd')}}/PDSFTD.pdf" class="view-pdf"><span style="background-color: yellow; color: #1155cc;"> Click here for PDS </span></a>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-9" >
-            <a style="color: #1155cc; background-color: yellow;" onclick="toggle()">Click here for current rate.</a>
-        </div></div>
+            <div class="col-lg-2 col-md-4 col-sm-5 col-xs-5" >
+                <a style="color: #1155cc; background-color: yellow; white-space: nowrap" onclick="toggle()">Click here for current rate.</a>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" ></div>
+        </div>
         <div class="row" >
         <section>
             <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits
