@@ -48,6 +48,15 @@
             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" ></div>
         </div>
         <div class="row" >
+            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" ></div>
+            <div class="col-lg-8 col-md-6 col-sm-5 col-xs-5 pl-3" >
+                <a href="{{asset('FrontEnd')}}/FIXED_TERM_PDS.pdf" class="view-pdf"><span style="background-color: yellow; color: #1155cc;"> Click here for Full Version PDS </span></a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-5 col-xs-5" >
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" ></div>
+        </div>
+        <div class="row" >
         <section>
             <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits
                      paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply. </span></p></div>

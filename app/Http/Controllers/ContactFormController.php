@@ -37,9 +37,6 @@ class ContactFormController extends Controller
             'message' => 'nullable',
         ]);
 
-
-
-
         Mail::to($emails)->send (new ContactFormMail($data));
         Mail::to($data['email'])->send(new NewUserWelcomeMail());
 //        Mail::later(5, , new NewUserWelcomeMail());
