@@ -1,15 +1,5 @@
 <head>
-{{--    <!-- start Global site tag (gtag.js) - Google Analytics -->--}}
-{{--    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158597454-1"></script>--}}
 
-{{--    <script>--}}
-{{--        window.dataLayer = window.dataLayer || [];--}}
-{{--        function gtag(){dataLayer.push(arguments);}--}}
-{{--        gtag('js', new Date());--}}
-
-{{--        gtag('config', 'UA-158597454-1');--}}
-{{--    </script>--}}
-{{--    <!-- end Global site tag (gtag.js) - Google Analytics -->--}}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163673113-1"></script>
@@ -46,9 +36,12 @@
 
 {{--    <script type="text/javascript" src="{{asset('FrontEnd')}}/customjs.js">--}}
 {{--    </script>--}}
-{{--    <script type="text/javascript" src="{{asset('FrontEnd')}}/extraJS.js">--}}
-{{--    </script>--}}
-{{--    <script type="text/javascript" src="{{asset('FrontEnd')}}/contactform.js">--}}
+{{--    manipulate all popup form --}}
+    <script type="text/javascript" src="{{asset('FrontEnd')}}/extraJS.js">
+    </script>
+{{--   End manipulate all popup form --}}
+
+    {{--    <script type="text/javascript" src="{{asset('FrontEnd')}}/contactform.js">--}}
 {{--    </script>--}}
 
 
