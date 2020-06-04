@@ -103,7 +103,7 @@
 {{-- End pure chat --}}
 
 {{-- scamadvicer box --}}
-    <a href="https://scamadviser.com" target="_blank" class="scamadviser-square">Check the trust score on Scamadviser.com.</a>
+    <a href="https://scamadviser.com" target="_blank" class="scamadviser-sidebar">Check the Trust Score on Scamadviser.com.</a>
 {{-- End scamadvicer box --}}
 
 </body>
