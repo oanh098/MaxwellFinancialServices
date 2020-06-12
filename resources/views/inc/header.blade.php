@@ -10,7 +10,7 @@
 {{--            <div class="html_content">--}}
 {{--                <p>--}}
 {{--                    <span style="font-family: Arial; font-weight:500;font-size:3.25em;">--}}
-                       <p style="margin: auto; line-height: 1.2em">{{$headerTitle ?? ''}}</p>
+                       <p style="margin: auto; line-height: 1.2em;">{{$headerTitle ?? ''}}</p>
             {{--                    </span>--}}
 {{--            </p>--}}
 {{--            </div>--}}

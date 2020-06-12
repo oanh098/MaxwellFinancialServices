@@ -291,6 +291,7 @@ and (max-width : 1024px)
     .liabilities-management .ttr_headershape01 {
         padding-left: 0.5em;
         padding-right: 0;
+        font-size: 2.26em;
 
     }
 }
@@ -299,6 +300,7 @@ and (max-width : 1024px)
         text-align: center;
         color: black;
         width: 100%;
+        font-size: 2.58em;
 
     }
 }

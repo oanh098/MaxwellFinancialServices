@@ -39,18 +39,19 @@
 
         <div class="row" >
             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" ></div>
-            <div class="col-lg-8 col-md-6 col-sm-5 col-xs-5 pl-3" >
-                <a href="{{asset('FrontEnd')}}/PDSFTD.pdf" class="view-pdf"><span style="background-color: yellow; color: #1155cc;"> Click here for PDS </span></a>
+            <div class="col-lg-5 col-md-6 col-sm-5 col-xs-5 pl-3" >
+                <a href="{{asset('FrontEnd')}}/PDSFTD.pdf" class="view-pdf"><span style="background-color: yellow; color: #1155cc; font-size: 0.9em"> Click here for PDS </span></a>
             </div>
-            <div class="col-lg-2 col-md-4 col-sm-5 col-xs-5" >
-                <a style="color: #1155cc; background-color: yellow; white-space: nowrap" onclick="toggle()">Click here for current rate.</a>
+            <div class="col-lg-5 col-md-4 col-sm-5 col-xs-5" style="border: #6b46c1 3px; text-align: right" >
+                <a style="color: #1155cc; background-color: yellow; white-space: nowrap; font-size: 0.9em; cursor: pointer"  onclick="toggle()">Click here for current rate.</span></a>
             </div>
             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" ></div>
+
         </div>
         <div class="row" >
             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" ></div>
             <div class="col-lg-8 col-md-6 col-sm-5 col-xs-5 pl-3" >
-                <a href="{{asset('FrontEnd')}}/FIXED_TERM_PDS.pdf" class="view-pdf"><span style="background-color: yellow; color: #1155cc;"> Click here for Full Version PDS </span></a>
+                <a href="{{asset('FrontEnd')}}/FIXED_TERM_PDS.pdf" class="view-pdf"><span style="background-color: yellow; color: #1155cc; font-size: 0.9em"> Click here for Full Version PDS </span></a>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-5 col-xs-5" >
             </div>
