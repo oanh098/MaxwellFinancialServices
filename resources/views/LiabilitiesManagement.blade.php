@@ -10,14 +10,15 @@
         </div>
         <div class="col-md-6 col-sm-6 col-xs-12">
             <img src="{{asset('FrontEnd')}}/images/return.png"  alt=""  class="close-img"  onclick="toggle()">
-            <img class="img-responsive"
+            <img class="img-fluid"
                  src="{{asset('FrontEnd')}}/images/img-FixedTermDeposits.jpg" />
         </div>
 {{--        <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="http://blog.arborday.org/wp-content/uploads/2013/02/NEC1-300x200.jpg" /></div>--}}
         <div class="col-md-3 col-sm-4 col-xs-6">
 {{--            <img class="img-responsive" src="http://th03.deviantart.net/fs70/200H/f/2010/256/0/9/painting_of_nature_by_dhikagraph-d2ynalq.jpg" />--}}
         </div>
-    </div><div class="row">
+    </div>
+    <div class="row">
         <div class="col-md-4 col-sm-4 col-xs-6">
             <p style="color: white; font-size: 2em">Fixed-term</p>
             <div style="padding:56.25% 0 0 0;position:relative;">
