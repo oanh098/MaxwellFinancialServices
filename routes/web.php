@@ -128,6 +128,9 @@ Route::patch('/profiles/shows/{user}','UserController@update')->name('user.updat
 
 Route::get('/index', 'HomeController@index')->name('index');
 Route::get('/home', 'HomeController@index')->name('index');
+Route::get('/admin', function (){
+    return view('admin');
+});
 
 Auth::routes();
 

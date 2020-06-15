@@ -29,7 +29,7 @@ section div p{
     position: absolute;
     white-space: nowrap;
     font-size: 20px;
-    animation:animate 20s linear infinite;
+    animation:animate 60s linear infinite;
 }
 @keyframes animate {
     0%{
