@@ -46,10 +46,7 @@
             <div class="img-fluid">
                         <img class="img-fluid" src="{{asset('FrontEnd')}}/images/eBay-Logo2.png" alt="ebay" /></div>
     </div>
-    <div class=" col-lg-2 col-md-2 col-sm-3 col-xs-3">
-            <div class="img-fluid">
-                        <img class="img-fluid"  src="{{asset('FrontEnd')}}/images/3aw.png" alt="ebay" /></div>
-    </div>
+
     <div class=" col-lg-2 col-md-2 col-sm-3 col-xs-3">
             <div class="img-fluid">
                         <img class="img-fluid"  src="{{asset('FrontEnd')}}/images/xe.png" alt="xe" /></div>
