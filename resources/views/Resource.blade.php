@@ -3,7 +3,8 @@
 
     <div class="ttr_liabilities-management_html_row0 row">
         <div class="col-lg-12 col-md-10 col-sm-10 col-xs-12">
-                <div class="html_content" >
+            
+                <div class="container" >
                     <p>Maxwell Financial Services offers an exceptional suite of execution and clearing services across all of the markets we serve.
                             Our preeminent exchange rankings on all equity, commodity and futures exchanges coupled with our extensive network of banking and financial
                             relationships enable us to provide unmatched access to pools of liquidity.

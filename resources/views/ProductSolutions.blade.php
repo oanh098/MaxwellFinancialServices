@@ -20,14 +20,14 @@
         </div>
     </div>
 
-    <div class="row" > <div class="col-lg-9 col-md-9 col-sm-8 col-xs-9" ></div>
-        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-9" >
-            <a style="color: #1155cc; background-color: yellow;" onclick="toggle()">Click here for more detail.</a>
-        </div></div>
+    <div class="row" > <div class=" col-lg-12 col-md-10 col-sm-10 col-xs-9">
+        <div class="container" style="text-align: right; margin-top: 40px;">
+            <a style="color: #1155cc; background-color: yellow; " onclick="toggle()">Click here for more detail.</a>
+        </div></div></div>
 
     <div class="ttr_liabilities-management_html_row0 row">
         <div class=" col-lg-12 col-md-10 col-sm-10 col-xs-9">
-                <div class="html_content">
+                <div class="container">
                     <p>
                             An effective estate plan includes tax effective Wills to protect your esatate and the interests of your beneficiaries in the event of your death. Drawing up or even revising a will is not on most peoples to do Lists, however it is an important part of life no matter what your age, especially if you have a variety of investments. In Australia will and Estates fall undertow areas of law known as succession law and probate, and in almost all cases, they are designed to ensure that the death of a person that their final wishes are fulfilled wherever possible. Without a will, this can be an expensive, time consuming and often distressing process for loved one.
                     </p>

@@ -38,39 +38,37 @@
     </div>
 </div>
 
-        <div class="row" >
-            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" ></div>
-            <div class="col-lg-5 col-md-6 col-sm-5 col-xs-5 pl-3" >
-                <a href="{{asset('FrontEnd')}}/PDSFTD.pdf" class="view-pdf"><span style="background-color: yellow; color: #1155cc; font-size: 0.9em"> Click here for PDS </span></a>
+        
+        
+        <div >
+            <section>
+                <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits
+                         paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply. </span></p></div>
+                <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits
+                         paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply.</span> </p></div>
+            </section>
+        </div>
+
+        <div class="container"><div class="row" >
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" > 
+                <a href="{{asset('FrontEnd')}}/PDSFTD.pdf" class="view-pdf">
+                    <span style="background-color: yellow; color: #1155cc; font-size: 0.9em"> Click here for PDS </span></a>
             </div>
-            <div class="col-lg-5 col-md-4 col-sm-5 col-xs-5" style="border: #6b46c1 3px; text-align: right" >
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="border: #6b46c1 3px; text-align: right" > 
                 <a style="color: #1155cc; background-color: yellow; white-space: nowrap; font-size: 0.9em; cursor: pointer"  onclick="toggle()">Click here for current rate.</span></a>
             </div>
-            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" ></div>
 
-        </div>
+        </div></div>
+
         <div class="row" >
-            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" ></div>
-            <div class="col-lg-8 col-md-6 col-sm-5 col-xs-5 pl-3" >
+            <div class="col-lg-12 col-md-10 col-sm-10 col-xs-9">
+                <div class="container">
                 <a href="{{asset('FrontEnd')}}/FIXED_TERM_PDS.pdf" class="view-pdf"><span style="background-color: yellow; color: #1155cc; font-size: 0.9em"> Click here for Full Version PDS </span></a>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-5 col-xs-5" >
-            </div>
-            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" ></div>
-        </div>
-        <div class="row" >
-        <section>
-            <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits
-                     paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply. </span></p></div>
-            <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits
-                     paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply.</span> </p></div>
-        </section>
+        </div></div></div>
 
-
-    </div>
     <div class="ttr_liabilities-management_html_row0 row">
         <div class="col-lg-12 col-md-10 col-sm-10 col-xs-9">
-                <div class="html_content">
+                <div class="container">
                     <p>
                             MFS offers fixed term deposits, annuities paid weekly or fortnightly into your nominated account. This is great for pensioner’s retirees and clients looking for a safe investment return paid weekly.
                     </p>

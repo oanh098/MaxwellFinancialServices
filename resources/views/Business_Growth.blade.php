@@ -6,7 +6,7 @@
 
             <div class="trailer" >
                 <div class="row" >
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
                         <img src="{{asset('FrontEnd')}}/images/return.png"  alt="" class="close-img"  onclick="toggle()">
                     </div>
                 </div>
@@ -28,16 +28,17 @@
 
             </div>
 
-                <div class="row" > <div class="col-lg-9 col-md-9 col-sm-8 col-xs-9" ></div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-9" >
-                        <a style="color: #1155cc; background-color: yellow;" onclick="toggle()">Click here for more detail.</a>
+                <div class="row" > <div class=" col-lg-12 col-md-10 col-sm-10 col-xs-9"> <div class="container" style="text-align: right; margin-top: 40px;">
+                            <a style="color: #1155cc; background-color: yellow;" onclick="toggle()">
+                            Click here for more detail.</a>
+                        </div>  
                     </div>
                 </div>
 
 
 
-            <div class="ttr_liabilities-management_html_row0 row">
-                <div class=" col-lg-12 col-md-10 col-sm-10 col-xs-9">
+            <div class=" row">
+                <div class=" col-lg-12 col-md-10 col-sm-10 col-xs-9"> <div class="container">
                     <div class="html_content">
                         <p style="font-size:2.25em;">
                             Superannuation
@@ -62,6 +63,6 @@
 
                         </p>
                     </div>
-                </div>
+                </div></div>
             </div>
 @endsection

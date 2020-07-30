@@ -2,7 +2,7 @@
 @section('content')
 <div class="ttr_liabilities-management_html_row0 row">
     <div class="post_column col-lg-12 col-md-10 col-sm-10 col-xs-9">
-            <div class="html_content">
+            <div class="container">
                 <p>Great consultant support is the first building block to trust.
                 </p>
                 <p>

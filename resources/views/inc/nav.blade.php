@@ -1,7 +1,7 @@
 
 
-<nav class="navbar navbar-expand-md navbar-light bg-light main-nav">
-    <div class="container">
+<nav class="navbar navbar-expand-md navbar-light bg-light" id ="topheader">
+    <div class="container" style="display: flex; flex-direction: row-reverse;">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" >
                 <span class="navbar-toggler-icon"></span>
                 </span>
@@ -41,12 +41,12 @@
                     @endguest
                 </ul>
 
-                <ul class="nav navbar-nav ml-auto align-items-center">
-                    <li class="nav-item  active">
+                <ul class="ttr_menu_items nav navbar-nav navbar-right ml-auto align-items-center" id="navid">
+                    <li class="ttr_menu_items nav-item active">
                         <a href="index" class="nav-link">Home</a>
                     </li>
 
-                    <li class="ttr_menu_items_parent nav-item ">
+                    <li class="nav-item ">
                         <a href="about" class="nav-link">
                             About Us</a>
                     </li>
@@ -70,153 +70,156 @@
                     <li class="nav-item">
                         <a href="contactus" class="nav-link">Contact</a>
                     </li>
-
                 </ul>
             </div>
     </div>
 
 </nav>
 
+<script type="text/javascript">
 
-{{--<nav id="ttr_menu" class="navbar-default navbar ">--}}
-{{--    <div id="ttr_menu_inner_in">--}}
-{{--        <div id="navigationmenu">--}}
-{{--            <div class="ttr_menu_element_alignment container">--}}
-{{--            </div>--}}
-{{--            <div class="ttr_menu_logo">--}}
-{{--            </div>--}}
-{{--            <div class="navbar-header">--}}
-{{--                <button id="nav-expander" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">--}}
-{{--                    <span class="ttr_menu_toggle_button">--}}
-{{--                    <span class="sr-only">--}}
-{{--                    </span>--}}
-{{--                    <span class="icon-bar">--}}
-{{--                    </span>--}}
-{{--                    <span class="icon-bar">--}}
-{{--                    </span>--}}
-{{--                    <span class="icon-bar">--}}
-{{--                    </span>--}}
-{{--                    </span>--}}
-{{--                    <span class="ttr_menu_button_text">--}}
-{{--                        Menu--}}
-{{--                    </span>--}}
-{{--                </button>--}}
-{{--            </div>--}}
-{{--            --}}{{--            <div class="navbar-expand-sm navbar-collapse">--}}
-{{--            <div class="menu-center collapse navbar-collapse">--}}
-{{--                <!-- Right Side Of Navbar -->--}}
-{{--                <ul class="ttr_menu_items nav navbar-nav navbar-left "  >--}}
-{{--                    <!-- Authentication Links -->--}}
-{{--                    @guest--}}
+    $( '#topheader #navid.navbar-nav a' ).on( 'click', function () {
+    $( '#topheader #navid.navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+    $( this ).parent( 'li' ).addClass( 'active' );
+});
 
-{{--                        <li class="nav-item" >--}}
+//     $(document).ready(function() {
+//   $( '#topheader #navid.navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+//   // alert ('hi: ') + $(event.target).text();
+//   console.log ('hi: ' + $('a[href="' + location.pathname + '"]'))
+//   $('a[href="' + location.pathname + '"]').closest('li').addClass('active'); 
+// });
 
-{{--                            <a class="nav-link" href="{{ route('login') }}">--}}
-{{--                                {{ __('Login') }}</a>--}}
-{{--                        </li>--}}
-{{--                        @if (Route::has('register'))--}}
-{{--                            <li class="nav-item">--}}
-{{--                                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>--}}
-{{--                            </li>--}}
-{{--                        @endif--}}
-{{--                    @else--}}
-{{--                        <li class="nav-item dropdown" >--}}
-{{--                            <a id="navbarDropdown"  class="nav-link dropdown-toggle" href="#" role="button"--}}
-{{--                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>--}}
-{{--                                {{ Auth::user()->name }} <span class="caret"></span>--}}
-{{--                            </a>--}}
-
-{{--                            <div class="dropdown-menu dropdown-menu-left"  aria-labelledby="navbarDropdown">--}}
-{{--                                <a class="dropdown-item" style="width: 40px;" href="{{ route('logout') }}"--}}
-{{--                                   onclick="event.preventDefault();--}}
-{{--                                         document.getElementById('logout-form').submit();">--}}
-{{--                                    {{ __('Logout') }}--}}
-{{--                                </a>--}}
-{{--                                <br>--}}
-{{--                                <a class="dropdown-item" style="width: 40px;" href="/holdings/ {{ Auth::user()->id }}">--}}
-{{--                                    Profile--}}
-{{--                                </a>--}}
-
-{{--                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">--}}
-{{--                                    @csrf--}}
-{{--                                </form>--}}
-{{--                            </div>--}}
-{{--                        </li>--}}
-{{--                    @endguest--}}
-{{--                </ul>--}}
-{{--                --}}{{--            </div>--}}
-{{--                --}}{{--                <div class="menu-center collapse navbar-collapse">--}}
-{{--                <ul class="ttr_menu_items nav navbar-nav navbar-right">--}}
+    
+</script>
 
 
-{{--                    <li class="ttr_menu_items_parent nav-item  active">--}}
-{{--                        <a href="index" class="ttr_menu_items_parent_link_active nav-link">--}}
-{{--                            --}}{{--                            <span class="menuchildicon"></span>--}}
-{{--                            Home</a>--}}
-{{--                        <hr class ="horiz_separator"/>--}}
-{{--                    </li> <!-- main menu list closing -->--}}
 
-{{--                    <li class="ttr_menu_items_parent nav-item ">--}}
-{{--                        <a href="about" class="ttr_menu_items_parent_link nav-link">--}}
-{{--                            --}}{{--                            <span class="menuchildicon"></span>--}}
-{{--                            About Us</a>--}}
-{{--                        <hr class ="horiz_separator"/>--}}
-{{--                    </li> <!-- main menu list closing -->--}}
 
-{{--                    <li class="ttr_menu_items_parent nav-item dropdown" >--}}
-{{--                        <a href="#" class="ttr_menu_items_parent_link_arrow dropdown-toggle" data-toggle="dropdown">Services</a>--}}
-{{--                        <ul class="child dropdown-menu" role="menu">--}}
-{{--                            <li><a class="dropdown-item" href="business-growth">--}}
-{{--                                    --}}{{--                                    <span class="menuchildicon"></span>--}}
-{{--                                    Superannuation SMSF</a>--}}
-{{--                                --}}{{--                                <hr class ="separator"/>--}}
-{{--                            </li> <!-- 1st level child list closing -->--}}
+<!-- <section class="menuself">
 
-{{--                            <li><a class="dropdown-item" href="research-and-strategy">--}}
-{{--                                    --}}{{--                                    <span class="menuchildicon"></span>--}}
-{{--                                    International Investing</a>--}}
-{{--                                --}}{{--                                <hr class ="separator"/>--}}
-{{--                            </li> <!-- 1st level child list closing -->--}}
+<style type="text/css">
+    section.menuself
+    {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        /*background: url(FrontEnd/images/Slide1.png);
+        background-position: center center;
+        background-repeat: no-repeat;*/
+    }
+    header.menuself
+    {
+        padding: 0 100px;
+        width: 100%;
+        height: 80px;
+        box-sizing: border-box;
+        background: rgba(255,255,255,.2);
+        box-shadow: 0 5px 15px rgba(0,0,0,.2);
+        transition: .5s;
+    }
+    header.menuself ul
+    {
+        position: relative;
+        margin: 0;
+        /*margin-top: 80px;*/
+        padding: 0;
+        display: flex;
+        float: right;
+        transition: .5s;
+    }
+    header.menuself ul li
+    {
+        list-style: none;
+    }
+    header.menuself ul li a
+    {
+        position: relative;
+        display: block;
+        padding: 10px 20px;
+        margin: 20px 0;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #262626;
+        font-weight: bold;
+        transition: .5s;
+    }
+     header.menuself ul li a:hover
+    {
+        background: #000;
+        color: #fff;
 
-{{--                            <li><a class="dropdown-item" href="liabilities-management">--}}
-{{--                                    --}}{{--                                    <span class="menuchildicon"></span>--}}
-{{--                                    Fixed Term Deposits Annuties</a>--}}
-{{--                                --}}{{--                                <hr class ="separator"/>--}}
-{{--                            </li> <!-- 1st level child list closing -->--}}
+    }
+    header.menuself .toggle
+    {
+        display: none;
+        position: absolute;
+        right: 10px;
+        top: 26px;
+        background: #f00;
+        color: #fff;
+        padding: 5px;
+        cursor: pointer;
+        font-weight: bold;
 
-{{--                            <li><a class="dropdown-item" href="clearing-and-execution">--}}
-{{--                                    --}}{{--                                    <span class="menuchildicon"></span>--}}
-{{--                                    Refinancing Advice</a>--}}
-{{--                                --}}{{--                                <hr class ="separator"/>--}}
-{{--                            </li> <!-- 1st level child list closing -->--}}
+    }
+    @media (max-width: 992px)
+    {
+        header.menuself .toggle
+        {
+            display: block;
+        }
+        header.menuself
+        {
+            padding: 0 0;
+            background: rgba(255,255,255,.5);
+        }
+        header.menuself  ul
+        {
+            width: 100%;
+            top: 0;
+            display: none;
+            margin-top: 80px;
+        }
+        header.menuself  ul.active
+        {
+            display: block;
+        }
 
-{{--                            <li><a class="dropdown-item" href="product-solutions">--}}
-{{--                                    --}}{{--                                    <span class="menuchildicon"></span>--}}
-{{--                                    Wills & Power of Attorneys Estate Planning</a>--}}
-{{--                            </li> <!-- 1st level child list closing -->--}}
+        header.menuself  ul li a
+        {
+            margin: 0;
+            display: block;
+            text-align: center;
+            color: #ffff;
+            background: rgba(0,0,0,.5);
 
-{{--                            <li><a class="dropdown-item" href="transition-services">--}}
-{{--                                    --}}{{--                                    <span class="menuchildicon"></span>--}}
-{{--                                    Transition Services</a>--}}
-{{--                            </li> <!-- 1st level child list closing -->--}}
+        }
 
-{{--                        </ul>--}}
-{{--                    </li> <!-- main menu list closing -->--}}
+    }
 
-{{--                    <li class="ttr_menu_items_parent nav-item">--}}
-{{--                        <a href="resort" class="ttr_menu_items_parent_link nav-link">--}}
-{{--                            --}}{{--                            <span class="menuchildicon"></span>--}}
-{{--                            Resource</a>--}}
-{{--                        --}}{{--                        <hr class ="horiz_separator"/>--}}
-{{--                    </li> <!-- main menu list closing -->--}}
+</style>
 
-{{--                    <li class="ttr_menu_items_parent dropdown nav-item">--}}
-{{--                        <a href="contactus" class="ttr_menu_items_parent_link nav-link">--}}
-{{--                            --}}{{--                            <span class="menuchildicon"></span>--}}
-{{--                            Contact</a>--}}
-{{--                    </li> <!-- main menu list closing -->--}}
-{{--                </ul>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-{{--</nav>--}}
+    <header class="menuself">
+         <a href="#"><img src="{{asset('FrontEnd')}}/images/westpac-logo.png" style="height: 80px;"></a> -->
+       <!--  <a class="toggle">Menu</a>
+        <ul class="active">
+            <li ><a href="index">Home</a></li>
+            <li><a href="about">About Us</a></li>
+            <li><a href="#">Home2</a></li>
+            <li><a href="#">Home3</a></li>
+            <li><a href="#">Home4</a></li>
+            <li><a href="#">Home5</a></li>
+        </ul>
+    </header>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('ul').toggleClass('active');
+            })
+        })
+    </script>
+</section> --> 
+
+

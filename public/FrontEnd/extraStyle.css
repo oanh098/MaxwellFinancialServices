@@ -55,7 +55,7 @@ section div p{
     visibility: hidden;
     overflow: auto;
 }
- .active{
+ .activeTrailer{
     visibility: visible;
     opacity: 1;
 }
@@ -204,3 +204,5 @@ section div p{
     to { visibility: hidden; }
 }
 /* visibility / overflow: hidden; */
+
+

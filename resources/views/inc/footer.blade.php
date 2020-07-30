@@ -1,7 +1,8 @@
-<footer id="ttr_footer" class="container">
+<footer id="">
+    <div class="container">
     <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class="html_content" style="color: rgba(255,255,255,1); padding-left: 1.5em; padding-top: 2em">
+                    <div class="" style="color: rgba(255,255,255,1); padding-left: 1.5em; padding-top: 2em">
                         <p >
                                     <img style="max-height:40px;max-width:40px;" src="{{asset('FrontEnd')}}/images/Location-Icon716.png" alt="location" />
                             Head Office Melbourne:</p>
@@ -52,12 +53,9 @@
                     <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
             </div>
     </div>
-        <div  style="height:100px;position:relative; margin:0 auto;">
 
-            <div id="ttr_footer_designed_by_links">
-                <span >
+    <div  style="color: rgba(255,255,255,1); justify-content: center;text-align: center;">
                 © 2012-2020 Maxwell Financial Services. ABN 76 758 983 802. Privacy
-                </span>
-            </div>
-        </div>
+    </div>
+    
 </footer>

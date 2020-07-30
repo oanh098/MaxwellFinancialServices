@@ -21,18 +21,17 @@
         </div>
     </div>
 
-    <div class="row" > <div class="col-lg-9 col-md-9 col-sm-8 col-xs-9" ></div>
-        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-9" >
-            <a style="color: #1155cc; background-color: yellow;" onclick="toggle()">Click here for more detail.</a>
-        </div></div>
+    <div class="row" > <div class="col-lg-12 col-md-10 col-sm-10 col-xs-9"> <div class="container" style="text-align: right; margin-top: 40px;">
+        <a style="color: #1155cc; background-color: yellow;" onclick="toggle()">Click here for more detail.</a>
+    </div></div></div>
 
     <div class="ttr_liabilities-management_html_row0 row">
-        <div class="col-lg-12 col-md-10 col-sm-10 col-xs-9">
+        <div class="col-lg-12 col-md-10 col-sm-10 col-xs-9"> <div class="container">
                 <div class="html_content">
                     <p >Maxwell Financial Services offers Clients an extensive range of international investing. People often invest internationally to broaden diversification greater returns Tax incentives and less risk among foreign markets and companies. MFS has their own dedicated team working within emerging markets, over the last few years we have shown exceptional results for our investors within the artificial intelligence and medical marijuana sectors within the international emerging markets. Please speak to your Specialist at Maxwell Financial Services
                     </p>
 
                 </div>
-        </div>
+        </div></div>
     </div>
     @endsection

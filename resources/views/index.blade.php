@@ -14,34 +14,33 @@
         </section>
     </div>
 
+    <!-- <div class="container" style="text-align: center; justify-content: space-between;">
     <div class="row">
-        <div class="col-md-4">
-        </div>
-        <div class="col-md-4 mr-auto ml-auto" id="xecurrencywidget"></div>
+        
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="xecurrencywidget"></div>
 
         <script>
             var xeCurrencyWidget = {"domain":"www.maxwellfinancialservices.com","language":"en","size":"compact"};
         </script>
         <script src="https://www.xe.com/syndication/currencyconverterwidget.js"></script>
 
-        <div class="col-md-4" style=" display: flex; flex-direction: column; justify-content: center; font-size: 1.2em;">
-        </div>
-    </div>
+        
+    </div></div> -->
 
-    <div class="row" style="padding-top: 2em;">
-        <div class="col-lg-2 col-md-1 "></div>
-        <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
-            <div class="html_content">
-                <p style="text-align:Center;font-size:2.25em;color:rgba(53,72,110,1);">Rely on a trusted financial services custodian
-                    who is dedicated to your success.</p>
+    @include('inc.ourServices')
+
+    <div class="indexRelyon"  >
+            <div class="container" >
+                <h1>
+                    Rely on a trusted financial services custodian
+                    who is dedicated to your success.</h1>
+
             </div>
-        </div>
-        <div class="col-lg-2 col-md-1"></div>
     </div>
 
-    <div class="row" style="padding:10px 50px 0 50px">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="html_content">
+    <div class="row" >
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+            <div class="container">
                 <p>Maxwell Financial Services believes that our client’s success is our success. Maxwell Financial Services has over 23 years of professional financial services.
                     Excellence. With our strong tenure in the financial services industry, focusing on the Australasian European markets our clients are secure and confident . We specialize in providing customized execution, clearing, and custody solutions to full-service firms and independent broker dealers.
                 </p>
@@ -66,9 +65,16 @@
                 <p>No matter what your investment requirements are, we can match you to an adviser who is best suited to your style of investment.
                     The Australian share market accounts for a mere 3% of global equities by market capitalisation. Investing in international shares though Maxwell Financial service allows you to access those opportunities which are unavailable at home and thereby diversify your portfolio.
                     Maximising your profits in emerging markets.</p>
-                </p>
+                </p></div>
 
-                <p><span style="font-size: 2.25em;">Discover Global Investing</span></p>
+
+               
+
+                <div class="container" style="margin-top: 20px; margin-bottom: 20px;" >
+                    <h1>
+                    Discover Global Investing</h1>
+                </div>
+                <div class="container">
                 <p>Access global share markets – MFS clients can access shares listed on major markets in North America, Europe, Asia, South America, and various emerging markets across the globe. Your MFS Adviser has direct access to listed shares across all major international exchanges including:
                 </p>
                 <ul style="margin-left: 0.5em;">
@@ -81,7 +87,14 @@
                 <p>Foreign exchange – MFS will settle your foreign exchange obligations using your existing Australian bank account.  Our affiliation with XE gives you the capital needed at the spot market price if requested all keeping your working capital in AUD.  At the best possible exchange rate. You can also keep foreign currencies in your trading account for use at a later date. Hedging them against fluctuating markets
                 </p>
 
-                <p><span style="font-size: 2.25em;">What We Offer Institutional and Retail Clients</span></p>
+                
+
+
+                <div class="container" style="margin-top: 20px; margin-bottom: 20px;"  >
+                    <h1>
+                    What We Offer Institutional and Retail Clients</h1>
+                </div>
+
                 <p>Funds management clients dealing with MFS Broking team can expect:
                 </p>
                 <p>
@@ -98,14 +111,13 @@
         </div>
     </div>
 
-    <div class="row" style="background-color:#35486E;">
-        <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
-            <div style="padding-right: 2em;padding-left: 2em">
-               <img src="{{asset('FrontEnd')}}/images/1891930544html_column20.jpg" alt="" class="img-resouce" ></div>
+    <div class="row" style="background-color:#35486E; margin-top:40px; margin-bottom:40px;" > 
+        <div class="container ourResource" >
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+            <div>
+               <img src="{{asset('FrontEnd')}}/images/1891930544html_column20.jpg" alt="" class="" ></div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class="ttr_index_html_column21">
-                <div class="html_content">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                     <span style="color:rgba(243,243,243,1); font-size: 2.25em; ">Resources</span>
                     <p style="color:rgba(255,255,255,1);">
                         Maxwell Financial Services offers an exceptional suite of execution and clearing services across all the markets we serve.
@@ -114,101 +126,9 @@
                     </p>
                     <p style="text-align: right"><a href="resort"  target="_self" class="btn btn-md btn-default">Read More</a>
                     </p>
-                </div>
-            </div>
         </div>
-    </div>
+    </div></div>
 
-    <div class="row" style="margin-top: 100px">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="html_content">
-                <p style="font-size:2.25em;color:rgba(31,31,31,1); text-align: center;">Our Services</p></p>
-            </div>
-        </div>
-    </div>
-    <div class="row" style="padding-left: 4em; padding-right: 4em">
-        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-            <div class="html_content">
-                <p><span style="margin:0em 1em 2em 0em;"><img src="{{asset('FrontEnd')}}/images/icon_arrow_up18.png" alt="Business Growth" />
-                    </span>
-                    <span style="color:rgba(0,0,255,1);">Business Growth
-                    </span>
-                </p>
-                <p>Our team will work closely with your team to connect your firm and advisors to our services and solutions to drive asset growth and client loyalty.
-                </p>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-            <div class="html_content">
-                <p><span style="margin:0em 1em 2em 0em;"><img src="{{asset('FrontEnd')}}/images/search-solution-48549718.png" alt="Product Solutions" />
-                    </span>
-                    <span style="color:rgba(0,0,255,1);">Product Solutions
-                    </span>
-                </p>
-                <p>Through Maxwell Financial Services, financial advisors have a smart and efficient product platform and team support accessible 24 hours a day.
-                </p>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-            <div class="html_content">
-                <p><span style="margin:0em 1em 2em 0em;"><img src="{{asset('FrontEnd')}}/images/5217.png" alt="Liabilities Management" />
-                        </span>
-                    <span style="color:rgba(0,0,255,1);">Liabilities Management
-                        </span>
-                </p>
-                <p>Your advisors will have access to lending services and specialists amilable through our partners to help your advisors manage both sides of your clients balance sheet and broaden the services you can offer.
-                </p>
-            </div>
-        </div>
-
-    </div>
-    <div class="row" style="padding-left: 4em; padding-right: 4em">
-
-        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-            <div class="html_content">
-                <p><span style="margin:0em 1em 2em 0em;"><img src="{{asset('FrontEnd')}}/images/7517.png" alt="Research Strategy" />
-                    </span>
-                    <span style="color:rgba(0,0,255,1);">Research & Strategy
-                    </span>
-                </p>
-                <p>Because of our affiliation with our industry leading partners, your team will have access to these Misted Institutes consisting of dedicated, growth focused research strategists that support advisors with objective,
-                    unbiased investment and fund clearing advice.
-                </p>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-            <div class="html_content">
-                <p><span style="margin:0em 1em 2em 0em;"><img src="{{asset('FrontEnd')}}/images/7417.png" alt="Transition service" />
-                        </span>
-                    <span style="color:rgba(0,0,255,1);">Transition service
-                        </span>
-                </p>
-                <p>The decision to change clearing firm, or to trust another firm to do the clearing for you is a tough decision to make.
-                    Than why we will dedicate time and effort to know your business process from start to finish.
-                </p>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-            <div class="html_content">
-                <p><span style="margin:0em 1em 2em 0em;"><img src="{{asset('FrontEnd')}}/images/5517.png" alt="Clearing and Execution" />
-                            </span>
-                    <span style="color:rgba(0,0,255,1);">Clearing and Execution
-                            </span>
-                </p>
-                <p>We specialize in providing customized execution, clearing, and custody solutions to full service firms and independent broker dealers, advisors, and firms on the financial services sector.
-                </p>
-            </div>
-        </div>
-
-
-
-
-    </div>
-
+    
     @include('inc.ourCustomer')
-    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
 @endsection
