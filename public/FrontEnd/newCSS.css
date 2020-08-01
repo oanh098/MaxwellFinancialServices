@@ -107,7 +107,8 @@ footer#ttr_footer #ttr_footer_designed_by_links a:not(.btn), footer#ttr_footer_d
     .ttr_slideshow {
 
         /*height: 320px;*/
-        height: 35vh;
+        /*height: 50vh;*/
+
         min-height: 280px;
         flex-direction: column;
     }
@@ -116,6 +117,7 @@ footer#ttr_footer #ttr_footer_designed_by_links a:not(.btn), footer#ttr_footer_d
 
 .ttr_slideshow_in {
     height: 55vh;
+    top: 40px;
     min-height: 520px;
     position: absolute;
     width: 100%;
@@ -134,7 +136,7 @@ footer#ttr_footer #ttr_footer_designed_by_links a:not(.btn), footer#ttr_footer_d
     position: absolute;
     margin-left: 10px;
     width: 100%;
-    top: 0;
+    top: 70px;
     pointer-events: none;
     background-image: url(images/stickyslideshowforeground01.png) , url(images/stickyslideshowforeground02.png) , url(images/stickyslideshowforeground02.png), url(slideshowlogo.png);
     background-size: 40% auto, 50% auto, 50% auto, 40% auto;
