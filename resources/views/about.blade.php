@@ -4,7 +4,7 @@
 
 
     <div class="row">
-        <section>
+        <section class="info">
             <div style="background: blue;  opacity: 0.6; "><p>In these uncertain times ask us about our guaranteed fixed term deposits paid fortnightly</p></div>
             <div style="background: blue;  opacity: 0.6; "><p>In these uncertain times ask us about our guaranteed fixed term deposits paid fortnightly</p></div>
         </section>

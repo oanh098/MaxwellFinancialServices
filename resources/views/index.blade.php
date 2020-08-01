@@ -5,7 +5,7 @@
 
 
     <div class="row">
-        <section>
+        <section class="info">
             <div><p>Due to the COVID-19 and our intro fixed term deposit we are currently receiving a high volume of calls you can email us at
                     <a style="color: #000000;" href="mailto:info@maxwellfinancialservices.com"> info@maxwellfinancialservices.com </a> and we will get back to you within 2 business hours.</p></div>
             <div><p>Due to the COVID-19 and our intro fixed term deposit we are currently receiving a high volume of calls you can email us at
@@ -111,23 +111,62 @@
         </div>
     </div>
 
-    <div class="row" style="background-color:#35486E; margin-top:40px; margin-bottom:40px;" > 
-        <div class="container ourResource" >
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
-            <div>
-               <img src="{{asset('FrontEnd')}}/images/1891930544html_column20.jpg" alt="" class="" ></div>
+    <div class="clsResources"  style="background-color:#35486E;"> 
+
+        <div style="display: flex; justify-content: space-around;"> 
+            <img src="{{asset('FrontEnd')}}/images/1891930544html_column20.jpg" alt="" class="" >
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+        <div class="textclsResource" style="display: flex; justify-content: space-around; flex-direction: column; float: right;">
+            <div>
                     <span style="color:rgba(243,243,243,1); font-size: 2.25em; ">Resources</span>
                     <p style="color:rgba(255,255,255,1);">
                         Maxwell Financial Services offers an exceptional suite of execution and clearing services across all the markets we serve.
                         Pur preeminent exchange rankings on all major commodity, futures, and options exchanges coupled with our extensive network of banking and financial relationships
                         enable us to provide unmatched access to pools of liquidity.
                     </p>
+                </div>
                     <p style="text-align: right"><a href="resort"  target="_self" class="btn btn-md btn-default">Read More</a>
                     </p>
         </div>
-    </div></div>
+        <style type="text/css">
+            .clsResources
+            {
+                /*padding: 60px 350px;*/
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+            }
+            .clsResources img
+            {
+                max-width: 580px;
+                height: auto;
+
+            }
+            .textclsResource
+            {
+                margin-left: 100px;
+                max-width: 580px;
+            }
+            @media (max-width: 991px)
+            {
+                .clsResources
+            {
+                padding: 20px 40px;
+                flex-direction: column;
+            }
+             .clsResources img
+            {
+                max-width: 300px;
+            }
+            .textclsResource
+            {
+                padding: 20px 10px;
+                margin-left: 0;
+            }
+            }
+        </style> 
+    </div>
+
 
     
     @include('inc.ourCustomer')

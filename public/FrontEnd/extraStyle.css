@@ -1,5 +1,5 @@
 /*banner covid*/
-section
+section.info
 {
     position: relative;
     width: 100%;
@@ -8,7 +8,7 @@ section
     overflow: hidden;
 
 }
-section div{
+section.info div{
     position: relative;
     width: 50%;
     background: lightpink;
@@ -16,16 +16,16 @@ section div{
     color: #FFFFFF;
     /*opacity: 0.4;*/
 }
-section div:nth-child(1){
+section.info div:nth-child(1){
     position: relative;
     width: 50%;
     background: lightpink;
     overflow: hidden;
 }
-section div:nth-child(1) p{
+section.info div:nth-child(1) p{
     left:100%;
 }
-section div p{
+section.info div p{
     position: absolute;
     white-space: nowrap;
     font-size: 20px;

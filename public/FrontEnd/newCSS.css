@@ -107,7 +107,7 @@ footer#ttr_footer #ttr_footer_designed_by_links a:not(.btn), footer#ttr_footer_d
     .ttr_slideshow {
 
         /*height: 320px;*/
-        height: 20vh;
+        height: 35vh;
         min-height: 280px;
         flex-direction: column;
     }
@@ -409,7 +409,7 @@ and (max-width : 767px)
     background:linear-gradient(to left, rgba(255,255,255,0) 50% , rgba(255,255,255,1) 70%)
     , url(images/1887519443header.jpg);
     background-repeat: no-repeat , no-repeat;
-    background-size:100% 100%, 80% 100%;
+    background-size:100% 100%, 100% 100%;
     background-position: Right Top, Right Top;
 
     background-clip:padding-box;
@@ -440,7 +440,7 @@ and (max-width : 767px) {
     {
         background:  url(images/1887519443header.jpg);
         background-repeat: no-repeat ;
-        background-size:  auto;
+        background-size:  cover;
     }
 }
 /* Smartphones (portrait and landscape) ----------- */
@@ -616,6 +616,9 @@ a:hover
 .h1header
     {
         font-size: 100px;
+        position: absolute;
+        
+        width: 100%;
     }
 @media (max-width: 991px){
 .collapse.show {
@@ -631,6 +634,7 @@ a:hover
     .h1header
     {
         font-size: 50px;
+        
     }
 
 .OurServices h1

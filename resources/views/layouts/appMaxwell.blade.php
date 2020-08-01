@@ -78,7 +78,7 @@
     @else
 <!-- {{--        @include('inc.headerShow')--}} -->
 
-        @include('inc.nav')
+        <!-- @include('inc.nav') -->
         @include('inc.header')
 
     @endif
