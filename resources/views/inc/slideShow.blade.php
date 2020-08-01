@@ -174,7 +174,7 @@
     #headerMenu .toggle
     {
       display: block;
-      top:100px;
+      top:120px;
     }
     #headerMenu
     {
