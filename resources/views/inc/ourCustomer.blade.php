@@ -2,7 +2,7 @@
 <div class="container">
 
 <div class="OurClients" style="margin-top: 40px; margin-bottom: 40px;" >
-        <h1 style="font-size: 48px; color:#002949;">
+        <h1>
         Our Affiliated Clientele</h1>
     </div>
 

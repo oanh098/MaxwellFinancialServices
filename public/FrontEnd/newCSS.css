@@ -605,6 +605,17 @@ nav#ttr_menu .icon-bar {
     font-size: 48px;
     color: #002949;
 }
+
+@media (max-width: 991px)
+{
+    .OurServices h1
+,.WhyUs h1, .DiscoverGlobal h1, .OurClients h1
+{
+    font-size: 30px;
+    color: #002949;
+}
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,1);
 }
@@ -641,6 +652,7 @@ a:hover
 
 .OurServices h1
 ,.WhyUs h1, .DiscoverGlobal h1, .OurClients h1
+, .indexRelyon h1
 {
     font-size: 30px;
 }

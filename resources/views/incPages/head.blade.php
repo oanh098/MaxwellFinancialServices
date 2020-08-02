@@ -65,4 +65,6 @@
     <script type="text/javascript" src="{{asset('FrontEnd')}}/respond.min.js">
     </script>
     <![endif]-->
+
+    <script src="https://merchant.safe.shop/widget.js"></script>
 </head>

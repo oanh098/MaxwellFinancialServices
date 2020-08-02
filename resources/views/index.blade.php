@@ -70,7 +70,7 @@
 
                
 
-                <div class="container" style="margin-top: 20px; margin-bottom: 20px;" >
+                <div class="DiscoverGlobal container" style="margin-top: 20px; margin-bottom: 20px;" >
                     <h1>
                     Discover Global Investing</h1>
                 </div>
@@ -90,7 +90,7 @@
                 
 
 
-                <div class="container" style="margin-top: 20px; margin-bottom: 20px;"  >
+                <div class="container WhyUs" style="margin-top: 20px; margin-bottom: 20px;"  >
                     <h1>
                     What We Offer Institutional and Retail Clients</h1>
                 </div>
