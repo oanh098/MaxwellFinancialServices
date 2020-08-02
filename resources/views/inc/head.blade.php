@@ -77,7 +77,7 @@
 {{--    </script>--}}
 {{--    <![endif]-->--}}
 
-    <!-- <script src="https://merchant.safe.shop/widget.js"></script> -->
+    <script src="https://merchant.safe.shop/widget.js"></script>
 
 
 
