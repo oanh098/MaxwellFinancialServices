@@ -1,10 +1,14 @@
- <!-- @include('inc.nav') -->
-<div class="ttr_slideshow">
-    <div id="ttr_slideshow_inner" >
-      <header id="headerMenu" class="">
 
-        <ul id="menuAuth">
-          @guest
+
+<section id="idSection" class="slideShow" 
+style="background: url({{asset('FrontEnd')}}/images/Slide1.png);">
+  <header>
+    <a href="#"><img src="{{asset('FrontEnd')}}/logo.png" alt="Logo Image" /></a>
+    <a class="toggle">Menu</a>
+    
+    <ul class="">
+
+            @guest
               <li><a href="{{ route('login') }}">{{ __('Login') }}</a></li>
             @if (Route::has('register'))
               <li><a href="{{ route('register') }}">{{ __('Register') }}</a></li>
@@ -19,14 +23,8 @@
                 </form>
               </div>
             @endguest
-        </ul>
 
-        <a class="toggle">Menu</a>
-        
-        <ul id="menuself" style="">
-
-            
-            <li ><a href="index">Home</a></li>
+            <li><a href="index">Home</a></li>
             <li><a href="about">About Us</a></li>
             <li><a href="#">Services<i class="arrow right"></i></a>
                 <ul>
@@ -42,216 +40,214 @@
             <li><a href="resort">Resource</a></li>
             <li><a href="contactus">Contact</a></li>
         </ul>
-
-        
-      </header>
-
-        
-
-        <ul>
-            <li id="Slide0" class="ttr_slide"   data-slideEffect="Fade">
-            </li>
-            <li id="Slide1" class="ttr_slide"   data-slideEffect="Fade" >
-            </li>
-            <li id="Slide2" class="ttr_slide"  data-slideEffect="Fade" >
-            </li>
-
-        </ul>
-
-    </div>
-
-    <div class="container" >
-        <div class="ttr_slideshow_in " ></div>
-    </div>
-
-<style type="text/css">
-
-  #headerMenu #menuAuth
-  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
- 
-  #headerMenu #menuself li a i.arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    margin-left: 5px;
-  }
-#headerMenu
-  {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid rgba(0,0,0,.1);
-  }
-#headerMenu #menuself
-{
-  display: flex;
-  justify-content: space-around;
-  margin-right: 10px;
-  position: relative;
-  transition: .5s;
-  z-index: 3000;
-  max-width: 1200px;
-  width: 100%;
-}
-#headerMenu #menuself li a
-,#headerMenu #menuAuth li a
-{
-  display: block;
-  padding: 15px 30px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: rgba(0,0,0,1);
-  font-weight: bold;
-  transition: .5s;
-  white-space: nowrap;
-}
-#headerMenu #menuself li a:hover,
-#headerMenu #menuAuth li a:hover
-{
-  background:#A39C87;
-  /*color: #fff;*/
-
-}
-#headerMenu #menuself li ul
-{
-  position: absolute;
-  background: rgba(255,255,255,.7);
-  display: block;
-  top: 50px;
-  left: 450px;
-  max-width: 1200px;
-  color: #fff;
-  transition: 0.3s;
-  visibility: hidden;
-  opacity: 0;
-}
-#headerMenu #menuself li:hover ul
-{
-  visibility: visible;
-  opacity: 1;
-}
-#headerMenu #menuself li ul
-{
-  position: absolute;
-  background: rgba(0,0,0,.4);
-  display: block;
-  top: 60px;
-  left: 450px;
-  max-width: 1200px;
-  color: #fff;
-  transition: 0.3s;
-  visibility: hidden;
-  opacity: 0;
-  z-index: 39999;
-}
-
-#headerMenu #menuself li ul li
-{
-  border-bottom: 1px solid rgba(0,0,0,.3);
-}
-
-#headerMenu .toggle
-{
-  display: none;
-  position: absolute;
-  right: 20px;
-  top: 136px;
-  background: rgba(0,0,0,.3);
-  color: #fff;
-  padding: 5px;
-  cursor: pointer;
-  font-weight: bold;
-}
-
- @media (max-width: 992px)
- {
-    #headerMenu .toggle
+  </header>
+  <style type="text/css">
+    #idSection header ul li.active a
     {
-      display: block;
-      top:120px;
+      background: rgba(163,156,135,.7);
+      color: #fff;
     }
-    #headerMenu
+    .slideShow header ul li a i.arrow 
     {
-      border-bottom: none;
+      border: solid black;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+      margin-left: 5px;
     }
-
-    #headerMenu.activeul
+    .slideShow header ul li a:hover i.arrow
     {
-      margin-top: 90px;
-      display: block;
-     
+      border: solid white;
+      border-width: 0 3px 3px 0;
     }
-    #headerMenu #menuself li a i.arrow {
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    margin-left: 5px;
-  }
-    #headerMenu.activeul #menuself
-     {
-      display: block;
-      background: rgba(0,0,0,.4);
-      top: -17px;
-      right: 0px;
-
-     }
-     #headerMenu.activeul #menuAuth
-     {
-      display: block;
-      background: rgba(0,0,0,.4);
-      top: 100px;
-      right: 0px;
-
-     }
-    #headerMenu #menuself li a
-    ,#headerMenu #menuAuth li a
+    .slideShow
     {
-      padding: 5px 10px;
-      color: white;
-    }
-    #headerMenu #menuself li ul
-    {
-      top: 103px;
-      background:rgba(0,0,0,.7);
-      left: 0;
+      position: relative;
       width: 100%;
+      height: 90vh;
+      /*background: url("{{asset('FrontEnd')}}/images/Slide1.png");*/
+      background-position: center center;
+      background-size: fill;
+      background-repeat: no-repeat;
+      object-fit: fill;
+
+    }
+    .slideShow header
+    {
+      /*position: relative;*/
       
+      width: 100%;
+      height: 20vh;
+      box-sizing: border-box;
+      background: rgba(255,255,255,.8);
+      box-shadow: 0 5px 50px rgba(0,0,0,.3);
+      transition: .5s;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0  150px;
+    }
+    .slideShow header img
+    {
+      height: 20vh;
+      position: absolute;
+      left: 10px;
+      top:0;
+      padding: 0  150px;
+    }
+    .slideShow header ul
+    {
+      display: flex;
+      position: relative;
+      float: right;
+      transition: .5s;
+      padding: 0;
+      /*left: 80vh;*/
+      /*background: rgba(255,255,255,.2);*/
+
+    }
+    .slideShow header ul li
+    {
+      list-style: none;
+    }
+    .slideShow header ul li ul
+    {
+      position: absolute;
+      background: rgba(255,255,255,.8);
+
+      top: 53px;
+      display: block;
+      transition: .5s;
+      visibility: hidden;
+      opacity: 0;
+    }
+     .slideShow header ul li:hover ul
+     {
+        visibility: visible;
+        opacity: 1;
+     }
+     .slideShow header ul li ul li
+     {
+      border-bottom: 1px solid rgba(0,0,0,.3);
+     }
+    .slideShow header ul li a
+    {
+      position: relative;
+      display: block;
+      padding: 10px 20px;
+      margin: 10px 0;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #000; 
+      font-weight: bold;
+      transition: .5s;
+    }
+    .slideShow header ul li a:hover
+    
+    {
+      background: #A39C87;
+      color: #fff;    
+
+    }
+    .toggle
+    {
+      display: none;
+      position: absolute;
+      top:10px;
+      right: 26px;
+      background: rgba(0,0,0,.3);
+      color: #000;
+      padding: 10px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    @media (max-width: 768px)
+    {
+      .slideShow
+      {
+        height: 80vh;
+      }
+      .slideShow header
+      {
+        padding: 0 0;
+        background: rgba(255,255,255,1);
+      }
+      .slideShow header img {
+        top: 0;
+        left: -150px;
+      }
+      .slideShow header ul
+      {
+        width: 100%;
+        top: 30vh;
+        display: none;
+      }
+      .slideShow header ul.activeul 
+      {
+        display: block;
+      }
+      .slideShow header ul li a
+      {
+        margin: 0;
+        display: block;
+        color: #fff;
+        background: rgba(0,0,0,.5);
+      }
+      .slideShow header ul li ul
+      {
+        z-index: 1;
+        background: rgba(255,255,255,.7);
+        top: 15vh;
+      }
+      .toggle
+      {
+        display: block;
+      }
+    }
+  </style>
+  <script type="text/javascript">
+    $(document).ready(function(){
+              $('.slideShow .toggle').click(function(){
+                  $('.slideShow ul').toggleClass('activeul');
+              })
+
+              
+          })
+
+
+      var images = [
+      '/images/Slide1.png',
+      '/images/Slide2.png',
+      '/images/Slide0.png'
+    ];
+
+    var img = document.getElementById("idSection");
+    function displayImage(x) {
+      // img.style.background = "url(" + images[x] + ")";
+      img.style.background = 'url({{asset("FrontEnd")}}' + images[x] +') center center/ cover no-repeat';
+    // img.innerText = images[x];
+
+    // background-image: url(photo.jpg);
+    // background-position: center center;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // background-origin: padding-box;
+    // background-clip: border-box;
+    // background-color: #ccc;
+
+    // background: url(photo.jpg) center center/cover no-repeat fixed padding-box border-box #ccc;
+    }
+    function startTimer() {
+      var x = 0;
+      displayImage(x);
+      setInterval(function() {
+        x = x + 1 >= images.length ? 0 : x + 1;
+        displayImage(x);
+      }, 6000);
     }
 
- }
-</style>
 
-<script type="text/javascript">
-     var slideIndex = 0;
-     carousel();
+  </script>
 
-     function carousel() {
-       var i;
-       var x = document.getElementsByClassName("ttr_slide");
-       for (i = 0; i < x.length; i++) {
-         x[i].style.display = "none";
-       }
-       slideIndex++;
-       if (slideIndex > x.length) {slideIndex = 1}
-       x[slideIndex-1].style.display = "block";
-       setTimeout(carousel, 5000); // Change image every 2 seconds
-     }
-
-        $(document).ready(function(){
-            $(' #headerMenu .toggle').click(function(){
-                $('#headerMenu').toggleClass('activeul');
-            })
-        })
-    </script>
-
-
-</div>
-
-
+</section>

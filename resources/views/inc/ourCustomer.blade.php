@@ -1,10 +1,10 @@
 
-<div class="container">
+<div class="cls-OurCustomer" >
 
-<div class="OurClients" style="margin-top: 40px; margin-bottom: 40px;" >
-        <h1>
-        Our Affiliated Clientele</h1>
-    </div>
+<div class="OurClients" style="margin-top: 40px; margin-bottom: 40px; text-align: center;" >
+    <h1>
+    Our Affiliated Clientele</h1>
+</div>
 
 
 
@@ -44,17 +44,24 @@
     <div class=" col-lg-2 col-md-2 col-sm-3 col-xs-3">
         <img class="img-fluid"  src="{{asset('FrontEnd')}}/images/xe.png" alt="xe" />
     </div>
-
-     
+</div>
 
 </div>
 
-
-
-
-<!-- </div> -->
-
-
+<style type="text/css">
+    .cls-OurCustomer
+    {
+        padding: 50px 150px;
+    }
+    @media (max-width: 992px)
+    {
+        .cls-OurCustomer
+        {
+        padding: 20px;
+            
+        }
+    }
+</style>
 
 <script type="text/javascript">
    $(document).ready(function(){

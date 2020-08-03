@@ -3,7 +3,8 @@
 
     @include('inc.head')
 
-<body class="{{$bodyClass ?? 'no'}}">
+<body class="{{$bodyClass ?? 'no'}}" onload="startTimer()">
+<!-- <body class="{{$bodyClass ?? 'no'}}" > -->
 
 
 <div class="totopshow">
