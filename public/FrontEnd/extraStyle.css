@@ -42,23 +42,8 @@ section.info div p{
 
 
 /* pop up*/
-.trailer{
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10000;
-    background: rgba(0,0,0,0.9);
-    width: 100%;
-    height: 100%;
 
-    visibility: hidden;
-    overflow: auto;
-}
- .activeTrailer{
-    visibility: visible;
-    opacity: 1;
-}
+ 
 
 .FDA-bannerimg{
     position: relative;
@@ -72,16 +57,15 @@ section.info div p{
 }
 .close-img {
     position: relative;
-    top: 10px;
+    top: 20px;
     cursor:pointer;
     filter: invert(1);
     max-width: 30px;
 
     margin-right: auto;
     margin-left: auto;
-   display: block;
-
-    z-index: 1;
+    display: block;
+    z-index: 10001;
 }
 /*
   ##Device = Desktops

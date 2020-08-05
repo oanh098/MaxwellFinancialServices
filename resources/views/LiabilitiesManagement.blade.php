@@ -1,82 +1,162 @@
-@extends('layouts.appMaxwell')
-@section('content')
 
 
 
-<div class="trailer">
-    <div class="row">
-        <div class="col-md-3 col-sm-4 col-xs-6">
-{{--            <img class="img-responsive" src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" />--}}
-        </div>
-        <div class="col-md-6 col-sm-6 col-xs-12">
-            <img src="{{asset('FrontEnd')}}/images/return.png"  alt=""  class="close-img"  onclick="toggle()">
-            <img class="img-fluid"
-                 src="{{asset('FrontEnd')}}/images/img-FixedTermDeposits.jpg" />
-        </div>
-{{--        <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="http://blog.arborday.org/wp-content/uploads/2013/02/NEC1-300x200.jpg" /></div>--}}
-        <div class="col-md-3 col-sm-4 col-xs-6">
-{{--            <img class="img-responsive" src="http://th03.deviantart.net/fs70/200H/f/2010/256/0/9/painting_of_nature_by_dhikagraph-d2ynalq.jpg" />--}}
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-6">
-            <p style="color: white; font-size: 2em">Fixed-term</p>
-            <div style="padding:56.25% 0 0 0;position:relative;">
+        @extends('layouts.appMaxwell')
+        @section('content')
 
-                <iframe src="https://player.vimeo.com/video/393155428?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            
 
-        </div>
-        <div class="col-md-4 col-sm-4 col-xs-6">
-            <p style="color: white; font-size: 2em">Our offices</p>
-            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/393134816?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-        </div>
-        <div class="col-md-4 col-sm-4 col-xs-6">
-            <p style="color: white; font-size: 2em">Why choose us?</p>
-            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/393086629?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-        </div>
+            <section class="trailer">
+                <a style="height: 15vh;"><img src="{{asset('FrontEnd')}}/images/return.png"  alt="" class="close-img"  
+                    onclick="toggle()" >
+                </a>
+                    <img src="{{asset('FrontEnd')}}/images/img-FixedTermDeposits.jpg"  />
+                <div id="listVideos">
+                    <div>
+                    <h2>Fixed-term</h2>
+                    <iframe src="https://player.vimeo.com/video/393155428?title=0&byline=0&portrait=0" style="position:relative;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+                    <div>
+                    <h2>Our offices</h2>
+                    <iframe src="https://player.vimeo.com/video/393134816?title=0&byline=0&portrait=0" style="position:relative;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+                    <div>
+                    <h2>Why choose us?</h2>
+                    <iframe src="https://player.vimeo.com/video/393086629?title=0&byline=0&portrait=0" style="position:relative;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
-    </div>
-</div>
-
-        
-        
-        <div>
-            <section class="info">
-                <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits
-                         paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply. </span></p></div>
-                <div style="background: blue;  opacity: 0.65; "><p>In these uncertain times ask us about our guaranteed fixed term deposits
-                         paid fortnightly. <span style="color: gold">9.46% P/A. Terms and conditions apply.</span> </p></div>
-            </section>
-        </div>
-
-        <div class="container"><div class="row" >
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" > 
-                <a href="{{asset('FrontEnd')}}/PDSFTD.pdf" class="view-pdf">
-                    <span style="background-color: yellow; color: #1155cc; font-size: 0.9em"> Click here for PDS </span></a>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="border: #6b46c1 3px; text-align: right" > 
-                <a style="color: #1155cc; background-color: yellow; white-space: nowrap; font-size: 0.9em; cursor: pointer"  onclick="toggle()">Click here for current rate.</span></a>
-            </div>
-
-        </div></div>
-
-        <div class="row" >
-            <div class="col-lg-12 col-md-10 col-sm-10 col-xs-9">
-                <div class="container">
-                <a href="{{asset('FrontEnd')}}/FIXED_TERM_PDS.pdf" class="view-pdf"><span style="background-color: yellow; color: #1155cc; font-size: 0.9em"> Click here for Full Version PDS </span></a>
-        </div></div></div>
-
-    <div class="ttr_liabilities-management_html_row0 row">
-        <div class="col-lg-12 col-md-10 col-sm-10 col-xs-9">
-                <div class="container">
-                    <p>
-                            MFS offers fixed term deposits, annuities paid weekly or fortnightly into your nominated account. This is great for pensioner’s retirees and clients looking for a safe investment return paid weekly.
-                    </p>
-
-                    <p>
-                            What is a term deposit? A term deposit with MFS is a fixed term investment that includes the deposit of money into an account for a set period of time. Please speak to your specialist as we have numerous fixed terms and the rates are always changing. The interest earned on a term deposit account with Maxwell Financial services (please ask a specialist the current terms and interest rate) .
-                    </p>
                 </div>
-        </div>
-    </div>
-    @endsection
+
+                <script src="https://player.vimeo.com/api/player.js"></script>
+
+                <style type="text/css">
+                    .trailer{
+                        position: absolute;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 150vh;
+                        z-index: 10000;
+                        background: rgba(0,0,0,0.9);
+                        width: 100%;
+                        top: 0;
+                        visibility: hidden;
+                        overflow: auto;
+                    }
+                    .activeTrailer
+                    {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                    .activeTrailer #listVideos
+                    {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        height: 100%;
+                        width: 100%;
+                    }
+                    .activeTrailer #listVideos div
+                    {
+                        display: flex;
+                        width: 100%;
+                        height: 100%;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 20px 20px;
+                        padding-top: 20px;
+                    }
+                    
+                    .activeTrailer #listVideos div h2
+                    {
+                        color: #fff;
+                    }
+
+                    @media (max-width: 991px)
+                    {
+                        .trailer
+                        {
+                            flex-direction: column;
+                            height: 100vh;
+                        }
+                        .activeTrailer #listVideos
+                        {
+                            flex-direction: column;
+                        }
+                        .activeTrailer #listVideos iframe
+                        {
+                            margin: 5px 0;
+                        }
+                        .activeTrailer img
+                        {
+                            width: 80%; 
+                        }
+                        
+                    }
+                    
+
+                </style>
+                <script type="text/javascript">
+                    function toggle(){
+                        var trailer=document.querySelector(".trailer");
+                        var video=document.querySelector("video");
+                        trailer.classList.toggle("activeTrailer");
+                    }
+                </script>
+            </section>
+
+
+
+            <section class="clsLiabilitiesManagement">
+                <div>
+                    <a onclick="toggle()"> 
+                    Click here for PDS.</a>
+                    <a onclick="toggle()">
+                    Click here for current rate.</a>
+                    <a onclick="toggle()"> 
+                    Click here for Full Version PDS.</a>
+                </div>
+                <span style="padding: 30px 0"></span>
+                <p>MFS offers fixed term deposits, annuities paid weekly or fortnightly into your nominated account. This is great for pensioner’s retirees and clients looking for a safe investment return paid weekly.</p>
+
+                <p>What is a term deposit? A term deposit with MFS is a fixed term investment that includes the deposit of money into an account for a set period of time. Please speak to your specialist as we have numerous fixed terms and the rates are always changing. The interest earned on a term deposit account with Maxwell Financial services (please ask a specialist the current terms and interest rate).</p>
+                
+                
+                <style type="text/css">
+                    .clsLiabilitiesManagement
+                    {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        padding: 100px 150px;
+                        position: relative;
+                    }
+                    .clsLiabilitiesManagement div
+                    {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: flex-start;
+                        width: 100%;
+                        color: #000; 
+                        cursor: pointer;
+
+                    }
+                    .clsLiabilitiesManagement div a
+                    {
+                        margin: 5px 0;
+                        color: #000; 
+                        background: rgba(234,67,53,.7);
+                        cursor: pointer;
+
+                    }
+                    @media (max-width: 991px)
+                    {
+                        .clsLiabilitiesManagement
+                        {
+                            padding: 50px 30px;
+                        }
+                    }
+                </style>
+            </section>
+@endsection

@@ -12,12 +12,9 @@
 
     </div>
 
-    <div class="ttr_liabilities-management_html_row0 row">
-        <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="html_content" >
-                <p style="font-size:2.25em">
-                    Our Mission</p>
+    <section class="clsAbout">
+                <h1>
+                    Our Mission</h1>
                 <p >
                     Maxwell Financial Services aim to provide our clients with all the business support and services that they need to create an efficient, professional, and reliable process for them to be able to operate their investments with ease and enable them to focus on what's important --- growing a profitable and stable investment.
                 </p>
@@ -26,15 +23,12 @@
                     Our business continuity and financial stability is rock-solid and keeps getting better with age.
                     Maxwell Financial Services continue to create a positive, professional, and secure environment for our clients and industry partners.
                 </p>
-                <br>
-            </div>
-        </div>
+                
 
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="html_content" >
-                <p style="font-size:2.25em " >
+                <span style="padding: 30px 0"></span>
+                <h1>
                     Our Vision
-                </p>
+                </h1>
 
                 <p>Our vision is to help our clients with their day to day operations with our modern technology platform. We want our clients to have peace of mind to enable their advisors to present and give advice with full confidence, creating a strong and trustworthy advisor and client relationship.
                     Maxwell Financial Services have acquired now over 11 companies, all of which offer the best products, services and technologies. Our acquisition strategy is to employ highly disciplined and focused entities to ensure investment success.
@@ -68,9 +62,29 @@
                 <p>We firmly believe that our main role is to provide our clients strong and reliable support in all the fields they need to help them build,
                     between their advisors and clients. When your clients succeed, you succeed and we succeed.
                 </p>
-            </div>
-        </div>
-    </div></div>
+            <style type="text/css">
+                    .clsAbout
+                    {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        padding: 100px 150px;
+                        position: relative;
+                    }
+                    .clsAbout h1    
+                    {
+                        align-self: flex-start;
+                    }
+                    @media (max-width: 991px)
+                    {
+                        .clsAbout
+                        {
+                            padding: 50px 30px;
+                        }
+                    }
+                </style>
+            </section>
 
 
 @endsection

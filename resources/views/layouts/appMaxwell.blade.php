@@ -3,7 +3,11 @@
 
     @include('inc.head')
 
-<body class="{{$bodyClass ?? 'no'}}" onload="startTimer()">
+    @if($bodyClass =='index')
+        <body class="{{$bodyClass ?? 'no'}}" onload="startTimer()">
+    @else
+        <body class="{{$bodyClass ?? 'no'}}" >
+    @endif
 <!-- <body class="{{$bodyClass ?? 'no'}}" > -->
 
 

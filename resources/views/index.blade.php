@@ -84,17 +84,13 @@
             {
                 align-self: center;
             }
-            .cls-ourServices ul li p
-            {
-                width: 50vh;
-
-            }
+           
             
             @media (max-width: 991px)
             {
                 .cls-ourServices 
                 {
-                    padding: 80px;
+                    padding: 20px;
                 }
                 .cls-ourServices ul
                 {
@@ -102,7 +98,7 @@
                 }
                 .cls-ourServices ul li p
                 {
-                   padding: 20px;    
+                   /*padding: 20px;    */
                 }
             }
         </style>
@@ -168,8 +164,8 @@
                 <p>Our advisers are supported by the firm's award-winning research team, as well as the corporate finance team, which has members based in the Melbourne, Sydney and London offices.
                 </p>
                 <p>No matter what your investment requirements are, we can match you to an adviser who is best suited to your style of investment.
-                    The Australian share market accounts for a mere 3% of global equities by market capitalisation. Investing in international shares though Maxwell Financial service allows you to access those opportunities which are unavailable at home and thereby diversify your portfolio.
-                    Maximising your profits in emerging markets.</p>
+                    The Australian share market accounts for a mere 3% of global equities by market capitalization. Investing in international shares though Maxwell Financial service allows you to access those opportunities which are unavailable at home and thereby diversify your portfolio.
+                    Maximizing your profits in emerging markets.</p>
                 </p></div>
 
                 <style type="text/css">
@@ -191,62 +187,6 @@
                     }
                 </style> 
 
-                <!-- <div class="w3-content w3-display-container">
-                  <div class="mySlides"  style="width:100%">
-                    <p>Maxwell Financial Services believes that our client’s success is our success. Maxwell Financial Services has over 23 years of professional financial services.
-                    Excellence. With our strong tenure in the financial services industry, focusing on the Australasian European markets our clients are secure and confident . We specialize in providing customized execution, clearing, and custody solutions to full-service firms and independent broker dealers.
-                </p>
-                <p>We offer direct accounts and prime brokerage services to professional and institutional clients as well as high-profile individual investors. We offer clearing services to broker dealers that service both institutional and retail accounts. Fully disclosed clearing arrangements are available to all of our clients worldwide.
-                </p>
-                <p>We believe that an advisor’s strength is his belief in innovation and his ability to turn a loss into an opportunity, and his capability to forecast success. Our focus is to ensure that the settlement process is time-saving, smooth running, and efficient reducing risk and giving you more time on your hands to spend on that matters most growing your client accounts.
-                </p>
-                <p>Simplify your business operations by relying on all the services we will be providing you Maxwell Financial services understand that your success depends on the advisor client relationship.
-                </p>
-                <p>Small and medium businesses are what runs the economy.
-                </p></div>
-                  <div class="mySlides"  style="width:100%">
-                      <p>Our team is your team.
-                </p>
-                <p>As our client, you are assured that we will always be on your side of the trade. We have but one goal, to prosper.
-                </p>
-                <p>Maxwell Financial services office is comprised of a team of stockbrokers and financial planning professionals offering a comprehensive range of financial advice, incorporating stockbroking, financial planning, fixed interest, superannuation, insurance, estate planning, margin lending and SMSF Self-Managed Superannuation Fund advice.
-                </p>
-                <p>We pride ourselves on offering clients professional and objective financial advice, as well as access to new IPO's and other opportunities.
-                </p>
-                <p>Our advisers are supported by the firm's award-winning research team, as well as the corporate finance team, which has members based in the Melbourne, Sydney and London offices.
-                </p>
-                <p>No matter what your investment requirements are, we can match you to an adviser who is best suited to your style of investment.
-                    The Australian share market accounts for a mere 3% of global equities by market capitalisation. Investing in international shares though Maxwell Financial service allows you to access those opportunities which are unavailable at home and thereby diversify your portfolio.
-                    Maximising your profits in emerging markets.</p>
-                </p>
-                  </div>
-                 
-                  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-                </div>
-
-                 
-
-                
-                <script>
-                    var myIndex = 0;
-                    carousel();
-
-                    function carousel() {
-                      var i;
-                      var x = document.getElementsByClassName("mySlides");
-                      for (i = 0; i < x.length; i++) {
-                        x[i].style.display = "none";  
-                      }
-                      myIndex++;
-                      if (myIndex > x.length) {myIndex = 1}    
-                      x[myIndex-1].style.display = "block";  
-                      setTimeout(carousel, 2000); // Change image every 2 seconds
-                    }
-                </script> -->
-
-
-           
 
 
     </section>

@@ -1,11 +1,11 @@
 @extends('layouts.appMaxwell')
 @section('content')
 
-    <div class="ttr_liabilities-management_html_row0 row">
-        <div class="col-lg-12 col-md-10 col-sm-10 col-xs-12">
-            
-                <div class="container" >
-                    <p>Maxwell Financial Services offers an exceptional suite of execution and clearing services across all of the markets we serve.
+    
+
+    <section class="clsResource">
+        <div>
+        <p>Maxwell Financial Services offers an exceptional suite of execution and clearing services across all of the markets we serve.
                             Our preeminent exchange rankings on all equity, commodity and futures exchanges coupled with our extensive network of banking and financial
                             relationships enable us to provide unmatched access to pools of liquidity.
                     </p>
@@ -25,7 +25,24 @@
                     <p>Our worldwide client base ranges from privately owned and corporate owned brokerages, financial institutions, industrial groups,
                              hedge funds and other asset managers to the professional trader and retail client.
                     </p>
-                </div>
         </div>
-    </div>
+        <style type="text/css">
+            .clsResource
+            {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding: 100px 150px;
+            }
+            
+            @media (max-width: 991px)
+            {
+                .clsResource
+                {
+                    padding: 50px 30px;
+                }
+            }
+        </style>
+    </section>
 @endsection

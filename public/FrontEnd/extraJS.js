@@ -13,14 +13,7 @@
 //     popup.classList.toggle("show");
 // }
 
-function toggle(){
-    var trailer=document.querySelector(".trailer");
-    var video=document.querySelector("video");
-    trailer.classList.toggle("activeTrailer");
-    // video.pause();
-    // video.currentTime=0;
 
-}
 $(document).keyup(function(e) {
 
     if (e.keyCode == 27) {
