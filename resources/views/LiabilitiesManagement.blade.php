@@ -72,7 +72,7 @@
                     }
                     .activeTrailer img
                     {
-                        width: 80%; 
+                        width: 60%; 
                     }
 
                     @media (max-width: 991px)
@@ -90,10 +90,7 @@
                         {
                             margin: 5px 0;
                         }
-                        .activeTrailer img
-                        {
-                            width: 80%; 
-                        }
+                        
                         
                     }
                     
