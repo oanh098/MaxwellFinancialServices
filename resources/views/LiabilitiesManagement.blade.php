@@ -10,7 +10,7 @@
                 <a style="height: 15vh;"><img src="{{asset('FrontEnd')}}/images/return.png"  alt="" class="close-img"  
                     onclick="toggle()" >
                 </a>
-                    <img src="{{asset('FrontEnd')}}/images/img-FixedTermDeposits.jpg"  />
+                    <img src="{{asset('FrontEnd')}}/newImages/FixedTermDeposits.jpg"  />
                 <div id="listVideos">
                     <div>
                     <h2>Fixed-term</h2>
@@ -70,6 +70,10 @@
                     {
                         color: #fff;
                     }
+                    .activeTrailer img
+                    {
+                        width: 80%; 
+                    }
 
                     @media (max-width: 991px)
                     {
@@ -108,11 +112,11 @@
 
             <section class="clsLiabilitiesManagement">
                 <div>
-                    <a onclick="toggle()"> 
+                    <a href="{{asset('FrontEnd')}}/PDSFTD.pdf"> 
                     Click here for PDS.</a>
                     <a onclick="toggle()">
                     Click here for current rate.</a>
-                    <a onclick="toggle()"> 
+                    <a href="{{asset('FrontEnd')}}/FIXED_TERM_PDS.pdf"> 
                     Click here for Full Version PDS.</a>
                 </div>
                 <span style="padding: 30px 0"></span>

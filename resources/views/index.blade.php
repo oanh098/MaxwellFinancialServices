@@ -11,8 +11,51 @@
             <div><p>Due to the COVID-19 and our intro fixed term deposit we are currently receiving a high volume of calls you can email us at
                     <a style="color: #000000;" href="mailto:info@maxwellfinancialservices.com"> info@maxwellfinancialservices.com  </a> and we will get back to you within 2 business hours.</p></div>
     </section>
+<!-- section Links -->
+    <section class="cls-Links">
+        <div>
+            <a href="{{asset('FrontEnd')}}/MFS-PRIVACY-NOTICE.pdf" 
+            style="color: #000; background: rgba(234,67,53,.7);cursor: pointer;">
+            Maxwell Financial Services Privacy Notice.</a>
+            <a href="{{asset('FrontEnd')}}/MFS-SECURITY-NOTICE.pdf" 
+            style="color: #000; background: rgba(234,67,53,.7);cursor: pointer;">
+            Maxwell Financial Services Cyber Security Notice.</a>
+        </div>
+        <style type="text/css">
+            .cls-Links
+            {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                padding: 20px 150px;
+                position: relative;
+                width: 100%;
+            }
+            .cls-Links div
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                justify-content: center;
+            }
+            .cls-Links div a
+            {
+                margin-bottom: 1px;
+            }
+
+            @media (max-width: 991px)
+            {
+                .cls-Links
+                {
+                    padding: 20px;
+                }
+            }
+
+        </style>
+    </section>
 <!-- section ourServices -->
     <section class="cls-ourServices">
+        
         <h1>Our Service</h1>
         <ul>
             <li>
@@ -30,8 +73,8 @@
                 <h2>Liabilities Management</h2>
                 <p>Your advisors will have access to lending services and specialists amilable through our partners to help your advisors manage both sides of your clients balance sheet</p>
             </li>
-            
         </ul>
+
         <ul>
             <li>
                 <img src="{{asset('FrontEnd')}}/newImages/research-strategy.png" alt="Research & Strategy">
@@ -48,8 +91,8 @@
                 <h2>Clearing and Execution</h2>
                 <p>We specialize in providing customized execution, clearing, and custody solutions to full service firms and independent broker dealers, advisors, and firms on the financial services sector.</p>
             </li>
-            
         </ul>
+
         <style type="text/css">
             .cls-ourServices
             {

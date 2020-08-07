@@ -194,6 +194,14 @@ style="background: url({{asset('FrontEnd')}}/images/Slide1.png);">
       {
         padding: 5px 5px;
       }
+       .slideShow header ul li a i.arrow 
+      {
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        margin-left: 5px;
+      }
       .slideShow header div ul div
       {
         display: flex;

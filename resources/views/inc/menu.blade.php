@@ -43,7 +43,7 @@
     {
       position: relative;
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
       height: 20vh;
       background: rgba(255,255,255,.8);
@@ -93,8 +93,9 @@
     }
     .clsPopupMenu ul li ul
     {
-      display: flex;
+      display: block;
       flex-direction: column;
+      align-items: flex-start;
       visibility: hidden;
       opacity: 0;
       position: absolute;
@@ -111,6 +112,25 @@
     {
       padding: 20px;
       margin: 0 5px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    .clsPopupMenu ul li a:hover
+    
+    {
+      background: #A39C87;
+      color: #fff;    
+
+    }
+
+     .clsPopupMenu ul li a i.arrow 
+    {
+      border: solid black;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+      margin-left: 5px;
     }
 
     .clsPopupMenu ul li ul li
