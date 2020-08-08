@@ -4,7 +4,8 @@
     @include('inc.head')
 
     @if($bodyClass =='index')
-        <body class="{{$bodyClass ?? 'no'}}" onload="startTimer()">
+        <body class="{{$bodyClass ?? 'no'}}">
+        <!-- <body class="{{$bodyClass ?? 'no'}}" onload="startTimer()"> -->
     @else
         <body class="{{$bodyClass ?? 'no'}}" >
     @endif
@@ -97,7 +98,6 @@
         <div style="clear:both">
         </div>
     </div><!--container-->
-    <div style="height:0px;width:0px;overflow:hidden;"></div>
 
     @include('inc.footer')
 

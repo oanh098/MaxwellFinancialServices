@@ -1,6 +1,7 @@
 
 
-<section class="slideShow">
+<section id="idSection" class="slideShow" 
+style="background: url({{asset('FrontEnd')}}/images/Slide1.png);">
   <header>
     <a href="#"><img src="{{asset('FrontEnd')}}/logo.png" alt="Logo Image" /></a>
     <a class="toggle">Menu</a>
@@ -44,186 +45,8 @@
       </ul>
     </div>
   </header>
-
-  <!-- Slideshow container -->
-  <div class="slideshow-container">
-
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade-Slideshow">
-      <div class="numbertext">1 / 3</div>
-      <img src="{{asset('FrontEnd')}}/images/Slide1.png" >
-      <!-- <div class="text">Caption Text</div> -->
-    </div>
-
-    <div class="mySlides fade-Slideshow">
-      <div class="numbertext">2 / 3</div>
-      <img src="{{asset('FrontEnd')}}/images/Slide2.png" >
-      <!-- <div class="text">Caption Two</div> -->
-    </div>
-
-    <div class="mySlides fade-Slideshow">
-      <div class="numbertext">3 / 3</div>
-      <img src="{{asset('FrontEnd')}}/images/Slide0.png" >
-      <!-- <div class="text">Caption Three</div> -->
-    </div>
-
-    <!-- Next and previous buttons -->
-   <!--  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
-
-    <!-- The dots/circles -->
-  <!-- <div class="cls-dot" style="text-align:center; margin-top: 20px;">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-  </div> -->
-  </div>
-
-  
-
   <style type="text/css">
-    /* Slideshow container */
-    .slideShow .slideshow-container {
-      width: 100%;
-      position: relative;
-      margin: auto;
-      height: 80vh;
-      top: 0;
-
-    }
-
-    .slideshow-container div img
-    {
-      width: 100%;
-      height: 80vh;      
-    }
-
-    /* Hide the images by default */
-    .mySlides 
-    {
-      display: none;
-    }
-
-
-    /* Next & previous buttons */
-    .prev, .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      margin-top: -22px;
-      padding: 15px;
-      margin: 50px;
-      color: white !important;
-      font-weight: bold;
-      font-size: 24px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-      user-select: none;
-    }
-
-    /* Position the "next button" to the right */
-    .next {
-      right: 10px;
-      border-radius: 3px 0 0 3px;
-    }
-
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover, .next:hover {
-      background-color: rgba(0,0,0,0.5);
-      color: #fff !important;
-
-    }
-
-    /* Caption text */
-    .text {
-      color: #f2f2f2;
-      font-size: 15px;
-      padding: 8px 12px;
-      position: absolute;
-      bottom: 8px;
-      width: 100%;
-      text-align: center;
-    }
-
-    /* Number text (1/3 etc) */
-    .numbertext {
-      color: #f2f2f2;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: absolute;
-      top: 0;
-    }
-
-    /* The dots/bullets/indicators */
-    .dot {
-      cursor: pointer;
-      height: 15px;
-      width: 15px;
-      margin: 0 2px;
-      background-color: rgba(0,0,0,.5);
-      border-radius: 50%;
-      display: inline-block;      
-      transition: background-color 0.6s ease;
-    }
-
-    .activedot, .dot:hover {
-      /*background-color: #717171;*/
-      /*background: rgba(255,255,255,.3);*/
-    }
-
-    /* Fading animation */
-    .fade-Slideshow {
-      -webkit-animation-name: fade-Slideshow;
-      -webkit-animation-duration: 1.5s;
-      animation-name: fade-Slideshow;
-      animation-duration: 1.5s;
-    }
-
-    @-webkit-keyframes fade-Slideshow {
-      from {opacity: .4}
-      to {opacity: 1}
-    }
-
-    @keyframes fade-Slideshow {
-      from {opacity: .4}
-      to {opacity: 1}
-    }
-
-    @media (max-width: 991px)
-    {
-      .slideShow .slideshow-container {
-      height: 60vh;
-
-    }
-
-    .slideshow-container div img
-    {
-      height: 60vh;      
-    }
-    }
-  </style>
-
-  <script type="text/javascript">
-    var slideIndex = 0;
-    showSlides();
-
-    function showSlides() {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}
-      slides[slideIndex-1].style.display = "block";
-      setTimeout(showSlides, 2000); // Change image every 2 seconds
-    }
-
-  </script>
-
-  <style type="text/css">
-    header ul li.active a
+    #idSection header ul li.active a
     {
       background: rgba(163,156,135,.7);
       color: #fff;
@@ -245,7 +68,7 @@
     {
       position: relative;
       width: 100%;
-      height: 100vh;
+      height: 90vh;
       /*background: url("{{asset('FrontEnd')}}/images/Slide1.png");*/
       background-position: center center;
       background-size: fill;
@@ -253,16 +76,14 @@
       object-fit: fill;
 
     }
-
     .slideShow header
     {
       /*position: relative;*/
       
       width: 100%;
       height: 20vh;
-      top: 0;
       box-sizing: border-box;
-      background: rgba(255,255,255,.5);
+      background: rgba(255,255,255,.8);
       box-shadow: 0 5px 50px rgba(0,0,0,.3);
       transition: .5s;
       display: flex;
@@ -314,8 +135,6 @@
       transition: .5s;
       visibility: hidden;
       opacity: 0;
-      z-index: 1;
-
     }
      .slideShow header ul li:hover ul
      {
@@ -371,11 +190,6 @@
         padding: 0 20px;
         position: relative;
       }
-      .slideShow header div ul
-      {
-        
-        z-index: 1;
-      }
       .slideShow header div ul li a
       {
         padding: 5px 5px;
@@ -426,7 +240,6 @@
         width: 100%;
         top: 20px;
         display: none;
-        z-index: 1;
       }
       /*login stuff*/
       .slideShow header div ul div
@@ -455,7 +268,7 @@
       }
       .slideShow header div ul li ul
       {
-        
+        z-index: 1;
         background: rgba(255,255,255,.7);
         top: 25vh;
       }
@@ -465,7 +278,6 @@
       }
     }
   </style>
-
   <script type="text/javascript">
     $(document).ready(function(){
               $('.slideShow .toggle').click(function(){
@@ -474,7 +286,41 @@
 
               
           })
-   
+
+
+      var images = [
+      '/images/Slide1.png',
+      '/images/Slide2.png',
+      '/images/Slide0.png'
+    ];
+
+    var img = document.getElementById("idSection");
+    function displayImage(x) {
+      // img.style.background = "url(" + images[x] + ")";
+      img.style.background = 'url({{asset("FrontEnd")}}' + images[x] +') center center/ cover no-repeat';
+    // img.innerText = images[x];
+
+    // background-image: url(photo.jpg);
+    // background-position: center center;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // background-origin: padding-box;
+    // background-clip: border-box;
+    // background-color: #ccc;
+
+    // background: url(photo.jpg) center center/cover no-repeat fixed padding-box border-box #ccc;
+    }
+    function startTimer() {
+      var x = 0;
+      displayImage(x);
+      setInterval(function() {
+        x = x + 1 >= images.length ? 0 : x + 1;
+        displayImage(x);
+      }, 6000);
+    }
+
+
   </script>
 
 </section>
