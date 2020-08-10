@@ -8,8 +8,16 @@
     letter-spacing: 1px;
 
 }
+
 body {
     /*font-size: 1.2em;*/
+    /*position: fixed;*/
+}
+@media (max-width: 991px)
+{
+    body
+    {
+    }
 }
 
 

@@ -47,6 +47,12 @@ class pagesController extends Controller
         $headerTitle = 'Transition Services';
         return view('TransitionServices', compact(['bodyClass','headerTitle']));
     }
+    // why-choose-us
+    public function WhyChooseUs(){
+        $bodyClass='liabilities-management';
+        $headerTitle = 'Why Choose Us';
+        return view('WhyChooseUs', compact(['bodyClass','headerTitle']));
+    }
     public function Resource_Name(){
             $bodyClass='liabilities-management';
             $headerTitle = 'Resource';

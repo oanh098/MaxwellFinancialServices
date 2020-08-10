@@ -31,6 +31,7 @@
                 <li><a href="clearing-and-execution">Refinancing Advice</a></li>
                 <li><a href="product-solutions">Wills & Power of Attorneys Estate Planning</a></li>
                 <li><a href="transition-services">Transition Services</a></li>
+                <li><a href="why-choose-us">Why Choose Us</a></li>
                 
               </ul>
           </li>

@@ -17,7 +17,7 @@
 </div><!-- totopshow -->
 
 <div ></div>
-<div id="ttr_page" class="container">@include('cookieConsent::index')</div>
+<div id="ttr_page">@include('cookieConsent::index')</div>
 
 <!-- TradingView Widget BEGIN -->
     <div class="tradingview-widget-container">
