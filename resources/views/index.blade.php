@@ -160,7 +160,7 @@
                 <p>Our advisers are supported by the firm's award-winning research team, as well as the corporate finance team, which has members based in the Melbourne, Sydney and London offices.
                 </p>
                 <p>No matter what your investment requirements are, we can match you to an adviser who is best suited to your style of investment.
-                    The Australian share market accounts for a mere 3% of global equities by market capitalization. Investing in international shares though Maxwell Financial service allows you to access those opportunities which are unavailable at home and thereby diversify your portfolio.
+                    The Australian share market accounts for a mere 3% of global equities by market capitalization. Investing in international shares through Maxwell Financial service allows you to access those opportunities which are unavailable at home and thereby diversify your portfolio.
                     Maximizing your profits in emerging markets.</p>
                 </p></div>
 

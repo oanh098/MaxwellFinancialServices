@@ -9,10 +9,8 @@
     <a href="#"><img src="{{asset('FrontEnd')}}/logo.png" alt="Logo Image" /></a>
     <a class="toggle">Menu</a>
     
-    <div>
       <ul class="">
 
-              <div>
               @guest
                 <li><a href="{{ route('login') }}">{{ __('Login') }}</a></li>
               @if (Route::has('register'))
@@ -28,7 +26,6 @@
                   </form>
                 </div>
               @endguest
-              </div>
 
               <li><a href="index">Home</a></li>
               <li><a href="about">About Us</a></li>
@@ -47,10 +44,11 @@
               <li><a href="resort">Resource</a></li>
               <li><a href="contactus">Contact</a></li>
       </ul>
-    </div>
   </header>
+
   <h1>{{$headerTitle ?? ''}}
   </h1>
+
   <style type="text/css">
     #idSection header ul li.active a
     {
@@ -86,23 +84,7 @@
 
     }
 
-    /*.slideShow
-    {
-      position: relative;
-      width: 100%;
-      height: 60vh;
-      background: url("{{asset('FrontEnd')}}/images/Slide1.png");
-      background-position: center center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      object-fit: cover;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-direction: column;
-
-    }
-    */
+    
 
     .slideShow header
     {
@@ -126,25 +108,24 @@
       font-size: 80px;
       margin-bottom: 10%;
     }
-    .slideShow header div
+    /*.slideShow header div
     {
       display: flex;
       justify-content: center;
       align-items: center;
       /*align-self: flex-end;*/
       /*float: right;*/
-      position: relative;
+      /*position: relative;*/
       /*left: 20%;*/
-    }
+    /*}*/
     .slideShow header img
     {
       height: 20vh;
       position: absolute;
-      left: 10px;
+      /*left: 10px;*/
       top:0;
-      padding: 0  150px;
     }
-    .slideShow header div ul
+    .slideShow header ul
     {
       display: flex;
       position: relative;
@@ -154,13 +135,11 @@
       /*background: rgba(255,255,255,.2);*/
 
     }
-    .slideShow header div ul li
+    .slideShow header ul li
     {
       list-style: none;
-      flex-shrink: 1;
-      flex-grow: 1;
     }
-    .slideShow header div ul li ul
+    .slideShow header ul li ul
     {
       position: absolute;
       background: rgba(255,255,255,.8);
@@ -214,7 +193,7 @@
       font-weight: bold;
     }
 
-    @media (max-width: 1024px)
+    @media (max-width: 1140px)
     {
        .slideShow header
       {
@@ -225,70 +204,82 @@
       {
         height: 20vh;
         padding: 0 20px;
-        position: relative;
       }
-      .slideShow header div ul li a
+      .slideShow header ul li a
       {
         padding: 5px 5px;
       }
-      .slideShow header div ul div
+     /* .slideShow header ul div
       {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-      }
+      }*/
 
     }
 
-    @media (max-width: 768px)
+     @media (min-width: 1139px) and (max-width: 1447px)
     {
+      .slideShow header
+      {
+        padding: 0 30px;
+      }
+      .slideShow header ul li a
+      {
+        padding: 5px;
+      }
+    }
+
+    @media (max-width: 1140px)
+    {
+   
       #idSection h1
       {
-        font-size: 50px;
+        font-size: 60px;
         margin-bottom: 15%;
+        align-self: center;
       }
       .slideShow
       {
-        height: 80vh;
+        height: 70vh;
+        align-items: center;
       }
       .slideShow header
       {
         flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
         padding: 0;
         background: rgba(255,255,255,1);
       }
-      .slideShow header img {
-        top: 0;
-        left: -50px;
-      }
 
-      .slideShow header div
+     .slideShow header ul li a i.arrow 
       {
-        width: 100%; 
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        margin-left: 5px;
+      }
+      .slideShow header img 
+      {
         top: 0;
+        left: 0;
       }
 
-      .slideShow header div ul
+    
+
+      .slideShow header  ul
       {
         width: 100%;
-        top: 20px;
+        top: 30vh;
         display: none;
       }
-      /*login stuff*/
-      .slideShow header div ul div
-      {
-        top: 0;
-        display: none;
-        width: 100%;
-      }
+      
 
-      .slideShow header div ul.activeul div
-      {
-        display: block;
-      }
-
-      .slideShow header div ul.activeul 
+     
+      .slideShow header  ul.activeul 
       {
         display: block;
       }
@@ -300,7 +291,7 @@
         color: #fff;
         background: rgba(0,0,0,.5);
       }
-      .slideShow header div ul li ul
+      .slideShow header  ul li ul
       {
         z-index: 1;
         background: rgba(255,255,255,.7);
@@ -322,37 +313,7 @@
           })
 
 
-      var images = [
-      '/images/Slide1.png',
-      '/images/Slide2.png',
-      '/images/Slide0.png'
-    ];
-
-    var img = document.getElementById("idSection");
-    function displayImage(x) {
-      // img.style.background = "url(" + images[x] + ")";
-      img.style.background = 'url({{asset("FrontEnd")}}' + images[x] +') center center/ cover no-repeat';
-    // img.innerText = images[x];
-
-    // background-image: url(photo.jpg);
-    // background-position: center center;
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    // background-attachment: fixed;
-    // background-origin: padding-box;
-    // background-clip: border-box;
-    // background-color: #ccc;
-
-    // background: url(photo.jpg) center center/cover no-repeat fixed padding-box border-box #ccc;
-    }
-    function startTimer() {
-      var x = 0;
-      displayImage(x);
-      setInterval(function() {
-        x = x + 1 >= images.length ? 0 : x + 1;
-        displayImage(x);
-      }, 6000);
-    }
+    
 
 
   </script>

@@ -5,10 +5,10 @@
     <a href="#"><img src="{{asset('FrontEnd')}}/logo.png" alt="Logo Image" /></a>
     <a class="toggle">Menu</a>
     
-    <div>
+    <!-- <div id="idMenu"> hello -->
       <ul class="">
 
-              <div>
+              <!-- <div> -->
               @guest
                 <li><a href="{{ route('login') }}">{{ __('Login') }}</a></li>
               @if (Route::has('register'))
@@ -24,7 +24,7 @@
                   </form>
                 </div>
               @endguest
-              </div>
+              <!-- </div> -->
 
               <li><a href="index">Home</a></li>
               <li><a href="about">About Us</a></li>
@@ -43,7 +43,7 @@
               <li><a href="resort">Resource</a></li>
               <li><a href="contactus">Contact</a></li>
       </ul>
-    </div>
+    <!-- </div> -->
   </header>
 
   <!-- Slideshow container -->
@@ -220,7 +220,6 @@
       slides[slideIndex-1].style.display = "block";
       setTimeout(showSlides, 2000); // Change image every 2 seconds
     }
-
   </script>
 
   <style type="text/css">
@@ -248,10 +247,10 @@
       width: 100%;
       height: 100vh;
       /*background: url("{{asset('FrontEnd')}}/images/Slide1.png");*/
-      background-position: center center;
-      background-size: fill;
-      background-repeat: no-repeat;
-      object-fit: fill;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
     }
 
@@ -269,48 +268,38 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0  150px;
+      padding: 0px  150px;
     }
-    .slideShow header div
-    {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      /*align-self: flex-end;*/
-      /*float: right;*/
-      position: relative;
-      /*left: 20%;*/
-    }
+    /*document.querySelector("#idMenu")*/
+    
     .slideShow header img
     {
       height: 20vh;
       position: absolute;
-      left: 10px;
       top:0;
-      padding: 0  150px;
     }
-    .slideShow header div ul
+    .slideShow header ul
     {
       display: flex;
+      justify-content: center;
+      align-items: center;
       position: relative;
       transition: .5s;
-      padding: 0;
+      /*padding-right: 150px;*/
       /*left: 80vh;*/
       /*background: rgba(255,255,255,.2);*/
 
     }
-    .slideShow header div ul li
+    .slideShow header ul li
     {
       list-style: none;
-      flex-shrink: 1;
-      flex-grow: 1;
     }
-    .slideShow header div ul li ul
+    .slideShow header ul li ul
     {
       position: absolute;
       background: rgba(255,255,255,.8);
       /*<rect width="100" height="8"></rect>*/
-      top: 53px;
+      /*top: 53px;*/
       display: block;
       transition: .5s;
       visibility: hidden;
@@ -359,47 +348,19 @@
       font-weight: bold;
     }
 
-    @media (max-width: 1024px)
+    @media (min-width: 1139px) and (max-width: 1447px)
     {
-       .slideShow header
+      .slideShow header
       {
-        padding: 0;
-
+        padding: 0 30px;
       }
-      .slideShow header img
+      .slideShow header ul li a
       {
-        height: 20vh;
-        padding: 0 20px;
-        position: relative;
+        padding: 5px;
       }
-      .slideShow header div ul
-      {
-        
-        z-index: 1;
-      }
-      .slideShow header div ul li a
-      {
-        padding: 5px 5px;
-      }
-       .slideShow header ul li a i.arrow 
-      {
-        border: solid white;
-        border-width: 0 3px 3px 0;
-        display: inline-block;
-        padding: 3px;
-        margin-left: 5px;
-      }
-      .slideShow header div ul div
-      {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-
     }
 
-    @media (max-width: 768px)
+    @media (max-width: 1140px)
     {
       .slideShow
       {
@@ -413,36 +374,27 @@
       }
       .slideShow header img {
         top: 0;
-        left: -50px;
+        left: 0;
       }
 
-      .slideShow header div
-      {
-        width: 100%; 
-        top: 0;
-      }
+     .slideShow header ul li a i.arrow 
+        {
+          border: solid white;
+          border-width: 0 3px 3px 0;
+          display: inline-block;
+          padding: 3px;
+          margin-left: 5px;
+        }
 
-      .slideShow header div ul
+      .slideShow header  ul
       {
         width: 100%;
-        top: 20px;
+        top: 20vh;
         display: none;
         z-index: 1;
       }
-      /*login stuff*/
-      .slideShow header div ul div
-      {
-        top: 0;
-        display: none;
-        width: 100%;
-      }
 
-      .slideShow header div ul.activeul div
-      {
-        display: block;
-      }
-
-      .slideShow header div ul.activeul 
+      .slideShow header  ul.activeul 
       {
         display: block;
       }
@@ -454,11 +406,11 @@
         color: #fff;
         background: rgba(0,0,0,.5);
       }
-      .slideShow header div ul li ul
+      .slideShow header  ul li ul
       {
         
         background: rgba(255,255,255,.7);
-        top: 25vh;
+        top: 30vh;
       }
       .toggle
       {
