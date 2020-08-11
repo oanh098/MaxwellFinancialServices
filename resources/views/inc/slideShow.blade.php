@@ -86,7 +86,7 @@
     /* Slideshow container */
     .slideShow .slideshow-container {
       width: 100%;
-      position: relative;
+      position: absolute;
       margin: auto;
       height: 80vh;
       top: 0;
@@ -256,7 +256,7 @@
 
     .slideShow header
     {
-      /*position: relative;*/
+      position: absolute;
       
       width: 100%;
       height: 20vh;
@@ -269,6 +269,12 @@
       justify-content: space-between;
       align-items: center;
       padding: 0px  150px;
+    }
+
+    .slideShow .slideshow-container 
+    {
+      height: 80vh;
+      top: 20vh;
     }
     /*document.querySelector("#idMenu")*/
     
@@ -348,7 +354,7 @@
       font-weight: bold;
     }
 
-    @media (min-width: 1139px) and (max-width: 1447px)
+    @media (min-width: 1073px) and (max-width: 1447px)
     {
       .slideShow header
       {
