@@ -89,13 +89,14 @@
       position: absolute;
       margin: auto;
       height: 80vh;
-      top: 0;
+      top: 20vh;
 
     }
 
-    .slideshow-container div img
+    .slideshow-container div.mySlides img
     {
       width: 100%;
+      /*object-fit: cover;*/
       height: 80vh;      
     }
 
@@ -370,8 +371,13 @@
     {
       .slideShow
       {
-        height: 80vh;
+        /*height: 80vh;*/
       }
+      .slideShow .slideshow-container 
+    {
+      /*height: 60vh;*/
+      /*top: 20vh;*/
+    }
       .slideShow header
       {
         flex-direction: column;
