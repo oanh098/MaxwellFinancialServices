@@ -25,9 +25,9 @@ class ContactFormController extends Controller
     public function store(){
 //        $users = [];
         $emails = [
-//            "thuyoanh21790@gmail.com"
-//            ,"mastercatchall001@protonmail.com",
-            "welcome@maxwellfinancialservices.com"
+//            "thuyoanh21790@gmail.com",
+           "mastercatchall001@protonmail.com",
+           "info@maxwellfinancialservices.com"
         ];
         $data=\request()->validate([
             'name'=>'required',
