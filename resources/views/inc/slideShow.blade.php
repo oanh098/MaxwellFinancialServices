@@ -5,8 +5,7 @@
     <a href="#"><img src="{{asset('FrontEnd')}}/logo.png" alt="Logo Image" /></a>
     <a class="toggle">Menu</a>
     
-    <!-- <div id="idMenu"> hello -->
-      <ul class="">
+      <ul id="myul">
 
               <!-- <div> -->
               @guest
@@ -26,9 +25,9 @@
               @endguest
               <!-- </div> -->
 
-              <li><a href="index">Home</a></li>
-              <li><a href="about">About Us</a></li>
-              <li tyle="white-space: nowrap;"><a href="#" s>Services<i class="arrow right"></i></a>
+              <li class="li_item hilight"><a href="index">Home</a></li>
+              <li class="li_item"><a href="about">About Us</a></li>
+              <li class="li_item" tyle="white-space: nowrap;"><a href="#" s>Services<i class="arrow right"></i></a>
                   <ul>
                     <li><a href="business-growth">Superannuation SMSF</a></li>
                     <li><a href="research-and-strategy">International Investing</a></li>
@@ -40,10 +39,9 @@
                     
                   </ul>
               </li>
-              <li><a href="resort">Resource</a></li>
-              <li><a href="contactus">Contact</a></li>
+              <li class="li_item"><a href="resort">Resource</a></li>
+              <li class="li_item"><a href="contactus">Contact</a></li>
       </ul>
-    <!-- </div> -->
   </header>
 
   <!-- Slideshow container -->
@@ -52,19 +50,19 @@
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade-Slideshow">
       <div class="numbertext">1 / 3</div>
-      <img src="{{asset('FrontEnd')}}/images/Slide1.png" >
+      <img src="{{asset('FrontEnd')}}/newImages/Slide1.png" >
       <!-- <div class="text">Caption Text</div> -->
     </div>
 
     <div class="mySlides fade-Slideshow">
       <div class="numbertext">2 / 3</div>
-      <img src="{{asset('FrontEnd')}}/images/Slide2.png" >
+      <img src="{{asset('FrontEnd')}}/newImages/Slide2.png" >
       <!-- <div class="text">Caption Two</div> -->
     </div>
 
     <div class="mySlides fade-Slideshow">
       <div class="numbertext">3 / 3</div>
-      <img src="{{asset('FrontEnd')}}/images/Slide0.png" >
+      <img src="{{asset('FrontEnd')}}/newImages/Slide0.png" >
       <!-- <div class="text">Caption Three</div> -->
     </div>
 
@@ -224,11 +222,19 @@
   </script>
 
   <style type="text/css">
-    header ul li.active a
+
+    .slideShow header ul li.hilight a
     {
       background: rgba(163,156,135,.7);
       color: #fff;
+      /*color: red;*/
     }
+
+   /* header ul li.active a
+    {
+      background: rgba(163,156,135,.7);
+      color: #fff;
+    }*/
     .slideShow header ul li a i.arrow 
     {
       border: solid black;
@@ -440,6 +446,36 @@
               
           })
    
+  </script>
+
+   <script type="text/javascript">
+
+    var header = document.getElementById("myul");
+    var li_items = header.getElementsByClassName("li_item");
+    for (var i =0; i < li_items.length; i++) {
+      li_items[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("hilight");
+      current[0].className = current[0].className.replace(" hilight", "");
+      this.className += " hilight";
+      });
+    }
+    
+// document.querySelector("#myul > li.li_item.active")
+// #myul > li.li_item.active
+
+  </script>
+
+  <script type="text/javascript">
+    
+   $('li.li_item').each(function(){
+    if(window.location.href.indexOf($(this).find('a:first').attr('href'))>-1)
+    {
+      $(this).addClass('hilight').siblings().removeClass('hilight');
+    }
+    
+
+});
+
   </script>
 
 </section>

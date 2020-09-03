@@ -13,7 +13,7 @@
 
 
 <div class="totopshow">
-    <a href="#" class="back-to-top" ><img style="background-color: white;" alt="Back to Top" src="{{asset('FrontEnd')}}/images/gototop0.png"/></a>
+    <a href="#" class="back-to-top" ><img style="background-color: white;" alt="Back to Top" src="{{asset('FrontEnd')}}/newImages/gototop0.png"/></a>
 </div><!-- totopshow -->
 
 <div ></div>
@@ -82,9 +82,7 @@
     @if($bodyClass =='index')
         @include('inc.slideShow')
     @else
-<!-- {{--        @include('inc.headerShow')--}} -->
 
-        <!-- @include('inc.nav') -->
         @include('inc.header')
 
     @endif

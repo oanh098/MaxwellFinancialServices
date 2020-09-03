@@ -7,7 +7,7 @@
             
 
             <section class="trailer">
-                <a style="height: 15vh;"><img src="{{asset('FrontEnd')}}/images/return.png"  alt="" class="close-img"  
+                <a style="height: 15vh;"><img src="{{asset('FrontEnd')}}/newImages/return.png"  alt="" class="close-img"  
                     onclick="toggle()" >
                 </a>
                     <img src="{{asset('FrontEnd')}}/newImages/FixedTermDeposits.jpg"  />
@@ -108,9 +108,13 @@
             <div class="trailerDepositAnnuties" >
                 <div style="width: 100%"> @include('inc.menu')</div>
 
+
                 <div id="DepositAnnuties">
 
                     <h1>Fixed Term Deposits Annuties</h1>
+                    <a style="height: 15vh;"><img id="imgReturn" src="{{asset('FrontEnd')}}/newImages/return.png"  alt="" class="close-img"  
+                        onclick="toggle2()" >
+                    </a>
                     <iframe src="https://player.vimeo.com/video/393155428?title=0&byline=0&portrait=0"               
                      frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe
                     <script src="https://player.vimeo.com/api/player.js"></script>
@@ -144,6 +148,16 @@
                         top: 0;
                         overflow: auto;
                        
+                    }
+
+                     .trailerDepositAnnuties #imgReturn
+                    {
+                      position: absolute;
+                      right: 20px;
+                      top:0;
+                      cursor:pointer;
+                      filter: invert(1);
+                      max-width: 30px;
                     }
 
                     .trailerDepositAnnuties.activeTrailer2

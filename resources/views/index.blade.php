@@ -19,17 +19,17 @@
         <ul>
             <li>
                 <img src="{{asset('FrontEnd')}}/newImages/business-growth.png" alt="Business Growth">
-                <h2>Business Growth</h2>
+                <a href="business-growth"><h2>Business Growth</h2></a>
                 <p>Our team will work closely with your team to connect your firm and advisors to our services and solutions to drive asset growth and client loyalty.</p>
             </li>
             <li>
                 <img src="{{asset('FrontEnd')}}/newImages/product-solutions.png" alt="Product Solutions">
-                <h2>Product Solutions</h2>
+                <a href="product-solutions"><h2>Product Solutions</h2></a>
                 <p>Through Maxwell Financial Services, financial advisors have a smart and efficient product platform and team support accessible 24 hours a day.</p>
             </li>
             <li>
                 <img src="{{asset('FrontEnd')}}/newImages/liabilities-management.png" alt="Liabilities Management">
-                <h2>Liabilities Management</h2>
+                <a href="liabilities-management"><h2>Liabilities Management</h2></a>
                 <p>Your advisors will have access to lending services and specialists amilable through our partners to help your advisors manage both sides of your clients balance sheet</p>
             </li>
         </ul>
@@ -37,17 +37,17 @@
         <ul>
             <li>
                 <img src="{{asset('FrontEnd')}}/newImages/research-strategy.png" alt="Research & Strategy">
-                <h2>Research & Strategy</h2>
+                <a href="research-strategy"><h2>Research & Strategy</h2></a>
                 <p>Because of our affiliation with our industry leading partners, your team will have access to these Misted Institutes consisting of dedicated, growth focused research strategists that support advisors with objective.</p>
             </li>
             <li>
                 <img src="{{asset('FrontEnd')}}/newImages/transition-service.png" alt="Transition Service">
-                <h2>Transition Service</h2>
+                <a href="transition-service"><h2>Transition Service</h2></a>
                 <p>The decision to change clearing firm, or to trust another firm to do the clearing for you is a tough decision to make. Than why we will dedicate time and effort to know your business process from start to finish.</p>
             </li>
             <li>
                 <img src="{{asset('FrontEnd')}}/newImages/clearing-execution.png" alt="Clearing and Execution">
-                <h2>Clearing and Execution</h2>
+                <a href="clearing-execution"><h2>Clearing and Execution</h2></a>
                 <p>We specialize in providing customized execution, clearing, and custody solutions to full service firms and independent broker dealers, advisors, and firms on the financial services sector.</p>
             </li>
         </ul>
@@ -274,7 +274,7 @@
     </section>
 <!-- Section clsResources -->
     <section class="clsResources">
-        <img src="{{asset('FrontEnd')}}/images/1891930544html_column20.jpg" alt="" class="" >
+        <img src="{{asset('FrontEnd')}}/newImages/resource.jpg" alt="" class="" >
         <div>
             <h1>Resources</h1>
             <p id="info"> Maxwell Financial Services offers an exceptional suite of execution and clearing services across all the markets we serve.

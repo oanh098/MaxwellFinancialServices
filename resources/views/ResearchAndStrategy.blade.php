@@ -7,7 +7,7 @@
 
                 <h1>International Investing</h1>
                 <a href="">
-                    <img id="imgReturn"  src="{{asset('FrontEnd')}}/images/return.png"  alt="" class=""  olick="toggle()">
+                    <img id="imgReturn"  src="{{asset('FrontEnd')}}/newImages/return.png"  alt="" class=""  olick="toggle()">
                 </a>
 
 

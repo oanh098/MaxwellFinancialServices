@@ -8,39 +8,39 @@
 
     <div class="row multiple-items margin-bottom" style="margin-bottom:40px;" >
         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
-            <img class="img-fluid" src="{{asset('FrontEnd')}}/images/westpac-logo.png" alt="wespac" />
+            <img class="img-fluid" src="{{asset('FrontEnd')}}/newImages/westpac-logo.png" alt="wespac" />
         </div>
 
         <div class=" col-lg-2 col-md-2 col-sm-3 col-xs-3">
-           <img class="img-fluid" src="{{asset('FrontEnd')}}/images/citibank.png" />
+           <img class="img-fluid" src="{{asset('FrontEnd')}}/newImages/citibank.png" />
         </div>
 
         <div class=" col-lg-2 col-md-2 col-sm-3 col-xs-3">
-            <img class="img-fluid"  src="{{asset('FrontEnd')}}/images/commonwealth-bank.png" alt="commonwealthbank" />
+            <img class="img-fluid"  src="{{asset('FrontEnd')}}/newImages/commonwealth-bank.png" alt="commonwealthbank" />
         </div>
 
         <div class=" col-lg-2 col-md-2 col-sm-3 col-xs-3">
-            <img class="img-fluid"  src="{{asset('FrontEnd')}}/images/nab.png" alt="nab" />
+            <img class="img-fluid"  src="{{asset('FrontEnd')}}/newImages/nab.png" alt="nab" />
         </div>
 
         <div class=" col-lg-2 col-md-2 col-sm-3 col-xs-3">
-            <img class="img-fluid"  src="{{asset('FrontEnd')}}/images/hsbc.png" alt="hsbc" />
+            <img class="img-fluid"  src="{{asset('FrontEnd')}}/newImages/hsbc.png" alt="hsbc" />
         </div>
         <div class=" col-lg-2 col-md-2 col-sm-3 col-xs-3">
-            <img class="img-fluid"  src="{{asset('FrontEnd')}}/images/anz.png" alt="anz" />
+            <img class="img-fluid"  src="{{asset('FrontEnd')}}/newImages/anz.png" alt="anz" />
         </div>
 
 
         <div class=" col-lg-2 col-md-2 col-sm-3 col-xs-3">
-            <img class="img-fluid"  src="{{asset('FrontEnd')}}/images/61171.png" />
+            <img class="img-fluid"  src="{{asset('FrontEnd')}}/newImages/61171.png" />
         </div>
         <div class=" col-lg-2 col-md-2 col-sm-3 col-xs-3">
-            <img class="img-fluid" src="{{asset('FrontEnd')}}/images/eBay-Logo2.png" alt="ebay" />
+            <img class="img-fluid" src="{{asset('FrontEnd')}}/newImages/eBay-Logo2.png" alt="ebay" />
 
         </div>
 
         <div class=" col-lg-2 col-md-2 col-sm-3 col-xs-3">
-            <img class="img-fluid"  src="{{asset('FrontEnd')}}/images/xe.png" alt="xe" />
+            <img class="img-fluid"  src="{{asset('FrontEnd')}}/newImages/xe.png" alt="xe" />
         </div>
     </div>
 
