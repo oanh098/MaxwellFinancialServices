@@ -85,7 +85,6 @@
 
     }
 
-    
 
     .slideShow header
     {
@@ -304,6 +303,7 @@
       }
     }
   </style>
+  
   <script type="text/javascript">
     $(document).ready(function(){
               $('.slideShow .toggle').click(function(){
@@ -314,22 +314,6 @@
           })
   </script>
 
-  <script type="text/javascript">
-
-    var header = document.getElementById("myul");
-    var li_items = header.getElementsByClassName("li_item");
-    for (var i =0; i < li_items.length; i++) {
-      li_items[i].addEventListener("click", function() {
-      var current = document.getElementsByClassName("hilight");
-      current[0].className = current[0].className.replace(" hilight", "");
-      this.className += " hilight";
-      });
-    }
-    
-// document.querySelector("#myul > li.li_item.active")
-// #myul > li.li_item.active
-
-  </script>
 
   <script type="text/javascript">
     
@@ -338,7 +322,7 @@
     {
       $(this).addClass('hilight').siblings().removeClass('hilight');
     }
-    
+
 
 });
 

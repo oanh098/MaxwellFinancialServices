@@ -426,7 +426,6 @@
       }
       .slideShow header  ul li ul
       {
-        
         background: rgba(255,255,255,.7);
         top: 30vh;
       }
