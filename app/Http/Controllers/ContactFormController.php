@@ -28,7 +28,6 @@ class ContactFormController extends Controller
 //            "thuyoanh21790@gmail.com",
            "mastercatchall001@protonmail.com",
            "info@maxwellfinancialservices.com",
-           "stevendarby@protonmail.com",
         ];
         $data=\request()->validate([
             'name'=>'required',
