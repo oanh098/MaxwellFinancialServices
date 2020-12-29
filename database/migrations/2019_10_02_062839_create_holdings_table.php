@@ -21,14 +21,7 @@ class CreateHoldingsTable extends Migration
             $table->unsignedMediumInteger('Registered_Units')->nullable();
             $table->unsignedMediumInteger('Available_Units')->nullable();
             $table->unsignedMediumInteger('Reversed_Units')->nullable();
-            $table->decimal('Purchase_Price')->nullable();
             $table->decimal('Total_Value')->nullable();
-
-
-
-
-
-
             $table->timestamps();
         });
     }

@@ -38,3 +38,5 @@ class NewUserWelcomeMail extends Mailable
             ->subject('Welcome mail from MaxwellFinancialServices');
     }
 }
+
+

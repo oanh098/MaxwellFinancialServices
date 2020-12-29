@@ -80,15 +80,21 @@ class HoldingsController extends Controller
                 $holdings = \App\Holding::all();
                 $users = \App\User::all();
 
-                return view('holdings.holding', [
-                    'user' => $user,
+               // return view('holdings.holding', [
+               //     'user' => $user,
+               //     'holdings' => $holdings,
+               //     'users' => $users,
+               // ]);
+                return view('adminControlPanel.dist.index',
+                [
+                    'userBladeSide' => $user,
                     'holdings' => $holdings,
-                    'users' => $users,
+                    'users' => $users
                 ]);
             } else {
-                return view('holdings.holding', [
-                    'user' => $user,
 
+                return view('adminControlPanel.dist.index', [
+                    'user' => $user,
                 ]);
             }
         }
@@ -109,9 +115,9 @@ class HoldingsController extends Controller
     }
     public function editUserHoldings($user1){
 
-            $user1=User::findOrFail($user1);
+           $user1=User::findOrFail($user1);
            $removeHoldings=$user1->Holdings()->get(); //dd($removoldings);
-            $arr=$user1->Holdings()->pluck('holdings.id'); //dd($arr);
+           $arr=$user1->Holdings()->pluck('holdings.id'); //dd($arr);
            $addHoldings=DB::table('holdings')
                ->wherenotin ('holdings.id',$arr)
                ->get(); //dd($addHoldings);

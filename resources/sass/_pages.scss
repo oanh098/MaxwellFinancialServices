@@ -1,0 +1,319 @@
+#imgReturn
+{
+  position: absolute;
+  right: 20px;
+  top:0;
+  cursor:pointer;
+  filter: invert(1);
+  max-width: 30px;
+}
+
+.trailer,
+.trailerDepositAnnuties
+{
+
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0,0,0,1);
+    width: 100%;
+    top: 0;
+    overflow: auto;
+    z-index: 1003;
+
+}
+
+
+.activeTrailer,
+.activeTrailer2
+{
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0,0,0,1);
+    width: 100%;
+    top: 10vh;
+    overflow: auto;
+    z-index: 1003;
+
+}
+
+.activeTrailer #listVideos
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.activeTrailer #listVideos div
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+    padding-top: 20px;
+}
+.activeTrailer #listVideos div h2
+{
+    color: #fff;
+}
+.activeTrailer img
+{
+    width: 60%;
+}
+.activeTrailer h1,
+.activeTrailer2 h1
+{
+    position: relative;
+    top: 10vh;
+    color: #fff;
+}
+.activeTrailer #idframe,
+.activeTrailer2 #idframe
+{
+  position: relative;
+  top:0;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+#idframe iframe
+{
+    position: absolute;
+    top: 15vh;
+    width: 100%;
+    height: 60%;
+}
+
+ @media (max-width: 991px)
+{
+    .activeTrailer
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top:10vh;
+    }
+    .activeTrailer h1
+    {
+        font-size: 1.5em;
+        top: 5vh;
+    }
+
+     .activeTrailer #idframe
+    {
+        visibility: visible;
+        opacity: 1;
+    }
+     .activeTrailer #listVideos
+    {
+        flex-direction: column;
+    }
+    .activeTrailer #listVideos iframe
+    {
+        margin: 5px 0;
+    }
+    .trailer
+    {
+        flex-direction: column;
+    }
+     #idframe iframe
+    {
+        top: 0;
+        width: 90%;
+    }
+
+}
+/***********************************clsBusinessGrowth****************************************/
+
+.clsBusinessGrowth
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 150px;
+    position: relative;
+
+
+}
+@media (max-width: 991px)
+{
+    .clsBusinessGrowth
+    {
+        padding: 50px 30px;
+    }
+    .clsBusinessGrowth h1
+    , .clsResearchStrategy h1
+    , .clsLiabilitiesManagement h1
+
+    {
+        font-size: 2em;
+    }
+
+}
+/***********************************clsResearchStrategy****************************************/
+
+
+.clsResearchStrategy
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 150px;
+}
+.clsResearchStrategy div
+{
+    display: block;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+@media (max-width: 991px)
+{
+    .clsResearchStrategy
+    {
+        padding: 50px 30px;
+    }
+}
+/*******************************clsLiabilitiesManagement********************************************/
+
+.clsLiabilitiesManagement
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 150px;
+    position: relative;
+}
+.clsLiabilitiesManagement div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    color: #000;
+    cursor: pointer;
+
+}
+.clsLiabilitiesManagement div a
+{
+    margin: 5px 0;
+    color: #000;
+    background: rgba(234,67,53,.7);
+    cursor: pointer;
+
+}
+@media (max-width: 991px)
+{
+    .clsLiabilitiesManagement
+    {
+        padding: 50px 30px;
+    }
+    .clsLiabilitiesManagement div#menuPopup{
+        display:none;
+    }
+}
+
+
+
+.trailerDepositAnnuties.activeTrailer2 #DepositAnnuties
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trailerDepositAnnuties.activeTrailer2 #DepositAnnuties iframe
+{
+    position: absolute;
+    top: 35vh;
+    width: 100%;
+    height: 60%;
+}
+
+ @media (max-width: 991px)
+{
+    /*.trailer2 .activeTrailer2
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        top:70vh;
+
+
+    }
+
+    .trailer2 .activeTrailer2 h1
+    {
+        top:0;
+    }
+    .trailer2 .activeTrailer2 div:nth-child(1)
+    {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .trailer2 .activeTrailer2 #idframe
+    {
+
+        visibility: visible;
+        opacity: 1;
+    }
+    .trailer2 #idframe iframe
+    {
+        position: absolute;
+        top: 0;
+        width: 90%;
+        height: 90%;
+    }*/
+
+}
+/**************************************/
+#hidethis {
+    animation: css 0s 10s forwards;
+}
+@keyframes css  {
+    to { visibility: hidden; }
+}
+/*******************************clsProductSolutions*************************************************/
+
+.clsProductSolutions
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 150px;
+}
+.clsProductSolutions div
+{
+    display: block;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+@media (max-width: 991px)
+{
+    .clsProductSolutions
+    {
+        padding: 50px 30px;
+    }
+}

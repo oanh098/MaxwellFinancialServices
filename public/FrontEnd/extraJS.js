@@ -19,7 +19,7 @@ $(document).keyup(function(e) {
     if (e.keyCode == 27) {
         var trailer=document.querySelector(".trailer");
         trailer.classList.toggle("activeTrailer");
-    }   // esc
+    }
 });
 
 // $(document).ready(function() {

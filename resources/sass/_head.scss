@@ -1,0 +1,37 @@
+.totopshow {
+    display: block;
+}
+.back-to-top
+{
+    position: fixed;
+    bottom: 0.7em;
+    right: 3em;
+    text-decoration: none;
+    padding: 0.5em;
+    z-index: 999;
+}
+button.js-cookie-consent-agree
+{
+  background-color: #A39C87;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+
+header ul li a:hover:not(.activeLink),
+header ul li.submenu a:hover:not(.activeLink)
+{
+    background-color: #A6A08D;
+}
+
+.activeLink
+{
+    background-color: #A6A08D;
+}
+

@@ -15,7 +15,7 @@
 
     </style>
 
-     <div class="ttr_liabilities-management_html_row0 row">
+     <div class="ttr_liabilities-management_html_row0 row" style="padding: 100px 0;">
         <div class=" col-lg-12 col-md-10 col-sm-10 col-xs-12">
                 <div class="container">
 

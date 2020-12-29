@@ -1,9 +1,10 @@
 
-@extends('layouts.app')
+@extends('./layouts/adminPanelLayout')
+
 
 @section('content')
 
-    <div class="container">
+    <div class="container mt-5" >
         <form action="#" enctype="multipart/form-data" method="post">
             @csrf
             <div class="row">

@@ -1,7 +1,7 @@
 @extends('layouts.appMaxwell')
 @section('content')
 
-    
+
 
     <section class="clsResource">
         <div>
@@ -35,7 +35,7 @@
                 flex-direction: column;
                 padding: 100px 150px;
             }
-            
+
             @media (max-width: 991px)
             {
                 .clsResource

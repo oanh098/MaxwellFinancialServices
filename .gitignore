@@ -5,7 +5,7 @@
 /storage/*.key
 /resources/views/test.html
 /resources/views/admin.html
-/startbootstrap-sb-admin-gh-pages
+/resources/views/adminControlPanel
 /public/FrontEnd/images-
 /public/FrontEnd/images
 

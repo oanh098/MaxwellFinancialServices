@@ -1,0 +1,243 @@
+
+/*******************************************************************************/
+section.cls-ourServices
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 100px 150px;
+}
+section.cls-ourServices  ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section.cls-ourServices  ul li
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+section.cls-ourServices ul li img
+{
+    width: 156px;
+    align-self: center;
+}
+section.cls-ourServices ul li a
+{
+    font-size: 2em;
+    align-self: center;
+    color: #007bff
+}
+
+
+@media (max-width: 991px)
+{
+    section.cls-ourServices
+    {
+        padding: 50px 0;
+    }
+    section.cls-ourServices ul
+    {
+        flex-direction: column;
+    }
+    section.cls-ourServices ul li p
+    {
+       /*padding: 20px;    */
+    }
+}
+/*************************************************************************************/
+section.cls-indexRelyon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(0,0,0,.1);
+    height: 18vh;
+}
+section.cls-indexRelyon h1
+{
+       font-size: 2.3em;
+
+}
+@media (max-width: 991px)
+{
+    section.cls-indexRelyon h1
+    {
+        padding: 10px;
+        font-size: 30px;
+    }
+}
+/*************************************************************************************/
+section.clsRelyonInfo
+{
+    display: flex;
+    padding: 100px 150px;
+    justify-content: center;
+    align-items: center;
+
+}
+@media (max-width: 991px)
+{
+    section.clsRelyonInfo
+    {
+        padding: 20px;
+    }
+
+}
+/*************************************************************************************/
+section.clsDiscoverGlobal
+{
+    display: flex;
+    justify-content: center;
+    background: rgba(26,75,108,.5);
+    flex-direction: column;
+    padding: 50px 150px;
+}
+section.clsDiscoverGlobal h1
+{
+    margin-bottom: 1rem;
+    align-self: center;;
+    font-size: 2.5em;
+}
+section.clsDiscoverGlobal div ul
+{
+    margin-left: 3em;
+}
+@media (max-width: 991px)
+{
+    section.clsDiscoverGlobal
+    {
+        padding: 20px;
+    }
+    section.clsDiscoverGlobal h1
+    {
+        font-size: 30px;
+    }
+
+}
+/*************************************************************************************/
+section.clsWhyUs
+{
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+}
+section.clsWhyUs h1
+{
+    align-self: center;
+    margin-bottom: 1rem;
+    font-size: 2.5em;
+}
+
+section.clsWhyUs ul
+{
+    margin-left: 3em;
+}
+@media (max-width: 991px)
+{
+    section.clsWhyUs
+    {
+        padding: 20px;
+    }
+    section.clsWhyUs h1{
+        font-size: 30px;
+    }
+
+}
+/*************************************************************************************/
+section.clsResources
+{
+    background: #35486E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 150px;
+    color: #fff;
+    position: relative;
+
+}
+ section.clsResources a
+ {
+    color: #000;
+    text-transform: uppercase;
+    transition: .5s;
+    font-weight: bold;
+ }
+ section.clsResources a:hover
+ {
+    background:#A39C87;
+    color: #fff;
+ }
+section.clsResources img
+{
+    align-self: center;
+    margin: 0 30px;
+    max-width: 580px;
+}
+section.clsResources div
+{
+    width: 80vh;
+    align-self: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+@media (max-width: 991px)
+{
+    section.clsResources img
+    {
+        max-width: 300px;
+        margin: 0 10px;
+    }
+    section.clsResources
+    {
+        padding: 40px 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.clsResources h1{
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    section.clsResources div
+    {
+        width: 100%;
+    }
+
+}
+/*************************************************************************************/
+div.cls-OurCustomer
+    {
+        padding: 50px 150px;
+    }
+
+div.cls-OurCustomer h1
+{
+    font-size:2.5em;
+}
+    @media (max-width: 991px)
+    {
+        div.cls-OurCustomer
+        {
+            padding: 20px;
+
+        }
+        div.cls-OurCustomer h1
+        {
+            font-size: 30px;
+        }
+    }
+/******************************************************************************************/

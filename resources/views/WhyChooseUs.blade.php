@@ -10,12 +10,13 @@
                 height: 80vh;
                 padding: 100px 150px;
             }
-            
+
             @media (max-width: 991px)
             {
                 .clsWhyChooseUs
                 {
-                    padding: 50px 30px;
+                    height: auto;
+                    padding: 30px;
                 }
             }
         </style>

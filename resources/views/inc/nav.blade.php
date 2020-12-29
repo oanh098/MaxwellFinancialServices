@@ -1,15 +1,12 @@
 
 
 
-
-
-
 <section class="menuself">
 
 <style type="text/css">
-    
-    
-    
+
+
+
     section.menuself header ul
     {
         position: relative;
@@ -114,9 +111,9 @@
     }
 
 </style>
-    
-   
-    
+
+
+
 
     <header>
         <a href="#"><img src="{{asset('FrontEnd')}}/images/westpac-logo.png" style="height: 80px;"></a>

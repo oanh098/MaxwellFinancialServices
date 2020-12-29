@@ -47,31 +47,17 @@
 </div>
 
 <style type="text/css">
-    .cls-OurCustomer
-    {
-        padding: 50px 150px;
-    }
-    @media (max-width: 992px)
-    {
-        .cls-OurCustomer
-        {
-        padding: 20px;
-            
-        }
-    }
+
 </style>
 
 <script type="text/javascript">
-   $(document).ready(function(){
- 
-$('.multiple-items').slick({
-  infinite: true,
-  slidesToShow: 6,
-  slidesToScroll: 6,
-  autoplay: true,
-  arrows: false,
-});
-        
-    
-});
+
+    $('.multiple-items').slick({
+      infinite: true,
+      slidesToShow: 6,
+      slidesToScroll: 6,
+      autoplay: true,
+      arrows: false,
+    });
+
 </script>

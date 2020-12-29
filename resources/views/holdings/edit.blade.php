@@ -1,9 +1,10 @@
 
-@extends('layouts.app')
+@extends('./layouts/adminPanelLayout')
+
 
 @section('content')
 
-    <div class="container">
+    <div class="container mt-5">
         <form action="/holdings/shows/{{$holding->id}}" enctype="multipart/form-data" method="post">
             @method('PATCH')
             <div class="row">
@@ -124,9 +125,7 @@
                             @enderror
                         </div>
                     </div>
-{{--                    --------------------------------------
 
---}}
 
                       <div class="form-group row">
                         <label for="Amount_Invested" class="col-md-4 col-form-label text-md-right">{{ __('Amount Invested') }}</label>

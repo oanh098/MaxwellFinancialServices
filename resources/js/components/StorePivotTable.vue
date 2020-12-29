@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 
 
     export default {
@@ -14,15 +15,22 @@
             userId: String,
             removestatus: String,
         },
-        //props: ['holdingId','userId','removestatus',],
 
         mounted() {
-            console.log('Component mounted.')
+            //console.log('Component mounted.')
+
+              axios.get('https://api.coindesk.com/v1/bpi/currentprice.json')
+                .then(response => {
+                this.info = response
+                console.log(response.data);
+
+                })
         },
 
         data(){
             return{
                 flagHolding: this.removestatus,
+                info: null,
             }
         },
 
@@ -39,8 +47,6 @@
 
         computed: {
             buttonText(){
-
-
                 let bln=JSON.parse(this.flagHolding);
                return bln
                    ? 'Remove'

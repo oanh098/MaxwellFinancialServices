@@ -1,11 +1,11 @@
 <template>
    <div>
        <div class="row justify-content-center pt-4">
-      <ul style="display:flex; font-size: 1.5em">
-          <li ><router-link  :to="{name: 'HoldingData', params: { id },  }" >Holding Data</router-link></li>
-          <li style="padding: 0 4em">|</li>
-          <li ><router-link :to="{name: 'Others', params: { id }, }">   Others</router-link></li>
-      </ul>
+        <ul style="display:flex; font-size: 1.5em">
+            <li ><router-link  :to="{name: 'HoldingData', params: { id },  }" >Holding Data</router-link></li>
+            <li style="padding: 0 4em">|</li>
+            <li ><router-link :to="{name: 'Others', params: { id }, }">   Others</router-link></li>
+        </ul>
        </div>
        <router-view v-bind="myProps"></router-view>
    </div>
@@ -16,7 +16,6 @@
     import Others from "./Others";
     export default {
         name: "App",
-        // components: {HoldingData},
         component: {
             HoldingData,
             Others,

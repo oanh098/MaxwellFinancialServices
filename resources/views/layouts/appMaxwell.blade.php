@@ -1,23 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    @include('inc.head')
+@include('inc.head')
 
-    @if($bodyClass =='index')
-        <body class="{{$bodyClass ?? 'no'}}">
-        <!-- <body class="{{$bodyClass ?? 'no'}}" onload="startTimer()"> -->
-    @else
-        <body class="{{$bodyClass ?? 'no'}}" >
-    @endif
-<!-- <body class="{{$bodyClass ?? 'no'}}" > -->
-
+<body>
 
 <div class="totopshow">
     <a href="#" class="back-to-top" ><img style="background-color: white;" alt="Back to Top" src="{{asset('FrontEnd')}}/newImages/gototop0.png"/></a>
 </div><!-- totopshow -->
 
-<div ></div>
-<div id="ttr_page">@include('cookieConsent::index')</div>
+<div id="ttr_page">@include('cookieConsent::index')
 
     <!-- TradingView Widget BEGIN -->
     <div class="tradingview-widget-container">
@@ -79,39 +71,62 @@
     </div>
     <!-- TradingView Widget END -->
 
+    @include('inc.navigation')
+
     @if($bodyClass =='index')
         @include('inc.slideShow')
     @else
-
         @include('inc.header')
-
     @endif
 
     <div id="ttr_content_and_sidebar_container">
         <div id="ttr_content">
-            <div id="ttr_html_content_margin" class="container-fluid">
                 @yield('content')
-            </div><!--content_margin-->
         </div><!--content-->
-        <div style="clear:both">
-        </div>
     </div><!--container-->
 
     @include('inc.footer')
 
-    <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-bottom-collapse: separate;"></div>
 </div><!--page-->
 
-<!-- {{-- scamadvicer box --}} -->
 <a href="https://scamadviser.com" target="_blank" class="scamadviser-sidebar">Check the Trust Score on Scamadviser.com.</a>
-<!-- {{-- End scamadvicer box --}} -->
 
-
-<!-- {{-- pure chat --}} -->
-<!-- {{--<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '030e0c11-b4ff-4963-be8d-7d4d4c6c8a0f', f: true }); done = true; } }; })();</script>--}}
-{{-- End pure chat --}} -->
 
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
+
+<script type="text/javascript">
+
+        $('.menu-toggle').click(function(){
+            $('nav').toggleClass('active');
+        })
+
+        $('ul li.submenu').click(function(){
+           $(this).siblings().removeClass('active');
+           $(this).toggleClass('active');
+        })
+
+
+
+
+</script>
+
+<script type="text/javascript">
+    function toggle(){
+        var trailer=document.querySelector(".trailer");
+        var video=document.querySelector("video");
+        trailer.classList.toggle("activeTrailer");
+    }
+</script>
+
+<script type="text/javascript">
+    function toggle2(){
+        var trailer2=document.querySelector(".trailerDepositAnnuties");
+        trailer2.classList.toggle("activeTrailer2");
+    }
+
+</script>
 </body>
+
 </html>
