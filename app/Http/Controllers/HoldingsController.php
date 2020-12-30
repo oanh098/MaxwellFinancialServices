@@ -85,7 +85,7 @@ class HoldingsController extends Controller
                //     'holdings' => $holdings,
                //     'users' => $users,
                // ]);
-                return view('adminControlPanel.dist.index',
+                return view('holdings.index',
                 [
                     'userBladeSide' => $user,
                     'holdings' => $holdings,
@@ -93,7 +93,7 @@ class HoldingsController extends Controller
                 ]);
             } else {
 
-                return view('adminControlPanel.dist.index', [
+                return view('holdings.index', [
                     'user' => $user,
                 ]);
             }

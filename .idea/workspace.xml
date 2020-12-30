@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87fbf1ca-b56f-4fba-ac50-4408cbcf3e88" name="Default Changelist" comment="INDEX 20191012- login.blade.php">
-      <change afterPath="$PROJECT_DIR$/q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/adminControlPanel/dist/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/holdings/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HoldingsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HoldingsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/adminControlPanel/dist/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/holdings/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,24 +184,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Blade" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../NodeJSProjects/NodeJsReactJsFromScratch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/holdings" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WORKING\mastercatchall001\MaxwellFinancialServices\resources\views\holdings" />
       <recent name="D:\WORKING\mastercatchall001\MaxwellFinancialServices\resources\views" />
       <recent name="D:\WORKING\mastercatchall001\MaxwellFinancialServices\resources\js\components" />
       <recent name="D:\WORKING\mastercatchall001\MaxwellFinancialServices\resources\js" />
       <recent name="D:\WORKING\mastercatchall001\MaxwellFinancialServices\resources\views\contact" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WORKING\mastercatchall001\MaxwellFinancialServices\resources\views\holdings" />
       <recent name="D:\WORKING\mastercatchall001\MaxwellFinancialServices\public\FrontEnd\adminControlPanel" />
       <recent name="D:\WORKING\mastercatchall001\MaxwellFinancialServices\resources\views\adminControlPanel\dist" />
       <recent name="D:\WORKING\mastercatchall001\MaxwellFinancialServices\resources\views\adminControlPanel" />
       <recent name="D:\WORKING\mastercatchall001\MaxwellFinancialServices\public\FrontEnd" />
-      <recent name="D:\WORKING\mastercatchall001\MaxwellFinancialServices\resources\views" />
     </key>
   </component>
   <component name="RunManager">
