@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87fbf1ca-b56f-4fba-ac50-4408cbcf3e88" name="Default Changelist" comment="INDEX 20191012- login.blade.php">
-      <change afterPath="$PROJECT_DIR$/resources/views/holdings/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HoldingsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HoldingsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/adminControlPanel/dist/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/holdings/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
