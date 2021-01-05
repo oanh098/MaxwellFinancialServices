@@ -14,7 +14,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
-    "axios": "^0.19",
+    "axios": "^0.21",
     "babel-loader": "^8.2.2",
     "cross-env": "^7.0",
     "laravel-mix": "^5.0.9",
